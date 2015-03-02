@@ -1,0 +1,12 @@
+{
+  "name": "airports",
+  "version": "1.0.0",
+  "description": "Imports the CSV from Sabre into our MongoDB collection so we can query by airport code.",
+  "main": "airports.js",
+  "dependencies": {
+    "async": "^0.9.0",
+    "csv": "^0.4.1",
+    "lodash": "^3.3.1",
+    "mongodb": "~2.0"
+  }
+}
