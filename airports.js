@@ -28,7 +28,7 @@ mongodb.MongoClient.connect( config.mongoUrl, function( err, db ){
   assert.equal( null, err );
   console.log( 'Connected to mongodb...' );
   /** Read our CSV file */
-  rawData = fs.readFileSync( 'airports.csv' );
+  rawData = fs.readFileSync( 'airports.csv' , 'utf8' );
   console.log( 'Read CSV file, converting to objects...' );
   csv.parse( rawData, { columns: true }, function( err, data ){
     assert.equal( null, err );
