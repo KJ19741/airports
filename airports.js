@@ -52,21 +52,21 @@ function loadAirports(callback) {
   mongodb.MongoClient.connect('mongodb://' + config.mongodb.host + ':' + config.mongodb.port + '/' + config.mongodb.database, function (err, db) {
     assert.equal(null, err);
     console.log('Connected to mongodb...');
-    /** Read our CSV file */
-    _.each(config.inputFiles, function(inputFile) {
-      rawData = fs.readFileSync(__dirname + inputFile, 'utf8');
-      console.log('Read CSV file, converting to objects...');
-      csv.parse(rawData, {columns: true}, function (err, data) {
+    console.log('Setting up our collection...');
+    /** Create our collection, then drop it */
+    var collection = db.collection(config.collection);
+    /** Drop it */
+    collection.drop(function (err) {
+      console.log('Dropped our collection...');
+      collection.ensureIndex({'location': '2dsphere'}, function (err) {
         assert.equal(null, err);
-        console.log('We have our data, setting up our collection...');
-        /** Create our collection, then drop it */
-        var collection = db.collection(config.collection);
-        /** Drop it */
-        collection.drop(function (err) {
-          console.log('Dropped our collection...');
-          collection.ensureIndex({'location': '2dsphere'}, function (err) {
+        console.log('Created our index, now we are going to insert our documents...');
+        /** Read our CSV file */
+        async.eachLimit(config.inputFiles, 1, function(inputFile, cb) {
+          rawData = fs.readFileSync(__dirname + inputFile, 'utf8');
+          console.log('Read CSV file, converting to objects...');
+          csv.parse(rawData, {columns: true}, function (err, data) {
             assert.equal(null, err);
-            console.log('Created our index, now we are going to insert our documents...');
             newData = [];
             for (var x in data) {
               row = data[x];
@@ -93,9 +93,6 @@ function loadAirports(callback) {
             async.each(data, function (data, cb) {
               collection.insert(data, function (err) {
                 if (err) {
-                  console.log(err);
-                  //process.exit();
-                  callback()
                   cb(err);
                 } else {
                   cb();
@@ -103,11 +100,14 @@ function loadAirports(callback) {
               });
             }, function (err) {
               assert.equal(null, err);
-              console.log('We\'re done, bailing!');
-              callback()
-              //process.exit();
+              console.log('Done with the file, going to the next one...');
+              cb()
             });
           });
+        }, function(err){
+          assert.equal(null, err);
+          console.log('We\'re done, bailing!');
+          callback();
         });
       });
     });
