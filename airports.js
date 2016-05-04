@@ -28,7 +28,15 @@ var config = {
     csvOutPath: 'rail.csv',
     headerRow: [ 'code','lat','lon','name','city','state','country','woeid','tz','phone','type','email','url','runway_length','elev','icao','direct_flights','carriers' ]
   },
-  inputFiles: ['/airports.csv', '/rail.csv']
+  multiAirportCity: {
+    macCodeMapFile: './macCodeMap.json'
+  },
+  inputFiles: ['/airports.csv', '/rail.csv'],
+  sabreCredentials: {
+    client_id: 'V1:7971:V0ZH:AA',
+    client_secret: 'WS042614',
+    uri: 'https://api.sabre.com'
+  }
 };
 
 /** Pull in dependencies */
@@ -39,6 +47,7 @@ var assert = require('assert');
 var fs = require('fs');
 var _ = require('lodash');
 var request = require('request');
+var sds = require('sabre-dev-studio');
 
 function loadAirports(callback) {
   Object.keys(config.mongodb).forEach(function (key) {
@@ -61,6 +70,8 @@ function loadAirports(callback) {
       collection.ensureIndex({'location': '2dsphere'}, function (err) {
         assert.equal(null, err);
         console.log('Created our index, now we are going to insert our documents...');
+        /** Get our multi-airport city map to dynamically extend data */
+        var macCodesMap = require(config.multiAirportCity.macCodeMapFile);
         /** Read our CSV file */
         async.eachLimit(config.inputFiles, 1, function(inputFile, cb) {
           rawData = fs.readFileSync(__dirname + inputFile, 'utf8');
@@ -85,6 +96,12 @@ function loadAirports(callback) {
               /** Unset our skipped fields */
               for (var xx in config.skipFields) {
                 delete row[config.skipFields[xx]];
+              }
+              /** Add in multi-airport code if applicable */
+              if ((row['type'] === 'Airports' ||
+                   row['type'] === 'Other Airport') &&
+                  macCodesMap[row['code']] != null) {
+                row['macCode'] = macCodesMap[row['code']];
               }
               newData.push(row);
             }
@@ -163,6 +180,34 @@ function regenerateCsv(callback) {
   });
 }
 
+function generateMultiAirportCityCodes(callback) {
+  var provider = new sds(config.sabreCredentials);
+  var data = {};
+  console.log("Building multi-airport city map from scratch")
+  // Get list of all multi-airport cities
+  provider.get('/v1/lists/supported/cities', {}, (err, result) => {
+    var multiAirportCities = JSON.parse(result).Cities;
+    async.each(multiAirportCities, (mac, callback) => {
+      // For each multi-airport city, get list of all airports
+      provider.get('/v1/lists/supported/cities/' + mac.code + '/airports', {}, (err, cityResult) => {
+        var macAirports = JSON.parse(cityResult).Airports;
+        for (var i in macAirports) {
+          // Build object mapping IATA airport codes to multi-airport city codes
+          data[macAirports[i].code] = mac.code;
+        }
+        callback();
+      });
+    }, (err) => {
+      if (err) {
+        console.log("Error building multi-airport city map: " + err);
+      }
+      else {
+        fs.writeFileSync(config.multiAirportCity.macCodeMapFile, JSON.stringify(data));
+        console.log("Generated multi-airport city map to macCodes.json");
+      }
+    });
+  });
+}
 
 if(require.main == module) {
   if (process.argv.length >= 3) {
@@ -171,8 +216,13 @@ if(require.main == module) {
         process.exit();
       }));
     }
-    else {
-      console.log('Error: invalid argument \"' + process.argv[2] + '\" - only valid argument is \'rail\' (to re-generate the rail geocoding before running) or nothing (to run as normal)');
+    if (process.argv[2] === 'mac' && process.argv.length == 3) {
+      generateMultiAirportCityCodes(function(){
+        process.exit();
+      });
+    }
+    else { // Fixme - fix this msg to be accurate
+      console.log('Error: invalid argument \"' + process.argv[2] + '\" - only valid arguments are \'rail\' (to re-generate the rail geocoding before running), \'mac\' (to re-generate multi-airport city code mappings) or nothing (to run as normal)');
       process.exit();
     }
   }
