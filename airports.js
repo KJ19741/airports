@@ -3,7 +3,8 @@ var config = {
   mongodb: {
     host: '127.0.0.1',
     port: 27017,
-    database: 'travelbank'
+    database: 'travelbank',
+    uri: undefined
   },
   collection: 'Stations',
   skipFields: [
@@ -56,9 +57,14 @@ function loadAirports(callback) {
   })
   if (process && process.env && process.env["AIRPORTS_collection"])
     config.collection = process.env["AIRPORTS_collection"]
+  if (process && process.env && process.env["MONGOLAB_URI"])
+    config.mongodb.uri = process.env["MONGOLAB_URI"];
+  else
+    config.mongodb.uri = config.mongodb.host + ':' + config.mongodb.port + '/' + config.mongodb.database;
+
 
   /** Connect to mongo */
-  mongodb.MongoClient.connect('mongodb://' + config.mongodb.host + ':' + config.mongodb.port + '/' + config.mongodb.database, function (err, db) {
+  mongodb.MongoClient.connect('mongodb://' + config.mongodb.uri, function (err, db) {
     assert.equal(null, err);
     console.log('Connected to mongodb...');
     console.log('Setting up our collection...');
