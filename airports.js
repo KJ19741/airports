@@ -60,11 +60,11 @@ function loadAirports(callback) {
   if (process && process.env && process.env["MONGOLAB_URI"])
     config.mongodb.uri = process.env["MONGOLAB_URI"];
   else
-    config.mongodb.uri = config.mongodb.host + ':' + config.mongodb.port + '/' + config.mongodb.database;
+    config.mongodb.uri = 'mongodb://' + config.mongodb.host + ':' + config.mongodb.port + '/' + config.mongodb.database;
 
 
   /** Connect to mongo */
-  mongodb.MongoClient.connect('mongodb://' + config.mongodb.uri, function (err, db) {
+  mongodb.MongoClient.connect(config.mongodb.uri, function (err, db) {
     assert.equal(null, err);
     console.log('Connected to mongodb...');
     console.log('Setting up our collection...');
