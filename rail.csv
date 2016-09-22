@@ -1,961 +1,528 @@
 code,lat,lon,name,city,state,country,woeid,tz,phone,type,email,url,runway_length,elev,icao,direct_flights,carriers
-HUN,38.4159453,-82.4397065,"Huntington, West Virginia",Huntington,WV,United States,,,,Railway Stations,,,,,,0,0
 HUT,38.0559773,-97.93021069999999,"Hutchinson, Kansas",Hutchinson,KS,United States,,,,Railway Stations,,,,,,0,0
-HWC,43.395742,-85.4700814,"Howard City, Michigan",Howard City,MI,United States,,,,Railway Stations,,,,,,0,0
-IDO,33.7144207,-116.2337681,"Indio, California",Indio,CA,United States,,,,Railway Stations,,,,,,0,0
-IDP,39.0874466,-94.4289749,"Independence, Missouri",Independence,MO,United States,,,,Railway Stations,,,,,,0,0
+HUN,38.415935,-82.439712,"Huntington, West Virginia",Huntington,WV,United States,,,,Railway Stations,,,,,,0,0
 IND,39.7624177,-86.1603324,"Indianapolis, Indiana",Indianapolis,IN,United States,,,,Railway Stations,,,,,,0,0
+IDP,39.0874466,-94.4289749,"Independence, Missouri",Independence,MO,United States,,,,Railway Stations,,,,,,0,0
 IRV,33.6563752,-117.7342281,"Irvine, California",Irvine,CA,United States,,,,Railway Stations,,,,,,0,0
-JAN,32.300885,-90.1910166,"Jackson, Mississippi",Jackson,MS,United States,,,,Railway Stations,,,,,,0,0
 JAX,30.3656829,-81.72384780000002,"Jacksonville, Florida",Jacksonville,FL,United States,,,,Railway Stations,,,,,,0,0
-JEF,38.576312,-92.17254899999999,"Jefferson City, Missouri",Jefferson City,MO,United States,,,,Railway Stations,,,,,,0,0
-JMN,42.095429,-79.243849,"Jamestown, New York",Jamestown,NY,United States,,,,Railway Stations,,,,,,0,0
+JAN,32.300885,-90.1910166,"Jackson, Mississippi",Jackson,MS,United States,,,,Railway Stations,,,,,,0,0
 JOL,41.5244668,-88.07963459999999,"Joliet, Illinois",Joliet,IL,United States,,,,Railway Stations,,,,,,0,0
-JST,40.3299106,-78.9219983,"Johnstown, Pennsylvania",Johnstown,PA,United States,,,,Railway Stations,,,,,,0,0
+JEF,38.576312,-92.17254899999999,"Jefferson City, Missouri",Jefferson City,MO,United States,,,,Railway Stations,,,,,,0,0
+JST,40.3296876,-78.9220429,"Johnstown, Pennsylvania",Johnstown,PA,United States,,,,Railway Stations,,,,,,0,0
 JSP,31.6105046,-81.8767541,"Jesup, Georgia",Jesup,GA,United States,,,,Railway Stations,,,,,,0,0
-JVL,42.71977649999999,-88.9887497,"Janesville, Wisconsin",Janesville,WI,United States,,,,Railway Stations,,,,,,0,0
-JXN,42.2479616,-84.3997686,"Jackson, Michigan",Jackson,MI,United States,,,,Railway Stations,,,,,,0,0
+KAN,35.4960414,-80.6247593,"Kannapolis, North Carolina",Kannapolis,NC,United States,,,,Railway Stations,,,,,,0,0
+JXN,42.2479591,-84.39975070000001,"Jackson, Michigan",Jackson,MI,United States,,,,Railway Stations,,,,,,0,0
 KAL,42.2950535,-85.58335369999999,"Kalamazoo, Michigan",Kalamazoo,MI,United States,,,,Railway Stations,,,,,,0,0
-KAN,35.4960399,-80.6247559,"Kannapolis, North Carolina",Kannapolis,NC,United States,,,,Railway Stations,,,,,,0,0
+KCY,39.08537490000001,-94.5861078,"Kansas City, Missouri",Kansas City,MO,United States,,,,Railway Stations,,,,,,0,0
+KEL,46.1421959,-122.9132562,"Kelso-Longview, Washington",Kelso,WA,United States,,,,Railway Stations,,,,,,0,0
 KEE,41.2463241,-89.9263589,"Kewanee, Illinois",Kewanee,IL,United States,,,,Railway Stations,,,,,,0,0
-KCY,39.0854624,-94.58520569999999,"Kansas City, Missouri",Kansas City,MO,United States,,,,Railway Stations,,,,,,0,0
-KFS,42.22548219999999,-121.7718323,"Klamath Falls, Oregon",Klamath Falls,OR,United States,,,,Railway Stations,,,,,,0,0
-KEL,46.1421813,-122.9132548,"Kelso-Longview, Washington",Kelso,WA,United States,,,,Railway Stations,,,,,,0,0
-KGC,36.2025072,-121.136138,"King City, California",King City,CA,United States,,,,Railway Stations,,,,,,0,0
-KGG,35.2183542,-114.0073272,"Kingman (Greyhound), Arizona",Kingman,AZ,United States,,,,Railway Stations,,,,,,0,0
-KGS,44.5845945,-85.53694159999999,"Kingsley, Michigan",Kingsley,MI,United States,,,,Railway Stations,,,,,,0,0
-KIL,31.1209431,-97.7286008,"Killeen, Texas",Killeen,TX,United States,,,,Railway Stations,,,,,,0,0
-KIS,28.293873,-81.40427,"Kissimmee, Florida",Kissimmee,FL,United States,,,,Railway Stations,,,,,,0,0
+KFS,42.2255196,-121.7718305,"Klamath Falls, Oregon",Klamath Falls,OR,United States,,,,Railway Stations,,,,,,0,0
 KIN,41.4838754,-71.5605825,"West Kingston, Rhode Island",West Kingston,RI,United States,,,,Railway Stations,,,,,,0,0
-KNG,35.1877375,-114.0531671,"Kingman, Arizona",Kingman,AZ,United States,,,,Railway Stations,,,,,,0,0
+KIS,28.293873,-81.40427,"Kissimmee, Florida",Kissimmee,FL,United States,,,,Railway Stations,,,,,,0,0
 KKI,41.119011,-87.865782,"Kankakee, Illinois",Kankakee,IL,United States,,,,Railway Stations,,,,,,0,0
-COC,36.0980473,-119.5572861,"Corcoran, California",Corcoran,CA,United States,,,,Railway Stations,,,,,,0,0
-CNH,43.21264499999999,-71.5345172,"Concord, New Hampshire",Concord,NH,United States,,,,Railway Stations,,,,,,0,0
-COS,38.83159029999999,-104.8204791,"Colorado Springs, Colorado",Colorado Springs,CO,United States,,,,Railway Stations,,,,,,0,0
+KNG,35.1877464,-114.0531661,"Kingman, Arizona",Kingman,AZ,United States,,,,Railway Stations,,,,,,0,0
 COI,39.6444689,-85.1312056,"Connersville, Indiana",Connersville,IN,United States,,,,Railway Stations,,,,,,0,0
+COC,36.0980473,-119.5572861,"Corcoran, California",Corcoran,CA,United States,,,,Railway Stations,,,,,,0,0
 COV,40.0195363,-79.5924192,"Connellsville, Pennsylvania",Connellsville,PA,United States,,,,Railway Stations,,,,,,0,0
 COT,39.9856799,-75.820617,"Coatesville, Pennsylvania",Coatesville,PA,United States,,,,Railway Stations,,,,,,0,0
+COX,39.0984766,-120.953155,"Colfax, California",Colfax,CA,United States,,,,Railway Stations,,,,,,0,0
 CPN,34.3966997,-119.523087,"Carpinteria, California",Carpinteria,CA,United States,,,,Railway Stations,,,,,,0,0
-COX,39.0984527,-120.9531621,"Colfax, California",Colfax,CA,United States,,,,Railway Stations,,,,,,0,0
 CRF,40.0440772,-86.899833,"Crawfordsville (Amtrak), Indiana",Crawfordsville,IN,United States,,,,Railway Stations,,,,,,0,0
-CRB,40.0761909,-86.90441779999999,"Crawfordsville (Bus), Indiana",Crawfordsville,IN,United States,,,,Railway Stations,,,,,,0,0
-CRH,39.9247397,-75.0470203,"Cherry Hill, New Jersey",Cherry Hill,NJ,United States,,,,Railway Stations,,,,,,0,0
-CRM,36.5391791,-121.9089161,"Carmel, California",Carmel,CA,United States,,,,Railway Stations,,,,,,0,0
-CRN,41.0573616,-94.36144829999999,"Creston, Iowa",Creston,IA,United States,,,,Railway Stations,,,,,,0,0
 CRT,41.1929118,-73.8831264,"Croton Harmon, New York",Croton-on-Hudson,NY,United States,,,,Railway Stations,,,,,,0,0
 CRV,39.2793073,-89.8891923,"Carlinville, Illinois",Carlinville,IL,United States,,,,Railway Stations,,,,,,0,0
-CSN,34.6910067,-82.8338156,"Clemson, South Carolina",Clemson,SC,United States,,,,Railway Stations,,,,,,0,0
-CTL,46.7177596,-122.9528291,"Centralia, Washington",Centralia,WA,United States,,,,Railway Stations,,,,,,0,0
+CRN,41.0573616,-94.36144829999999,"Creston, Iowa",Creston,IA,United States,,,,Railway Stations,,,,,,0,0
 CUM,39.6507253,-78.7579255,"Cumberland, Maryland",Cumberland,MD,United States,,,,Railway Stations,,,,,,0,0
-CVD,34.574724,-111.882251,"Camp Verde, Arizona",Camp Verde,AZ,United States,,,,Railway Stations,,,,,,0,0
+CTL,46.7177596,-122.9528291,"Centralia, Washington",Centralia,WA,United States,,,,Railway Stations,,,,,,0,0
+CSN,34.6910067,-82.8338156,"Clemson, South Carolina",Clemson,SC,United States,,,,Railway Stations,,,,,,0,0
 CUT,48.638524,-112.3315116,"Cut Bank, Montana",Cut Bank,MT,United States,,,,Railway Stations,,,,,,0,0
-CVI,44.5653541,-123.2613116,"Corvallis, Oregon",Corvallis,OR,United States,,,,Railway Stations,,,,,,0,0
-CVS,38.0314513,-78.4918136,"Charlottesville, Virginia",Charlottesville,VA,United States,,,,Railway Stations,,,,,,0,0
-CWH,40.0703586,-74.9510324,"Cornwells Heights, Pennsylvania",Cornwells Heights,PA,United States,,,,Railway Stations,,,,,,0,0
+CVS,38.0314341,-78.49181469999999,"Charlottesville, Virginia",Charlottesville,VA,United States,,,,Railway Stations,,,,,,0,0
 CWT,34.2519101,-118.5987594,"Chatsworth, California",Chatsworth,CA,United States,,,,Railway Stations,,,,,,0,0
-CYN,35.785732,-78.7812,"Cary, North Carolina",Cary,NC,United States,,,,Railway Stations,,,,,,0,0
-DAL,32.7761435,-96.8075164,"Dallas, Texas",Dallas,TX,United States,,,,Railway Stations,,,,,,0,0
-DAM,44.0325156,-69.5310269,"Damariscotta, Maine",Damariscotta,ME,United States,,,,Railway Stations,,,,,,0,0
+CWH,40.0703514,-74.95102969999999,"Cornwells Heights, Pennsylvania",Cornwells Heights,PA,United States,,,,Railway Stations,,,,,,0,0
+DAL,32.7761888,-96.8075136,"Dallas, Texas",Dallas,TX,United States,,,,Railway Stations,,,,,,0,0
+CYN,35.78842849999999,-78.7822338,"Cary, North Carolina",Cary,NC,United States,,,,Railway Stations,,,,,,0,0
 DAN,36.5841172,-79.3846682,"Danville, Virginia",Danville,VA,United States,,,,Railway Stations,,,,,,0,0
-DBP,37.7006535,-121.8967803,"Dublin-Pleasanton, California",Pleasanton,CA,United States,,,,Railway Stations,,,,,,0,0
 DAV,38.5437102,-121.7383972,"Davis, California",Davis,CA,United States,,,,Railway Stations,,,,,,0,0
-DDE,28.3654819,-82.1848517,"Dade City, Florida",Dade City,FL,United States,,,,Railway Stations,,,,,,0,0
 DDG,37.75269840000001,-100.0169778,"Dodge City, Kansas",Dodge City,KS,United States,,,,Railway Stations,,,,,,0,0
-DEM,32.270743,-107.7553988,"Deming, New Mexico",Deming,NM,United States,,,,Railway Stations,,,,,,0,0
-DEB,39.7508119,-104.9909892,"Denver (Bus Station), Colorado",Denver,CO,United States,,,,Railway Stations,,,,,,0,0
 DEN,39.7531224,-105.0001446,"Denver, Colorado",Denver,CO,United States,,,,Railway Stations,,,,,,0,0
 DER,42.3125186,-83.1985698,"Dearborn, Michigan",Dearborn,MI,United States,,,,Railway Stations,,,,,,0,0
-DET,42.3680016,-83.0723122,"Detroit, Michigan",Detroit,MI,United States,,,,Railway Stations,,,,,,0,0
+DEM,32.270743,-107.7553988,"Deming, New Mexico",Deming,NM,United States,,,,Railway Stations,,,,,,0,0
+DET,42.3680409,-83.0722789,"Detroit, Michigan",Detroit,MI,United States,,,,Railway Stations,,,,,,0,0
 DFB,26.316971,-80.12224300000001,"Deerfield Beach, Florida",Deerfield Beach,FL,United States,,,,Railway Stations,,,,,,0,0
-DGS,42.748669,-105.3790925,"Douglas, Wyoming",Douglas,WY,United States,,,,Railway Stations,,,,,,0,0
-DHM,43.1393432,-70.9361364,"Durham, New Hampshire",Durham,NH,United States,,,,Railway Stations,,,,,,0,0
+DIL,34.4175758,-79.37217179999999,"Dillon, South Carolina",Dillon,SC,United States,,,,Railway Stations,,,,,,0,0
+DHM,43.1393624,-70.9361321,"Durham, New Hampshire",Durham,NH,United States,,,,Railway Stations,,,,,,0,0
 DLB,26.4551282,-80.0926607,"Delray Beach, Florida",Delray Beach,FL,United States,,,,Railway Stations,,,,,,0,0
-DIL,34.4175825,-79.3721855,"Dillon, South Carolina",Dillon,SC,United States,,,,Railway Stations,,,,,,0,0
-DLK,46.81980540000001,-95.84602880000001,"Detroit Lakes, Minnesota",Detroit Lakes,MN,United States,,,,Railway Stations,,,,,,0,0
-DLD,29.0167306,-81.3533952,"Deland, Florida",Deland,FL,United States,,,,Railway Stations,,,,,,0,0
-DNK,33.3267818,-81.1486528,"Denmark, South Carolina",Denmark,SC,United States,,,,Railway Stations,,,,,,0,0
 DNC,35.997154,-78.90745,"Durham, North Carolina",Durham,NC,United States,,,,Railway Stations,,,,,,0,0
+DLD,29.0167306,-81.3533952,"Deland, Florida",Deland,FL,United States,,,,Railway Stations,,,,,,0,0
+DLK,46.81980540000001,-95.84602880000001,"Detroit Lakes, Minnesota",Detroit Lakes,MN,United States,,,,Railway Stations,,,,,,0,0
+DNK,33.3267817,-81.1486529,"Denmark, South Carolina",Denmark,SC,United States,,,,Railway Stations,,,,,,0,0
+DOV,43.1943694,-70.87639279999999,"Dover, New Hampshire",Dover,NH,United States,,,,Railway Stations,,,,,,0,0
 DOA,41.9820102,-86.1080765,"Dowagiac, Michigan",Dowagiac,MI,United States,,,,Railway Stations,,,,,,0,0
-DOV,43.1992152,-70.87674609999999,"Dover, New Hampshire",Dover,NH,United States,,,,Railway Stations,,,,,,0,0
-DQN,38.0122386,-89.2401297,"Du Quoin, Illinois",Du Quoin,IL,United States,,,,Railway Stations,,,,,,0,0
 DOW,40.002553,-75.7104016,"Downingtown, Pennsylvania",Downingtown,PA,United States,,,,Railway Stations,,,,,,0,0
 DRD,42.9104531,-83.9821857,"Durand, Michigan",Durand,MI,United States,,,,Railway Stations,,,,,,0,0
+DQN,38.0122437,-89.24014389999999,"Du Quoin, Illinois",Du Quoin,IL,United States,,,,Railway Stations,,,,,,0,0
 DRT,29.3632337,-100.9016846,"Del Rio, Texas",Del Rio,TX,United States,,,,Railway Stations,,,,,,0,0
-DUK,42.4825034,-79.3347156,"Dunkirk, New York",Dunkirk,NY,United States,,,,Railway Stations,,,,,,0,0
-DUL,46.746874,-92.157388,"Duluth (Greyhound Station), Minnesota",Duluth,MN,United States,,,,Railway Stations,,,,,,0,0
 DUN,41.2112326,-122.2705861,"Dunsmuir (Amtrak Station), California",Dunsmuir,CA,United States,,,,Railway Stations,,,,,,0,0
-DUU,46.80905019999999,-92.0695841,"Duluth (University of Minnesota), Minnesota",Duluth,MN,United States,,,,Railway Stations,,,,,,0,0
-DVI,40.1219505,-87.5409725,"Danville, Illinois",Danville,IL,United States,,,,Railway Stations,,,,,,0,0
 DVL,48.1106932,-98.86158479999999,"Devils Lake, North Dakota",Devils Lake,ND,United States,,,,Railway Stations,,,,,,0,0
-DVP,41.5202828,-90.57713559999999,"Davenport, Iowa",Davenport,IA,United States,,,,Railway Stations,,,,,,0,0
-DVR,39.1497464,-75.52542919999999,"Dover, Delaware",Dover,DE,United States,,,,Railway Stations,,,,,,0,0
-DWT,41.0925811,-88.42843669999999,"Dwight, Illinois",Dwight,IL,United States,,,,Railway Stations,,,,,,0,0
-DYA,29.2297229,-81.00907819999999,"Daytona Beach, Florida",Daytona Beach,FL,United States,,,,Railway Stations,,,,,,0,0
-DYE,41.5138752,-87.51874950000001,"Dyer, Indiana",Dyer,IN,United States,,,,Railway Stations,,,,,,0,0
-EDM,47.8111305,-122.3841639,"Edmonds, Washington",Edmonds,WA,United States,,,,Railway Stations,,,,,,0,0
-EGH,39.5271548,-74.64949279999999,"Egg Harbor City, New Jersey",Egg Harbor City,NJ,United States,,,,Railway Stations,,,,,,0,0
+DWT,41.0938744,-88.4268067,"Dwight, Illinois",Dwight,IL,United States,,,,Railway Stations,,,,,,0,0
+DYE,41.5150078,-87.5187497,"Dyer, Indiana",Dyer,IN,United States,,,,Railway Stations,,,,,,0,0
 EFG,39.1170402,-88.5471977,"Effingham, Illinois",Effingham,IL,United States,,,,Railway Stations,,,,,,0,0
-EKG,38.425315,-121.468696,"Elk Grove, California",Elk Grove,CA,United States,,,,Railway Stations,,,,,,0,0
-EKA,40.8023031,-124.1570862,"Eureka, California",Eureka,CA,United States,,,,Railway Stations,,,,,,0,0
+EDM,47.8111305,-122.3841639,"Edmonds, Washington",Edmonds,WA,United States,,,,Railway Stations,,,,,,0,0
 EKH,41.680614,-85.972208,"Elkhart, Indiana",Elkhart,IN,United States,,,,Railway Stations,,,,,,0,0
-ELB,31.7567792,-106.4900669,"El Paso (Bus Station), Texas",El Paso,TX,United States,,,,Railway Stations,,,,,,0,0
-ELP,31.7573532,-106.4960771,"El Paso, Texas",El Paso,TX,United States,,,,Railway Stations,,,,,,0,0
+ELP,31.757389,-106.4958622,"El Paso, Texas",El Paso,TX,United States,,,,Railway Stations,,,,,,0,0
 ELK,40.8367006,-115.7546836,"Elko, Nevada",Elko,NV,United States,,,,Railway Stations,,,,,,0,0
-ELS,45.8656665,-123.5948486,"Elsie, Oregon",Elsie,OR,United States,,,,Railway Stations,,,,,,0,0
 ELT,40.1476261,-76.613671,"Elizabethtown, Pennsylvania",Elizabethtown,PA,United States,,,,Railway Stations,,,,,,0,0
+ELY,41.3694622,-82.0969507,"Elyria, Ohio",Elyria,OH,United States,,,,Railway Stations,,,,,,0,0
 EMY,37.8406179,-122.2917696,"Emeryville, California",Emeryville,CA,United States,,,,Railway Stations,,,,,,0,0
-ELY,41.3694557,-82.0969448,"Elyria, Ohio",Elyria,OH,United States,,,,Railway Stations,,,,,,0,0
 EPH,47.3203743,-119.5499912,"Ephrata, Washington",Ephrata,WA,United States,,,,Railway Stations,,,,,,0,0
-EPL,37.6785787,-119.7647144,"El Portal, California",El Portal,CA,United States,,,,Railway Stations,,,,,,0,0
-ESM,48.2782924,-113.6106277,"Essex, Montana",Essex,MT,United States,,,,Railway Stations,,,,,,0,0
 ERI,42.1207438,-80.0823217,"Erie, Pennsylvania",Erie,PA,United States,,,,Railway Stations,,,,,,0,0
+ESX,44.492575,-73.1101769,"Essex Junction, Vermont",Essex Jct.,VT,United States,,,,Railway Stations,,,,,,0,0
+ESM,48.2782924,-113.6106277,"Essex, Montana",Essex,MT,United States,,,,Railway Stations,,,,,,0,0
 EUG,44.0551543,-123.0923357,"Eugene, Oregon",Eugene,OR,United States,,,,Railway Stations,,,,,,0,0
-ESX,44.4925756,-73.1102061,"Essex Junction, Vermont",Essex Jct.,VT,United States,,,,Railway Stations,,,,,,0,0
-EVR,47.9754787,-122.1976859,"Everett, Washington",Everett,WA,United States,,,,Railway Stations,,,,,,0,0
 EWR,40.6895314,-74.1744624,"Newark Liberty International Airport, New Jersey",Newark,NJ,United States,,,,Railway Stations,,,,,,0,0
+EVR,47.97551199999999,-122.197854,"Everett, Washington",Everett,WA,United States,,,,Railway Stations,,,,,,0,0
 EXT,40.019918,-75.62148959999999,"Exton, Pennsylvania",Exton,PA,United States,,,,Railway Stations,,,,,,0,0
 EXR,42.9813098,-70.957758,"Exeter, New Hampshire",Exeter,NH,United States,,,,Railway Stations,,,,,,0,0
-FAY,35.0551429,-78.88473119999999,"Fayetteville, North Carolina",Fayetteville,NC,United States,,,,Railway Stations,,,,,,0,0
 FAR,46.88098799999999,-96.7851901,"Fargo, North Dakota",Fargo,ND,United States,,,,Railway Stations,,,,,,0,0
-FBG,38.2984339,-77.4569341,"Fredericksburg, Virginia",Fredericksburg,VA,United States,,,,Railway Stations,,,,,,0,0
-FCC,40.5899289,-105.0781968,"Fort Collins, Colorado",Fort Collins,CO,United States,,,,Railway Stations,,,,,,0,0
-FDN,42.44271860000001,-79.34050719999999,"Fredonia, New York",Fredonia,NY,United States,,,,Railway Stations,,,,,,0,0
-FDL,43.752178,-88.4504089,"Fond du Lac, Wisconsin",Fond du Lac,WI,United States,,,,Railway Stations,,,,,,0,0
-FGG,35.1944475,-111.6576301,"Flagstaff (Greyhound), Arizona",Flagstaff,AZ,United States,,,,Railway Stations,,,,,,0,0
+FBG,38.2984265,-77.457009,"Fredericksburg, Virginia",Fredericksburg,VA,United States,,,,Railway Stations,,,,,,0,0
+FAY,35.0551133,-78.88472940000001,"Fayetteville, North Carolina",Fayetteville,NC,United States,,,,Railway Stations,,,,,,0,0
 FED,43.2693196,-73.5809645,"Fort Edward-Glens Falls, New York",Fort Edward,NY,United States,,,,Railway Stations,,,,,,0,0
-FHD,31.1423474,-97.7637542,"Fort Hood, Texas",Fort Hood,TX,United States,,,,Railway Stations,,,,,,0,0
 FHV,43.594801,-73.2657155,"Fair Haven, Vermont",Fair Haven,VT,United States,,,,Railway Stations,,,,,,0,0
-FLG,35.1969281,-111.6466641,"Flagstaff, Arizona",Flagstaff,AZ,United States,,,,Railway Stations,,,,,,0,0
-FIL,34.3957895,-118.9183275,"Fillmore, California",Fillmore,CA,United States,,,,Railway Stations,,,,,,0,0
+FLN,43.0154995,-83.6515002,"Flint, Michigan",Flint,MI,United States,,,,Railway Stations,,,,,,0,0
+FLG,35.1973197,-111.6491835,"Flagstaff, Arizona",Flagstaff,AZ,United States,,,,Railway Stations,,,,,,0,0
 FLO,34.1993274,-79.7575257,"Florence, South Carolina",Florence,SC,United States,,,,Railway Stations,,,,,,0,0
-FLN,43.0155445,-83.65139959999999,"Flint, Michigan",Flint,MI,United States,,,,Railway Stations,,,,,,0,0
+FMG,40.2553837,-103.8014929,"Fort Morgan, Colorado",Fort Morgan,CO,United States,,,,Railway Stations,,,,,,0,0
 FMD,40.6239069,-91.33329379999999,"Fort Madison, Iowa",Fort Madison,IA,United States,,,,Railway Stations,,,,,,0,0
-FMG,40.2552761,-103.8014951,"Fort Morgan, Colorado",Fort Morgan,CO,United States,,,,Railway Stations,,,,,,0,0
-FNO,36.7384899,-119.7827386,"Fresno, California",Fresno,CA,United States,,,,Railway Stations,,,,,,0,0
-FMT,37.559148,-122.0073445,"Fremont (Trains, Capitol Buses), California",Fremont,CA,United States,,,,Railway Stations,,,,,,0,0
+FMT,37.55914730000001,-122.0073505,"Fremont (Trains, Capitol Buses), California",Fremont,CA,United States,,,,Railway Stations,,,,,,0,0
+FNO,36.738757,-119.7829731,"Fresno, California",Fresno,CA,United States,,,,Railway Stations,,,,,,0,0
 FRA,42.2761821,-71.4190887,"Framingham, Massachusetts",Framingham,MA,United States,,,,Railway Stations,,,,,,0,0
-FOX,41.472845,-71.9601447,"Foxwoods Casino, Connecticut",Ledyard,CT,United States,,,,Railway Stations,,,,,,0,0
-FSC,39.5887483,-106.0976611,"Frisco, Colorado",Frisco,CO,United States,,,,Railway Stations,,,,,,0,0
-FRO,43.9688536,-124.1070518,"Florence, Oregon",Florence,OR,United States,,,,Railway Stations,,,,,,0,0
-FTA,40.5844783,-124.1469051,"Fortuna, California",Fortuna,CA,United States,,,,Railway Stations,,,,,,0,0
+FTL,26.1194674,-80.16997599999999,"Fort Lauderdale, Florida",Fort Lauderdale,FL,United States,,,,Railway Stations,,,,,,0,0
 FTC,43.8486707,-73.4234531,"Ticonderoga, New York",Ticonderoga,NY,United States,,,,Railway Stations,,,,,,0,0
-FTL,26.1176597,-80.17067209999999,"Fort Lauderdale, Florida",Fort Lauderdale,FL,United States,,,,Railway Stations,,,,,,0,0
-FTM,26.6551054,-81.8016688,"Fort Myers, Florida",Fort Myers,FL,United States,,,,Railway Stations,,,,,,0,0
+FTW,32.7527074,-97.3264477,"Fort Worth, Texas",Fort Worth,TX,United States,,,,Railway Stations,,,,,,0,0
 FTN,36.5252618,-88.8881739,"Fulton, Kentucky",Fulton,KY,United States,,,,Railway Stations,,,,,,0,0
-FTW,32.7526658,-97.326461,"Fort Worth, Texas",Fort Worth,TX,United States,,,,Railway Stations,,,,,,0,0
-FUL,33.8688492,-117.9223775,"Fullerton, California",Fullerton,CA,United States,,,,Railway Stations,,,,,,0,0
-GAC,37.4066565,-121.9688656,"Santa Clara (Great America), California",Santa Clara,CA,United States,,,,Railway Stations,,,,,,0,0
+GAC,37.4068838,-121.9671246,"Santa Clara (Great America), California",Santa Clara,CA,United States,,,,Railway Stations,,,,,,0,0
 GAS,35.2676459,-81.1628688,"Gastonia, North Carolina",Gastonia,NC,United States,,,,Railway Stations,,,,,,0,0
+FUL,33.8688462,-117.9227919,"Fullerton, California",Fullerton,CA,United States,,,,Railway Stations,,,,,,0,0
 GBB,40.9448922,-90.364627,"Galesburg, Illinois",Galesburg,IL,United States,,,,Railway Stations,,,,,,0,0
-GBV,40.097632,-123.795382,"Garberville, California",Garberville,CA,United States,,,,Railway Stations,,,,,,0,0
-GCB,36.0043153,-112.0953297,"Grand Canyon (Buses), Arizona",Grand Canyon National Park,AZ,United States,,,,Railway Stations,,,,,,0,0
-GCN,36.0043153,-112.0953297,"Grand Canyon (Railway), Arizona",Grand Canyon National Park,AZ,United States,,,,Railway Stations,,,,,,0,0
-GCK,37.9643964,-100.8731999,"Garden City, Kansas",Garden City,KS,United States,,,,Railway Stations,,,,,,0,0
+GCK,37.9642,-100.8732946,"Garden City, Kansas",Garden City,KS,United States,,,,Railway Stations,,,,,,0,0
+GDL,34.1236768,-118.2589695,"Glendale, California",Glendale,CA,United States,,,,Railway Stations,,,,,,0,0
+GFV,42.3069642,-83.2296855,"Greenfield Village, Michigan",Dearborn,MI,United States,,,,Railway Stations,,,,,,0,0
 GFK,47.9181828,-97.1119595,"Grand Forks, North Dakota",Grand Forks,ND,United States,,,,Railway Stations,,,,,,0,0
-GDL,34.1236803,-118.2589698,"Glendale, California",Glendale,CA,United States,,,,Railway Stations,,,,,,0,0
-GFV,42.3031087,-83.2331085,"Greenfield Village, Michigan",Dearborn,MI,United States,,,,Railway Stations,,,,,,0,0
-GGW,48.19393909999999,-106.6335906,"Glasgow, Montana",Glasgow,MT,United States,,,,Railway Stations,,,,,,0,0
-GJT,39.0646037,-108.5705833,"Grand Junction, Colorado",Grand Junction,CO,United States,,,,Railway Stations,,,,,,0,0
-GHT,46.0370204,-123.9143381,"Gearhart, Oregon",Gearhart,OR,United States,,,,Railway Stations,,,,,,0,0
+GGW,48.1938527,-106.6333445,"Glasgow, Montana",Glasgow,MT,United States,,,,Railway Stations,,,,,,0,0
 GLE,33.6249749,-97.1406976,"Gainesville, Texas",Gainesville,TX,United States,,,,Railway Stations,,,,,,0,0
+GJT,39.0646037,-108.5705833,"Grand Junction, Colorado",Grand Junction,CO,United States,,,,Railway Stations,,,,,,0,0
+GLN,42.0750001,-87.80568330000001,"Glenview, Illinois",Glenview,IL,United States,,,,Railway Stations,,,,,,0,0
+GLP,35.5289141,-108.7400151,"Gallup, New Mexico",Gallup,NM,United States,,,,Railway Stations,,,,,,0,0
 GLM,40.7618594,-87.994119,"Gilman, Illinois",Gilman,IL,United States,,,,Railway Stations,,,,,,0,0
-GLP,35.5288046,-108.7403802,"Gallup, New Mexico",Gallup,NM,United States,,,,Railway Stations,,,,,,0,0
-GLN,42.075,-87.80568330000001,"Glenview, Illinois",Glenview,IL,United States,,,,Railway Stations,,,,,,0,0
-GLS,29.3065097,-94.79679209999999,"Galveston (Texas Eagle Bus), Texas",Galveston,TX,United States,,,,Railway Stations,,,,,,0,0
-GLY,37.0044552,-121.5668672,"Gilroy, California",Gilroy,CA,United States,,,,Railway Stations,,,,,,0,0
-GNF,29.6514813,-82.32289480000001,"Gainesville, Florida",Gainesville,FL,United States,,,,Railway Stations,,,,,,0,0
 GNB,40.3050212,-79.5469746,"Greensburg, Pennsylvania",Greensburg,PA,United States,,,,Railway Stations,,,,,,0,0
 GNS,34.2887268,-83.819597,"Gainesville, Georgia",Gainesville,GA,United States,,,,Railway Stations,,,,,,0,0
-GPK,48.4886308,-113.2569369,"East Glacier Park, Montana",East Glacier Park,MT,United States,,,,Railway Stations,,,,,,0,0
+GPK,48.4422016,-113.2193442,"East Glacier Park, Montana",East Glacier Park,MT,United States,,,,Railway Stations,,,,,,0,0
+GRO,36.0692681,-79.78760319999999,"Greensboro, North Carolina",Greensboro,NC,United States,,,,Railway Stations,,,,,,0,0
 GRA,40.0845596,-105.9392563,"Granby, Colorado",Granby,CO,United States,,,,Railway Stations,,,,,,0,0
-GRI,38.9933538,-110.1652053,"Green River, Utah",Green River,UT,United States,,,,Railway Stations,,,,,,0,0
+GRI,38.99335130000001,-110.1652052,"Green River, Utah",Green River,UT,United States,,,,Railway Stations,,,,,,0,0
 GRR,42.9564194,-85.67861800000001,"Grand Rapids, Michigan",Grand Rapids,MI,United States,,,,Railway Stations,,,,,,0,0
-GRO,36.0693388,-79.7876978,"Greensboro, North Carolina",Greensboro,NC,United States,,,,Railway Stations,,,,,,0,0
 GRV,34.858514,-82.41351019999999,"Greenville, South Carolina",Greenville,SC,United States,,,,Railway Stations,,,,,,0,0
-GRS,39.2191646,-121.0611534,"Grass Valley, California",Grass Valley,CA,United States,,,,Railway Stations,,,,,,0,0
-GSN,36.3424088,-119.4218362,"Goshen Junction, California",Visalia,CA,United States,,,,Railway Stations,,,,,,0,0
-GSC,39.5480099,-107.3231822,"Glenwood Springs, Colorado",Glenwood Springs,CO,United States,,,,Railway Stations,,,,,,0,0
 GTA,34.4376026,-119.8429508,"Goleta, California",Goleta,CA,United States,,,,Railway Stations,,,,,,0,0
+GSC,39.5480212,-107.3231977,"Glenwood Springs, Colorado",Glenwood Springs,CO,United States,,,,Railway Stations,,,,,,0,0
 GUA,34.9629293,-120.5734668,"Guadalupe, California",Guadalupe,CA,United States,,,,Railway Stations,,,,,,0,0
-GVI,45.8909989,-116.1855313,"Grangeville, Idaho",Grangeville,ID,United States,,,,Railway Stations,,,,,,0,0
 GVB,35.1219552,-120.6290631,"Grover Beach, California",Grover Beach,CA,United States,,,,Railway Stations,,,,,,0,0
-GWD,33.5173705,-90.1764606,"Greenwood, Mississippi",Greenwood,MS,United States,,,,Railway Stations,,,,,,0,0
 HAM,34.8827151,-79.69832579999999,"Hamlet, North Carolina",Hamlet,NC,United States,,,,Railway Stations,,,,,,0,0
+GWD,33.5173705,-90.1764606,"Greenwood, Mississippi",Greenwood,MS,United States,,,,Railway Stations,,,,,,0,0
 HAR,40.2611253,-76.87820169999999,"Harrisburg, Pennsylvania",Harrisburg,PA,United States,,,,Railway Stations,,,,,,0,0
 HAS,40.5840227,-98.38762799999999,"Hastings, Nebraska",Hastings,NE,United States,,,,Railway Stations,,,,,,0,0
-HAY,37.66595239999999,-122.0993313,"Hayward, California",Hayward,CA,United States,,,,Railway Stations,,,,,,0,0
 HAV,48.5543211,-109.6790634,"Havre, Montana",Havre,MT,United States,,,,Railway Stations,,,,,,0,0
-HBG,31.3270929,-89.2864075,"Hattiesburg, Mississippi",Hattiesburg,MS,United States,,,,Railway Stations,,,,,,0,0
+HAY,37.6668024,-122.0988409,"Hayward, California",Hayward,CA,United States,,,,Railway Stations,,,,,,0,0
 HAZ,31.8631484,-90.3943616,"Hazlehurst, Mississippi",Hazlehurst,MS,United States,,,,Railway Stations,,,,,,0,0
-HEA,38.6071341,-122.8697072,"Healdsburg (Singletree Inn), California",Healdsburg,CA,United States,,,,Railway Stations,,,,,,0,0
-HEM,38.707342,-91.432788,"Hermann, Missouri",Herman,MO,United States,,,,Railway Stations,,,,,,0,0
+HBG,31.3270929,-89.2864075,"Hattiesburg, Mississippi",Hattiesburg,MS,United States,,,,Railway Stations,,,,,,0,0
 HER,39.685036,-110.8546192,"Helper, Utah",Helper,UT,United States,,,,Railway Stations,,,,,,0,0
-HET,33.7477698,-117.0062471,"Hemet (West Florida Ave), California",Hemet,CA,United States,,,,Railway Stations,,,,,,0,0
-HFD,41.7688912,-72.6816109,"Hartford, Connecticut",Hartford,CT,United States,,,,Railway Stations,,,,,,0,0
+HEM,38.707342,-91.432788,"Hermann, Missouri",Herman,MO,United States,,,,Railway Stations,,,,,,0,0
 HFY,39.3232101,-77.7297743,"Harpers Ferry, West Virginia",Harpers Ferry,WV,United States,,,,Railway Stations,,,,,,0,0
-HGN,26.1938245,-97.6939349,"Harlingen, Texas",Harlingen,TX,United States,,,,Railway Stations,,,,,,0,0
+HFD,41.7688778,-72.6816228,"Hartford, Connecticut",Hartford,CT,United States,,,,Railway Stations,,,,,,0,0
 HGD,40.4837559,-78.0109962,"Huntingdon, Pennsylvania",Huntingdon,PA,United States,,,,Railway Stations,,,,,,0,0
-HIN,37.6768,-80.88875469999999,"Hinton, West Virginia",Hinton,WV,United States,,,,Railway Stations,,,,,,0,0
 HHL,42.77268,-71.08588929999999,"Haverhill, Massachusetts",Haverhill,MA,United States,,,,Railway Stations,,,,,,0,0
+HIN,37.6768,-80.88875469999999,"Hinton, West Virginia",Hinton,WV,United States,,,,Railway Stations,,,,,,0,0
+HMI,41.6910817,-87.506592,"Hammond-Whiting, Indiana",Hammond,IN,United States,,,,Railway Stations,,,,,,0,0
 HLD,40.4361095,-99.37127319999999,"Holdrege, Nebraska",Holdrege,NE,United States,,,,Railway Stations,,,,,,0,0
 HMD,30.5069212,-90.4622404,"Hammond, Louisiana",Hammond,LA,United States,,,,Railway Stations,,,,,,0,0
-HMT,33.7511986,-116.9690803,"Hemet (Devonshire Ave), California",Hemet,CA,United States,,,,Railway Stations,,,,,,0,0
-HMI,41.692591,-87.5084986,"Hammond-Whiting, Indiana",Hammond,IN,United States,,,,Railway Stations,,,,,,0,0
 HMW,41.5626681,-87.6686445,"Homewood, Illinois",Homewood,IL,United States,,,,Railway Stations,,,,,,0,0
 HNF,36.3260902,-119.6519805,"Hanford, California",Hanford,CA,United States,,,,Railway Stations,,,,,,0,0
 HOL,26.0118668,-80.1678324,"Hollywood, Florida",Hollywood,FL,United States,,,,Railway Stations,,,,,,0,0
 HOM,42.7910877,-86.0974772,"Holland, Michigan",Holland,MI,United States,,,,Railway Stations,,,,,,0,0
-HOO,45.71157360000001,-121.5004338,"Hood River, Oregon",Hood River,OR,United States,,,,Railway Stations,,,,,,0,0
 HOS,29.7673564,-95.3675217,"Houston, Texas",Houston,TX,United States,,,,Railway Stations,,,,,,0,0
-HTN,39.6330572,-74.8004349,"Hammonton, New Jersey",Hammonton,NJ,United States,,,,Railway Stations,,,,,,0,0
-HPT,35.9572239,-80.00622299999999,"High Point, North Carolina",High Point,NC,United States,,,,Railway Stations,,,,,,0,0
-KTC,35.9893146,-119.9604806,"Kettleman City, California",Kettleman City,CA,United States,,,,Railway Stations,,,,,,0,0
+HPT,35.957234,-80.0062375,"High Point, North Carolina",High Point,NC,United States,,,,Railway Stations,,,,,,0,0
 HUD,42.2540762,-73.7977361,"Hudson, New York",Hudson,NY,United States,,,,Railway Stations,,,,,,0,0
-KWD,38.580951,-90.40682319999999,"Kirkwood, Missouri",Kirkwood,MO,United States,,,,Railway Stations,,,,,,0,0
-KTR,33.6635933,-79.8290961,"Kingstree, South Carolina",Kingstree,SC,United States,,,,Railway Stations,,,,,,0,0
+KTR,33.6635971,-79.82910509999999,"Kingstree, South Carolina",Kingstree,SC,United States,,,,Railway Stations,,,,,,0,0
 LAB,40.3183684,-79.3854329,"Latrobe, Pennsylvania",Latrobe,PA,United States,,,,Railway Stations,,,,,,0,0
-LAE,45.297109,-118.0435704,"La Grande, Oregon",La Grande,OR,United States,,,,Railway Stations,,,,,,0,0
-LAG,41.81577180000001,-87.8709403,"La Grange, Illinois",La Grange,IL,United States,,,,Railway Stations,,,,,,0,0
-LAF,40.4194086,-86.8961403,"Lafayette, Indiana",Lafayette,IN,United States,,,,Railway Stations,,,,,,0,0
+KWD,38.5809698,-90.4068197,"Kirkwood, Missouri",Kirkwood,MO,United States,,,,Railway Stations,,,,,,0,0
+LAG,41.81575290000001,-87.87103739999999,"La Grange, Illinois",La Grange,IL,United States,,,,Railway Stations,,,,,,0,0
 LAJ,37.988346,-103.5432024,"La Junta, Colorado",La Junta,CO,United States,,,,Railway Stations,,,,,,0,0
-LAK,28.0457502,-81.9518892,"Lakeland, Florida",Lakeland,FL,United States,,,,Railway Stations,,,,,,0,0
+LAF,40.4194209,-86.89613229999999,"Lafayette, Indiana",Lafayette,IN,United States,,,,Railway Stations,,,,,,0,0
 LAP,40.029315,-92.492995,"La Plata, Missouri",La Plata,MO,United States,,,,Railway Stations,,,,,,0,0
-LAS,36.0839998,-115.1537389,"Las Vegas International Airport, Nevada",Las Vegas,NV,United States,,,,Railway Stations,,,,,,0,0
-LAU,31.6915271,-89.1282793,"Laurel, Mississippi",Laurel,MS,United States,,,,Railway Stations,,,,,,0,0
-LAX,34.056075,-118.2363476,"Los Angeles, California",Los Angeles,CA,United States,,,,Railway Stations,,,,,,0,0
-LCA,34.2316447,-118.2661628,"La Crescenta, California",La Crescenta,CA,United States,,,,Railway Stations,,,,,,0,0
-LBC,33.7744168,-118.1897475,"Long Beach, California",Long Beach,CA,United States,,,,Railway Stations,,,,,,0,0
-LCH,30.2381686,-93.2171316,"Lake Charles, Louisiana",Lake Charles,LA,United States,,,,Railway Stations,,,,,,0,0
+LAK,28.0457558,-81.95188569999999,"Lakeland, Florida",Lakeland,FL,United States,,,,Railway Stations,,,,,,0,0
+LAX,34.056116,-118.2375014,"Los Angeles, California",Los Angeles,CA,United States,,,,Railway Stations,,,,,,0,0
+LAU,31.6915246,-89.12828119999999,"Laurel, Mississippi",Laurel,MS,United States,,,,Railway Stations,,,,,,0,0
+LCH,30.2381691,-93.2171307,"Lake Charles, Louisiana",Lake Charles,LA,United States,,,,Railway Stations,,,,,,0,0
 LCN,40.147473,-89.3635599,"Lincoln, Illinois",Lincoln,IL,United States,,,,Railway Stations,,,,,,0,0
-LCS,34.6965751,-118.1362217,"Lancaster, California",Lancaster,CA,United States,,,,Railway Stations,,,,,,0,0
-LCR,32.3002548,-106.7742697,"Las Cruces, New Mexico",Las Cruces,NM,United States,,,,Railway Stations,,,,,,0,0
 LDB,32.3501909,-108.7068517,"Lordsburg, New Mexico",Lordsburg,NM,United States,,,,Railway Stations,,,,,,0,0
-LCV,44.28256580000001,-69.00854509999999,"Lincolnville, Maine",Lincolnville,ME,United States,,,,Railway Stations,,,,,,0,0
-LEE,38.9126818,-94.3781128,"Lees Summit, Missouri",Lees Summit,MO,United States,,,,Railway Stations,,,,,,0,0
-LDW,39.8832743,-75.0571006,"Lindenwold, New Jersey",Somerdale,NJ,United States,,,,Railway Stations,,,,,,0,0
-LEG,39.8786429,-123.727456,"Leggett, California",Leggett,CA,United States,,,,Railway Stations,,,,,,0,0
-LEV,47.5982726,-120.6573033,"Leavenworth, Washington",Leavenworth,WA,United States,,,,Railway Stations,,,,,,0,0
+LEE,38.9126785,-94.3783311,"Lees Summit, Missouri",Lees Summit,MO,United States,,,,Railway Stations,,,,,,0,0
 LEW,40.5890863,-77.57869,"Lewistown, Pennsylvania",Lewistown,PA,United States,,,,Railway Stations,,,,,,0,0
-LEX,35.8240265,-80.2533838,"Lexington, North Carolina (Special Stop)",Lexington,NC,United States,,,,Railway Stations,,,,,,0,0
-LGM,40.1699581,-105.1028866,"Longmont, Colorado",Longmont,CO,United States,,,,Railway Stations,,,,,,0,0
 LFT,30.2250674,-92.0139063,"Lafayette, Louisiana",Lafayette,LA,United States,,,,Railway Stations,,,,,,0,0
+LEX,35.8240265,-80.2533838,"Lexington, North Carolina (Special Stop)",Lexington,NC,United States,,,,Railway Stations,,,,,,0,0
 LIB,48.3946559,-115.5497387,"Libby, Montana",Libby,MT,United States,,,,Railway Stations,,,,,,0,0
-LIV,37.6840413,-121.7673144,"Livermore, California",Livermore,CA,United States,,,,Railway Stations,,,,,,0,0
-LKL,28.0457502,-81.9518892,"Lakeland, Florida",Lakeland,FL,United States,,,,Railway Stations,,,,,,0,0
-LMC,36.3030806,-119.7851967,"Lemoore, California",Lemoore,CA,United States,,,,Railway Stations,,,,,,0,0
-LMN,36.25549960000001,-119.9049907,"Lemoore (Naval Air Station), California",Lemoore,CA,United States,,,,Railway Stations,,,,,,0,0
+LKL,28.0457558,-81.95188569999999,"Lakeland, Florida",Lakeland,FL,United States,,,,Railway Stations,,,,,,0,0
 LMR,38.0962031,-102.6197456,"Lamar, Colorado",Lamar,CO,United States,,,,Railway Stations,,,,,,0,0
 LMY,35.4763492,-105.892068,"Lamy, New Mexico",Lamy,NM,United States,,,,Railway Stations,,,,,,0,0
-LNC,40.0543747,-76.3081942,"Lancaster, Pennsylvania",Lancaster,PA,United States,,,,Railway Stations,,,,,,0,0
-LNN,44.0402953,-71.6730024,"Lincoln, New Hampshire",Lincoln,NH,United States,,,,Railway Stations,,,,,,0,0
 LNK,40.815089,-96.7114148,"Lincoln, Nebraska",Lincoln,NE,United States,,,,Railway Stations,,,,,,0,0
+LNC,40.05447789999999,-76.30782839999999,"Lancaster, Pennsylvania",Lancaster,PA,United States,,,,Railway Stations,,,,,,0,0
 LNS,42.7193499,-84.4941024,"East Lansing, Michigan",East Lansing,MI,United States,,,,Railway Stations,,,,,,0,0
-LNV,35.1583057,-114.5772775,"Laughlin, Nevada",Laughlin,NV,United States,,,,Railway Stations,,,,,,0,0
-LOD,38.1331996,-121.2718086,"Lodi, California",Lodi,CA,United States,,,,Railway Stations,,,,,,0,0
-LOM,34.63837960000001,-120.4594891,"Lompoc, California",Lompoc,CA,United States,,,,Railway Stations,,,,,,0,0
+LOD,38.1332019,-121.2718146,"Lodi, California",Lodi,CA,United States,,,,Railway Stations,,,,,,0,0
 LOR,38.70843199999999,-77.2205668,"Lorton (Auto Train), Virginia",Lorton,VA,United States,,,,Railway Stations,,,,,,0,0
-LPD,44.2924402,-73.985034,"Lake Placid, New York",Lake Placid,NY,United States,,,,Railway Stations,,,,,,0,0
 LPE,43.0498492,-83.3055476,"Lapeer, Michigan",Lapeer,MI,United States,,,,Railway Stations,,,,,,0,0
-LPN,43.6729959,-121.4999313,"La Pine, Oregon",La Pine,OR,United States,,,,Railway Stations,,,,,,0,0
+LRK,34.7503788,-92.2871016,"Little Rock, Arkansas",Little Rock,AR,United States,,,,Railway Stations,,,,,,0,0
+LPS,33.1074723,-117.286005,"Lompoc-Surf, California",Surf,CA,United States,,,,Railway Stations,,,,,,0,0
 LRC,38.9712703,-95.2303946,"Lawrence, Kansas",Lawrence,KS,United States,,,,Railway Stations,,,,,,0,0
-LPS,46.4334504,-62.85444369999999,"Lompoc-Surf, California",Surf,CA,United States,,,,Railway Stations,,,,,,0,0
-LRK,34.7504136,-92.28718339999999,"Little Rock, Arkansas",Little Rock,AR,United States,,,,Railway Stations,,,,,,0,0
 LSE,43.833317,-91.24670499999999,"LaCrosse, Wisconsin",La Crosse,WI,United States,,,,Railway Stations,,,,,,0,0
 LSV,35.59354940000001,-105.213308,"Las Vegas, New Mexico",Las Vegas,NM,United States,,,,Railway Stations,,,,,,0,0
-LTL,44.2967721,-71.76903829999999,"Littleton, New Hampshire",Littleton,NH,United States,,,,Railway Stations,,,,,,0,0
-LTR,34.5215273,-117.9919156,"Littlerock, California",Littlerock,CA,United States,,,,Railway Stations,,,,,,0,0
-LTV,39.686372,-123.4817502,"Laytonville, California",Laytonville,CA,United States,,,,Railway Stations,,,,,,0,0
-LVL,38.2514938,-85.76339469999999,"Louisville, Kentucky",Louisville,KY,United States,,,,Railway Stations,,,,,,0,0
+ABQ,35.0820264,-106.6477855,"Albuquerque, New Mexico",Albuquerque,NM,United States,,,,Railway Stations,,,,,,0,0
 ABE,39.5085826,-76.1613977,"Aberdeen, Maryland",Aberdeen,MD,United States,,,,Railway Stations,,,,,,0,0
-ABQ,35.08178110000001,-106.6479672,"Albuquerque, New Mexico",Albuquerque,NM,United States,,,,Railway Stations,,,,,,0,0
-ABN,39.4216655,-74.4998896,"Absecon, New Jersey",Absecon,NJ,United States,,,,Railway Stations,,,,,,0,0
-ACA,38.0173494,-121.8159396,"Antioch-Pittsburg, California",Antioch,CA,United States,,,,Railway Stations,,,,,,0,0
-ACY,39.3644435,-74.4431149,"Atlantic City, New Jersey",Atlantic City,NJ,United States,,,,Railway Stations,,,,,,0,0
-AHL,42.1936093,-122.7062787,"Ashland, Oregon",Ashland,OR,United States,,,,Railway Stations,,,,,,0,0
 ADM,34.1727733,-97.12532589999999,"Ardmore, Oklahoma",Ardmore,OK,United States,,,,Railway Stations,,,,,,0,0
-AKY,38.4810033,-82.63935,"Ashland, Kentucky",Ashland,KY,United States,,,,Railway Stations,,,,,,0,0
+ACA,38.0173494,-121.8159396,"Antioch-Pittsburg, California",Antioch,CA,United States,,,,Railway Stations,,,,,,0,0
 ALB,42.6411686,-73.7408743,"Albany/Rensselaer, New York",Rensselaer,NY,United States,,,,Railway Stations,,,,,,0,0
-ALD,37.7246181,-80.6483895,"Alderson, West Virginia",Alderson,WV,United States,,,,Railway Stations,,,,,,0,0
-ALC,40.9217946,-81.0958421,"Alliance, Ohio",Alliance,OH,United States,,,,Railway Stations,,,,,,0,0
+AKY,38.4810598,-82.6399411,"Ashland, Kentucky",Ashland,KY,United States,,,,Railway Stations,,,,,,0,0
+ALD,37.72461699999999,-80.64837639999999,"Alderson, West Virginia",Alderson,WV,United States,,,,Railway Stations,,,,,,0,0
 ALI,42.2472931,-84.7557637,"Albion, Michigan",Albion,MI,United States,,,,Railway Stations,,,,,,0,0
-ALN,38.9043799,-90.13535670000002,"Alton, Illinois",Alton,IL,United States,,,,Railway Stations,,,,,,0,0
+ALC,40.9217946,-81.0958421,"Alliance, Ohio",Alliance,OH,United States,,,,Railway Stations,,,,,,0,0
+ALT,40.5147907,-78.4015335,"Altoona, Pennsylvania",Altoona,PA,United States,,,,Railway Stations,,,,,,0,0
 ALP,30.3582018,-103.6618148,"Alpine, Texas",Alpine,TX,United States,,,,Railway Stations,,,,,,0,0
-ALT,40.5148035,-78.40155399999999,"Altoona, Pennsylvania",Altoona,PA,United States,,,,Railway Stations,,,,,,0,0
-ALX,38.8063445,-77.0623032,"Alexandria, Virginia",Alexandria,VA,United States,,,,Railway Stations,,,,,,0,0
-ALY,44.6300841,-123.1041797,"Albany, Oregon",Albany,OR,United States,,,,Railway Stations,,,,,,0,0
+ALN,38.9043799,-90.13535670000002,"Alton, Illinois",Alton,IL,United States,,,,Railway Stations,,,,,,0,0
+ALX,38.8063346,-77.0624388,"Alexandria, Virginia",Alexandria,VA,United States,,,,Railway Stations,,,,,,0,0
 AMM,42.3756756,-72.5115747,"Amherst, Massachusetts",Amherst,MA,United States,,,,Railway Stations,,,,,,0,0
-AMS,43.0062138,-74.3784495,"Amsterdam, New York",Amsterdam,NY,United States,,,,Railway Stations,,,,,,0,0
+ALY,44.6302302,-123.103076,"Albany, Oregon",Albany,OR,United States,,,,Railway Stations,,,,,,0,0
 ANA,33.8036168,-117.8825655,"Anaheim, California",Anaheim,CA,United States,,,,Railway Stations,,,,,,0,0
-APP,44.26340159999999,-88.4057203,"Appleton, Wisconsin",Appleton,WI,United States,,,,Railway Stations,,,,,,0,0
-ARC,40.8686054,-124.0838698,"Arcata (Transit Center), California",Arcata,CA,United States,,,,Railway Stations,,,,,,0,0
+AMS,42.9409151,-74.2771059,"Amsterdam, New York",Amsterdam,NY,United States,,,,Railway Stations,,,,,,0,0
 ARB,42.2877711,-83.7431524,"Ann Arbor, Michigan",Ann Arbor,MI,United States,,,,Railway Stations,,,,,,0,0
-ARK,34.1141703,-93.0529689,"Arkadelphia, Arkansas",Arkadelphia,AR,United States,,,,Railway Stations,,,,,,0,0
 ARD,40.007732,-75.29074670000001,"Ardmore, Pennsylvania",Ardmore,PA,United States,,,,Railway Stations,,,,,,0,0
-ART,46.1899746,-123.8334784,"Astoria, Oregon (Buses-Transit Center)",Astoria,OR,United States,,,,Railway Stations,,,,,,0,0
-ARN,38.9055553,-121.0824925,"Auburn, California",Auburn,CA,United States,,,,Railway Stations,,,,,,0,0
-ASD,37.7590946,-77.4813451,"Ashland, Virginia",Ashland,VA,United States,,,,Railway Stations,,,,,,0,0
-ATA,35.4870968,-120.6665854,"Atascadero, California",Atascadero,CA,United States,,,,Railway Stations,,,,,,0,0
+ARN,38.9038757,-121.0825832,"Auburn, California",Auburn,CA,United States,,,,Railway Stations,,,,,,0,0
+ARK,34.1141703,-93.0529689,"Arkadelphia, Arkansas",Arkadelphia,AR,United States,,,,Railway Stations,,,,,,0,0
+ASD,37.75919700000001,-77.4813162,"Ashland, Virginia",Ashland,VA,United States,,,,Railway Stations,,,,,,0,0
 ATL,33.7993995,-84.3925823,"Atlanta, Georgia",Atlanta,GA,United States,,,,Railway Stations,,,,,,0,0
 ATN,33.6493335,-85.8319159,"Anniston, Alabama",Anniston,AL,United States,,,,Railway Stations,,,,,,0,0
-AUS,30.2695685,-97.75702729999999,"Austin, Texas",Austin,TX,United States,,,,Railway Stations,,,,,,0,0
-BAK,44.7812219,-117.8129571,"Baker City, Oregon",Baker City,OR,United States,,,,Railway Stations,,,,,,0,0
-ATO,39.7751946,-74.8931501,"Atco, New Jersey",Atco,NJ,United States,,,,Railway Stations,,,,,,0,0
+AUS,30.269601,-97.75706009999999,"Austin, Texas",Austin,TX,United States,,,,Railway Stations,,,,,,0,0
 BAL,39.3073578,-76.6156621,"Baltimore (Penn Station), Maryland",Baltimore,MD,United States,,,,Railway Stations,,,,,,0,0
 BAM,42.3141708,-86.11185119999999,"Bangor, Michigan",Bangor,MI,United States,,,,Railway Stations,,,,,,0,0
-BAN,44.8167673,-68.8087006,"Bangor, Maine",Bangor,ME,United States,,,,Railway Stations,,,,,,0,0
-BAT,43.906126,-69.8308034,"Bath, Maine",Bath,ME,United States,,,,Railway Stations,,,,,,0,0
 BAR,34.90486569999999,-117.0245756,"Barstow (Amtrak), California",Barstow,CA,United States,,,,Railway Stations,,,,,,0,0
-BBY,42.34738350000001,-71.0753069,"Boston (Back Bay), Massachusetts",Boston,MA,United States,,,,Railway Stations,,,,,,0,0
-BDT,27.494615,-82.57308859999999,"Bradenton, Florida",Bradenton,FL,United States,,,,Railway Stations,,,,,,0,0
-BEL,48.720509,-122.511037,"Bellingham, Washington",Bellingham,WA,United States,,,,Railway Stations,,,,,,0,0
-BEN,31.96849929999999,-110.2973224,"Benson, Arizona",Benson,AZ,United States,,,,Railway Stations,,,,,,0,0
-BER,41.6353741,-72.76521799999999,"Berlin, Connecticut",Kensington,CT,United States,,,,Railway Stations,,,,,,0,0
-BET,42.4901159,-88.9889883,"South Beloit, Illinois",South Beloit,IL,United States,,,,Railway Stations,,,,,,0,0
+BEL,48.72046,-122.5110493,"Bellingham, Washington",Bellingham,WA,United States,,,,Railway Stations,,,,,,0,0
+BBY,42.3474193,-71.07531019999999,"Boston (Back Bay), Massachusetts",Boston,MA,United States,,,,Railway Stations,,,,,,0,0
+BEN,31.9685128,-110.2973881,"Benson, Arizona",Benson,AZ,United States,,,,Railway Stations,,,,,,0,0
+BER,41.6356154,-72.76533839999999,"Berlin, Connecticut",Kensington,CT,United States,,,,Railway Stations,,,,,,0,0
 BFD,35.3721912,-119.0076905,"Bakersfield, California",Bakersfield,CA,United States,,,,Railway Stations,,,,,,0,0
-BFT,44.4259092,-69.0064234,"Belfast, Maine",Belfast,ME,United States,,,,Railway Stations,,,,,,0,0
-BGP,43.67343140000001,-85.48049569999999,"Big Rapids, Michigan",Big Rapids,MI,United States,,,,Railway Stations,,,,,,0,0
-BFX,42.8783521,-78.873756,"Buffalo (Exchange St), New York",Buffalo,NY,United States,,,,Railway Stations,,,,,,0,0
-BIN,44.4593664,-71.1867978,"Berlin, New Hampshire",Berlin,NH,United States,,,,Railway Stations,,,,,,0,0
-BHM,33.5122426,-86.8071751,"Birmingham, Alabama",Birmingham,AL,United States,,,,Railway Stations,,,,,,0,0
-BLD,40.0379673,-105.2537368,"Boulder, Colorado",Boulder,CO,United States,,,,Railway Stations,,,,,,0,0
+BFX,42.87841969999999,-78.8737848,"Buffalo (Exchange St), New York",Buffalo,NY,United States,,,,Railway Stations,,,,,,0,0
+BHM,33.5123795,-86.8072021,"Birmingham, Alabama",Birmingham,AL,United States,,,,Railway Stations,,,,,,0,0
 BKY,37.874013,-122.303478,"Berkeley, California",Berkeley,CA,United States,,,,Railway Stations,,,,,,0,0
-BMM,42.5464297,-83.1959356,"Birmingham, Michigan",Birmingham,MI,United States,,,,Railway Stations,,,,,,0,0
-BLF,43.1365099,-72.44383429999999,"Bellows Falls, Vermont",Bellows Falls,VT,United States,,,,Railway Stations,,,,,,0,0
+BLF,43.1364719,-72.4442286,"Bellows Falls, Vermont",Bellows Falls,VT,United States,,,,Railway Stations,,,,,,0,0
+BNC,36.0941805,-79.43468700000001,"Burlington, North Carolina",Burlington,NC,United States,,,,Railway Stations,,,,,,0,0
+BMM,42.5447382,-83.1957735,"Birmingham, Michigan",Birmingham,MI,United States,,,,Railway Stations,,,,,,0,0
 BMT,30.0770673,-94.1296454,"Beaumont, Texas",Beaumont,TX,United States,,,,Railway Stations,,,,,,0,0
-BNC,36.0944505,-79.43563689999999,"Burlington, North Carolina",Burlington,NC,United States,,,,Railway Stations,,,,,,0,0
-BNL,40.5083045,-88.9836389,"Bloomington-Normal, Illinois",Normal,IL,United States,,,,Railway Stations,,,,,,0,0
 BNG,45.7160159,-121.4696811,"Bingen-White Salmon, Washington",Bingen,WA,United States,,,,Railway Stations,,,,,,0,0
-BNS,43.5865083,-119.0565137,"Burns, Oregon",Burns,OR,United States,,,,Railway Stations,,,,,,0,0
-BOI,43.6200488,-116.2072782,"Boise, Idaho",Boise,ID,United States,,,,Railway Stations,,,,,,0,0
-BON,42.3661879,-71.06214849999999,"Boston (North Station), Massachusetts",Boston,MA,United States,,,,Railway Stations,,,,,,0,0
-BOS,42.3325758,-71.0947059,"Boston (South Station), Massachusetts",Boston,MA,United States,,,,Railway Stations,,,,,,0,0
+BNL,40.5083045,-88.9836389,"Bloomington-Normal, Illinois",Normal,IL,United States,,,,Railway Stations,,,,,,0,0
+BON,42.36648719999999,-71.0621057,"Boston (North Station), Massachusetts",Boston,MA,United States,,,,Railway Stations,,,,,,0,0
+BOS,42.35187759999999,-71.0551042,"Boston (South Station), Massachusetts",Boston,MA,United States,,,,Railway Stations,,,,,,0,0
 BRA,42.85080139999999,-72.5565657,"Brattleboro, Vermont",Brattleboro,VT,United States,,,,Railway Stations,,,,,,0,0
 BRH,31.5795478,-90.44222959999999,"Brookhaven, Mississippi",Brookhaven,MS,United States,,,,Railway Stations,,,,,,0,0
-BRK,43.907348,-69.935687,"Brunswick, Maine",Brunswick,ME,United States,,,,Railway Stations,,,,,,0,0
 BRL,40.8057043,-91.10178189999999,"Burlington, Iowa",Burlington,IA,United States,,,,Railway Stations,,,,,,0,0
 BRO,48.535493,-113.0123595,"Browning, Montana",Browning,MT,United States,,,,Railway Stations,,,,,,0,0
-BRP,41.1778673,-73.1871134,"Bridgeport, Connecticut",Bridgeport,CT,United States,,,,Railway Stations,,,,,,0,0
+BRP,41.1778522,-73.18734549999999,"Bridgeport, Connecticut",Bridgeport,CT,United States,,,,Railway Stations,,,,,,0,0
 BTL,42.3166575,-85.1873018,"Battle Creek, Michigan",Battle Creek,MI,United States,,,,Railway Stations,,,,,,0,0
-BSV,25.899884,-97.5002669,"Brownsville, Texas",Brownsville,TX,United States,,,,Railway Stations,,,,,,0,0
 BUF,42.9071144,-78.72657579999999,"Buffalo (Depew), New York",Depew,NY,United States,,,,Railway Stations,,,,,,0,0
-BTR,30.4499001,-91.1763922,"Baton Rouge, Louisiana",Baton Rouge,LA,United States,,,,Railway Stations,,,,,,0,0
-BUR,34.1927982,-118.3518,"Burbank (Airport), California",Burbank,CA,United States,,,,Railway Stations,,,,,,0,0
-BUL,34.6105342,-120.1867384,"Buellton, California",Buellton,CA,United States,,,,Railway Stations,,,,,,0,0
-BWI,39.1774042,-76.6683922,"BWI Rail Station at Thurgood Marshall Airport, Mar",BWI Airport,MD,United States,,,,Railway Stations,,,,,,0,0
-BWW,48.13605,-119.7224462,"Brewster, Washington",Brewster,WA,United States,,,,Railway Stations,,,,,,0,0
+BUR,34.1928002,-118.3517758,"Burbank (Airport), California",Burbank,CA,United States,,,,Railway Stations,,,,,,0,0
+BWI,39.1924464,-76.69436,"BWI Rail Station at Thurgood Marshall Airport, Mar",BWI Airport,MD,United States,,,,Railway Stations,,,,,,0,0
+CAM,34.24666490000001,-80.6232144,"Camden, South Carolina",Camden,SC,United States,,,,Railway Stations,,,,,,0,0
 BYN,41.468392,-84.552363,"Bryan, Ohio",Bryan,OH,United States,,,,Railway Stations,,,,,,0,0
-BYC,45.2048467,-85.00003149999999,"Boyne City, Michigan",Boyne City,MI,United States,,,,Railway Stations,,,,,,0,0
-CAM,34.2466657,-80.6226502,"Camden, South Carolina",Camden,SC,United States,,,,Railway Stations,,,,,,0,0
-CAS,42.85566379999999,-106.3272089,"Casper, Wyoming",Casper,WY,United States,,,,Railway Stations,,,,,,0,0
-CBO,45.8895002,-123.9622702,"Cannon Beach, Oregon",Cannon Beach,OR,United States,,,,Railway Stations,,,,,,0,0
-CAY,43.9736622,-71.1414157,"Conway, New Hampshire",Conway,NH,United States,,,,Railway Stations,,,,,,0,0
-CBR,32.3497609,-97.3822209,"Cleburne, Texas",Cleburne,TX,United States,,,,Railway Stations,,,,,,0,0
+CBR,32.3497681,-97.3822332,"Cleburne, Texas",Cleburne,TX,United States,,,,Railway Stations,,,,,,0,0
+CDL,37.73238000000001,-89.2175633,"Carbondale, Illinois",Carbondale,IL,United States,,,,Railway Stations,,,,,,0,0
 CBS,43.3407044,-89.0125862,"Columbus, Wisconsin",Columbus,WI,United States,,,,Railway Stations,,,,,,0,0
-CBY,43.3690589,-124.2133847,"Coos Bay, Oregon",Coos Bay,OR,United States,,,,Railway Stations,,,,,,0,0
-CDL,37.7324151,-89.2175671,"Carbondale, Illinois",Carbondale,IL,United States,,,,Railway Stations,,,,,,0,0
 CEN,38.5278748,-89.1354229,"Centralia, Illinois",Centralia,IL,United States,,,,Railway Stations,,,,,,0,0
-CDN,44.1921761,-69.10776899999999,"Camden/Rockport, Maine",Rockport,ME,United States,,,,Railway Stations,,,,,,0,0
+CHS,32.8799919,-80.00092819999999,"Charleston, South Carolina",North Charleston,SC,United States,,,,Railway Stations,,,,,,0,0
 CHI,41.8787387,-87.6394832,"Chicago (Union Station), Illinois",Chicago,IL,United States,,,,Railway Stations,,,,,,0,0
-CFX,46.8755335,-117.3649472,"Colfax, Washington",Colfax,WA,United States,,,,Railway Stations,,,,,,0,0
-CHM,40.1157933,-88.2411853,"Champaign-Urbana, Illlinois",Champaign,IL,United States,,,,Railway Stations,,,,,,0,0
-CHS,32.8737383,-79.9968473,"Charleston, South Carolina",North Charleston,SC,United States,,,,Railway Stations,,,,,,0,0
+CHM,40.11578859999999,-88.24120099999999,"Champaign-Urbana, Illlinois",Champaign,IL,United States,,,,Railway Stations,,,,,,0,0
 CHW,38.3463227,-81.6384011,"Charleston, West Virginia",Charleston,WV,United States,,,,Railway Stations,,,,,,0,0
-CHY,41.121667,-104.804378,"Cheyenne, Wyoming",Cheyenne,WY,United States,,,,Railway Stations,,,,,,0,0
-CIN,39.1099202,-84.53763040000001,"Cincinnati, Ohio",Cincinnati,OH,United States,,,,Railway Stations,,,,,,0,0
 CIC,39.7232569,-121.845454,"Chico, California",Chico,CA,United States,,,,Railway Stations,,,,,,0,0
 CLB,33.993876,-81.0413228,"Columbia, South Carolina",Columbia,SC,United States,,,,Railway Stations,,,,,,0,0
+CIN,39.1098737,-84.53747369999999,"Cincinnati, Ohio",Cincinnati,OH,United States,,,,Railway Stations,,,,,,0,0
 CLA,43.3681942,-72.3776683,"Claremont, New Hampshire",Claremont,NH,United States,,,,Railway Stations,,,,,,0,0
-CLE,41.5058329,-81.69608629999999,"Cleveland, Ohio",Cleveland,OH,United States,,,,Railway Stations,,,,,,0,0
-CLC,44.2648725,-85.40608739999999,"Cadillac, Michigan",Cadillac,MI,United States,,,,Railway Stations,,,,,,0,0
-CLF,37.81201799999999,-79.8362562,"Clifton Forge, Virginia",Clifton Forge,VA,United States,,,,Railway Stations,,,,,,0,0
-CLM,34.0944074,-117.7169061,"Claremont, California",Claremont,CA,United States,,,,Railway Stations,,,,,,0,0
+CLE,41.5056382,-81.6964335,"Cleveland, Ohio",Cleveland,OH,United States,,,,Railway Stations,,,,,,0,0
+CLF,37.8152086,-79.8274577,"Clifton Forge, Virginia",Clifton Forge,VA,United States,,,,Railway Stations,,,,,,0,0
 CLT,35.2411121,-80.82307519999999,"Charlotte, North Carolina",Charlotte,NC,United States,,,,Railway Stations,,,,,,0,0
 CLP,38.4722763,-77.9936242,"Culpeper, Virginia",Culpeper,VA,United States,,,,Railway Stations,,,,,,0,0
-CML,34.2158668,-119.0347276,"Camarillo, California (Trains)",Camarillo,CA,United States,,,,Railway Stations,,,,,,0,0
-CLV,38.7995395,-123.0110458,"Cloverdale, California",Cloverdale,CA,United States,,,,Railway Stations,,,,,,0,0
-CNG,39.9276285,-122.1790954,"Corning, California",Corning,CA,United States,,,,Railway Stations,,,,,,0,0
-CMO,43.2116212,-121.779151,"Chemult, Oregon",Chemult,OR,United States,,,,Railway Stations,,,,,,0,0
+CML,34.2158585,-119.0347031,"Camarillo, California (Trains)",Camarillo,CA,United States,,,,Railway Stations,,,,,,0,0
+CMO,43.2166741,-121.7814149,"Chemult, Oregon",Chemult,OR,United States,,,,Railway Stations,,,,,,0,0
 LVW,32.4941441,-94.72774899999999,"Longview, Texas",Longview,TX,United States,,,,Railway Stations,,,,,,0,0
-LVS,36.1709004,-115.1474552,"Las Vegas (Downtown), Nevada",Las Vegas,NV,United States,,,,Railway Stations,,,,,,0,0
-LYH,37.40642770000001,-79.15711449999999,"Lynchburg, Virginia",Lynchburg,VA,United States,,,,Railway Stations,,,,,,0,0
-LWN,46.4272013,-117.0054762,"Lewiston, Idaho",Lewiston,ID,United States,,,,Railway Stations,,,,,,0,0
-MAC,40.4613434,-90.67096579999999,"Macomb, Illinois",Macomb,IL,United States,,,,Railway Stations,,,,,,0,0
-MAK,45.7794664,-84.7259251,"Mackinaw City, Michigan",Mackinaw City,MI,United States,,,,Railway Stations,,,,,,0,0
-MAT,39.4830156,-88.3758555,"Mattoon, Illinois",Mattoon,IL,United States,,,,Railway Stations,,,,,,0,0
-MAL,48.3598237,-107.8741236,"Malta, Montana",Malta,MT,United States,,,,Railway Stations,,,,,,0,0
+LYH,37.4064172,-79.15711,"Lynchburg, Virginia",Lynchburg,VA,United States,,,,Railway Stations,,,,,,0,0
+MAC,40.4613428,-90.6709727,"Macomb, Illinois",Macomb,IL,United States,,,,Railway Stations,,,,,,0,0
+MAL,48.3597925,-107.8727452,"Malta, Montana",Malta,MT,United States,,,,Railway Stations,,,,,,0,0
+MAT,39.482986,-88.3758476,"Mattoon, Illinois",Mattoon,IL,United States,,,,Railway Stations,,,,,,0,0
 MAY,38.6520483,-83.77123019999999,"Maysville,  Kentucky",Maysville,KY,United States,,,,Railway Stations,,,,,,0,0
-MCA,44.8991632,-116.0966402,"McCall, Idaho",McCall,ID,United States,,,,Railway Stations,,,,,,0,0
-MCD,37.3069922,-120.4769441,"Merced, California",Merced,CA,United States,,,,Railway Stations,,,,,,0,0
-MCB,31.2437842,-90.4513668,"McComb, Mississippi",McComb,MS,United States,,,,Railway Stations,,,,,,0,0
-MCG,31.443038,-97.4054479,"McGregor, Texas",McGregor,TX,United States,,,,Railway Stations,,,,,,0,0
+MCB,31.24455369999999,-90.4512453,"McComb, Mississippi",McComb,MS,United States,,,,Railway Stations,,,,,,0,0
+MCD,37.3073158,-120.4767196,"Merced, California",Merced,CA,United States,,,,Railway Stations,,,,,,0,0
 MCI,41.7208066,-86.9052651,"Michigan City, Indiana",Michigan City,IN,United States,,,,Railway Stations,,,,,,0,0
+MCG,31.4434202,-97.4047578,"McGregor, Texas",McGregor,TX,United States,,,,Railway Stations,,,,,,0,0
+MDN,41.5394302,-72.80078139999999,"Meriden, Connecticut",Meriden,CT,United States,,,,Railway Stations,,,,,,0,0
 MCK,40.1978017,-100.6259104,"McCook, Nebraska",McCook,NE,United States,,,,Railway Stations,,,,,,0,0
-MDN,41.539447,-72.8007693,"Meriden, Connecticut",Meriden,CT,United States,,,,Railway Stations,,,,,,0,0
-MDP,37.5746024,-119.951325,"Midpines, California",Midpines,CA,United States,,,,Railway Stations,,,,,,0,0
-MDR,36.9743905,-120.018752,"Madera, California",Madera,CA,United States,,,,Railway Stations,,,,,,0,0
-MDT,41.5495327,-89.11793070000002,"Mendota, Illinois",Mendota,IL,United States,,,,Railway Stations,,,,,,0,0
 MEI,32.3639891,-88.6963131,"Meridian, Mississippi",Meridian,MS,United States,,,,Railway Stations,,,,,,0,0
-MEN,26.2038775,-98.23607439999999,"McAllen, Texas",McAllen,TX,United States,,,,Railway Stations,,,,,,0,0
-MEM,35.13265,-90.060874,"Memphis, Tennessee",Memphis,TN,United States,,,,Railway Stations,,,,,,0,0
+MDR,36.9743871,-120.0183247,"Madera, California",Madera,CA,United States,,,,Railway Stations,,,,,,0,0
+MDT,41.5495327,-89.11793070000002,"Mendota, Illinois",Mendota,IL,United States,,,,Railway Stations,,,,,,0,0
 MET,40.5680782,-74.3293379,"Metropark (Iselin), New Jersey",Iselin,NJ,United States,,,,Railway Stations,,,,,,0,0
-MEW,47.8565495,-121.9711898,"Monroe, Washington",Monroe,WA,United States,,,,Railway Stations,,,,,,0,0
-MFR,42.3245045,-122.8717744,"Medford, Oregon",Medford,OR,United States,,,,Railway Stations,,,,,,0,0
 MHL,32.5515637,-94.367384,"Marshall, Texas",Marshall,TX,United States,,,,Railway Stations,,,,,,0,0
-MHT,42.9870967,-71.4658796,"Manchester, New Hampshire",Manchester,NH,United States,,,,Railway Stations,,,,,,0,0
-MIA,25.8494717,-80.25795590000001,"Miami, Florida",Miami,FL,United States,,,,Railway Stations,,,,,,0,0
-MID,40.1933124,-76.7317199,"Middletown, Pennsylvania",Middletown,PA,United States,,,,Railway Stations,,,,,,0,0
+MIA,25.8494915,-80.2579812,"Miami, Florida",Miami,FL,United States,,,,Railway Stations,,,,,,0,0
+MJY,40.109246,-76.503563,"Mount Joy, Pennsylvania",Mount Joy,PA,United States,,,,Railway Stations,,,,,,0,0
 MIN,32.661931,-95.49030020000001,"Mineola, Texas",Mineola,TX,United States,,,,Railway Stations,,,,,,0,0
 MKA,42.9408427,-87.92351269999999,"Milwaukee (General Mitchell Intl Airport), Wiscons",Milwaukee,WI,United States,,,,Railway Stations,,,,,,0,0
-MJY,40.109246,-76.503563,"Mount Joy, Pennsylvania",Mount Joy,PA,United States,,,,Railway Stations,,,,,,0,0
-MKV,40.97065,-124.103917,"McKinleyville (Arcata Airport), California",McKinleyville,CA,United States,,,,Railway Stations,,,,,,0,0
-MKE,43.0343702,-87.91776349999999,"Milwaukee, Wisconsin",Milwaukee,WI,United States,,,,Railway Stations,,,,,,0,0
-MLI,41.5071021,-90.519472,"Moline, Illinois",Moline,IL,United States,,,,Railway Stations,,,,,,0,0
-MLK,47.1009021,-119.2442446,"Moses Lake, Washington",Moses Lake,WA,United States,,,,Railway Stations,,,,,,0,0
-MNI,45.6642063,-123.1647419,"Manning, Oregon",Manning,OR,United States,,,,Railway Stations,,,,,,0,0
+MID,40.1933124,-76.7317199,"Middletown, Pennsylvania",Middletown,PA,United States,,,,Railway Stations,,,,,,0,0
+MKE,43.0343041,-87.9173783,"Milwaukee, Wisconsin",Milwaukee,WI,United States,,,,Railway Stations,,,,,,0,0
 MNG,38.1808399,-81.3237639,"Montgomery, West Virginia",Montgomery,WV,United States,,,,Railway Stations,,,,,,0,0
-MOD,37.6690127,-120.9127246,"Modesto, California",Modesto,CA,United States,,,,Railway Stations,,,,,,0,0
-MOC,46.7304054,-117.0023132,"Moscow, Idaho",Moscow,ID,United States,,,,Railway Stations,,,,,,0,0
-MOG,30.6705662,-88.1011511,"Mobile (Greyhound), Alabama",Mobile,AL,United States,,,,Railway Stations,,,,,,0,0
-MOJ,35.0527985,-118.1733064,"Mojave, California",Mojave,CA,United States,,,,Railway Stations,,,,,,0,0
-MOT,48.2352263,-101.2989011,"Minot, North Dakota",Minot,ND,United States,,,,Railway Stations,,,,,,0,0
-MOV,33.9172064,-117.284646,"Moreno Valley, California",Riverside,CA,United States,,,,Railway Stations,,,,,,0,0
-MPK,34.2853943,-118.8777116,"Moorpark, California",Moorpark,CA,United States,,,,Railway Stations,,,,,,0,0
+MOD,37.6689502,-120.9127101,"Modesto, California",Modesto,CA,United States,,,,Railway Stations,,,,,,0,0
+MOT,48.2352262,-101.2989016,"Minot, North Dakota",Minot,ND,United States,,,,Railway Stations,,,,,,0,0
+MPK,34.2848664,-118.8780516,"Moorpark, California",Moorpark,CA,United States,,,,Railway Stations,,,,,,0,0
+TRU,39.3274615,-120.1857121,"Truckee, California",Truckee,CA,United States,,,,Railway Stations,,,,,,0,0
 TRK,37.527611,-120.79734,"Turlock-Denair, California",Denair,CA,United States,,,,Railway Stations,,,,,,0,0
-TRU,39.3275034,-120.1855749,"Truckee, California",Truckee,CA,United States,,,,Railway Stations,,,,,,0,0
-TRV,44.7661053,-85.6270536,"Traverse City, Michigan",Traverse City,MI,United States,,,,Railway Stations,,,,,,0,0
 TUK,47.4618012,-122.2739982,"Tukwila, Washington",Tukwila,WA,United States,,,,Railway Stations,,,,,,0,0
-TSY,35.9650754,-112.1303269,"Tusayan(Grand Canyon Village), Arizona",Tusayan,AZ,United States,,,,Railway Stations,,,,,,0,0
 PLB,44.6964206,-73.4460828,"Plattsburgh, New York",Plattsburgh,NY,United States,,,,Railway Stations,,,,,,0,0
-PLO,41.6622485,-88.5382853,"Plano, Illinois",Plano,IL,United States,,,,Railway Stations,,,,,,0,0
-PMO,43.7581397,-71.6873176,"Plymouth, New Hampshire",Plymouth,NH,United States,,,,Railway Stations,,,,,,0,0
-PMD,34.5794343,-118.1164613,"Palmdale (Amtrak Thruway), California",Palmdale,CA,United States,,,,Railway Stations,,,,,,0,0
+PLO,41.6622552,-88.5382879,"Plano, Illinois",Plano,IL,United States,,,,Railway Stations,,,,,,0,0
 PNT,42.6329582,-83.2922365,"Pontiac, Michigan",Pontiac,MI,United States,,,,Railway Stations,,,,,,0,0
 POG,43.5470272,-89.4672082,"Portage, Wisconsin",Portage,WI,United States,,,,Railway Stations,,,,,,0,0
+POH,44.0423445,-73.4588248,"Port Henry, New York",Port Henry,NY,United States,,,,Railway Stations,,,,,,0,0
+POR,43.6539733,-70.29126289999999,"Portland, Maine",Portland,ME,United States,,,,Railway Stations,,,,,,0,0
 PON,40.879445,-88.63683259999999,"Pontiac, Illinois",Pontiac,IL,United States,,,,Railway Stations,,,,,,0,0
-POH,44.04286099999999,-73.4577546,"Port Henry, New York",Port Henry,NY,United States,,,,Railway Stations,,,,,,0,0
-POS,34.0591298,-117.7513089,"Pomona (Sunset Ltd), California",Pomona,CA,United States,,,,Railway Stations,,,,,,0,0
-POR,43.6540121,-70.2910883,"Portland, Maine",Portland,ME,United States,,,,Railway Stations,,,,,,0,0
+POS,34.0591136,-117.7513774,"Pomona (Sunset Ltd), California",Pomona,CA,United States,,,,Railway Stations,,,,,,0,0
 POU,41.7070902,-73.9376738,"Poughkeepsie, New York",Poughkeepsie,NY,United States,,,,Railway Stations,,,,,,0,0
 PRB,35.622392,-120.688166,"Paso Robles, California",Paso Robles,CA,United States,,,,Railway Stations,,,,,,0,0
-PRI,33.8028333,-117.228641,"Perris, California",Perris,CA,United States,,,,Railway Stations,,,,,,0,0
 PRC,37.8570839,-81.05968519999999,"Prince, West Virginia (Beckley)",Prince,WV,United States,,,,Railway Stations,,,,,,0,0
 PRK,44.5265409,-73.4090087,"Port Kent, New York",Port Kent,NY,United States,,,,Railway Stations,,,,,,0,0
-PRO,40.2258682,-111.6639835,"Provo, Utah",Provo,UT,United States,,,,Railway Stations,,,,,,0,0
-PSK,45.37374639999999,-84.96412939999999,"Petoskey, Michigan",Petosky,MI,United States,,,,Railway Stations,,,,,,0,0
-PSC,46.2369012,-119.0874718,"Pasco, Washington",Pasco,WA,United States,,,,Railway Stations,,,,,,0,0
-PSP,33.8231465,-116.506618,"Palm Springs (Buses), California",Palm Springs,CA,United States,,,,Railway Stations,,,,,,0,0
-PSN,33.8965949,-116.5472604,"Palm Springs (Train), California",North Palm Springs,CA,United States,,,,Railway Stations,,,,,,0,0
-PST,45.56947100000001,-84.7833689,"Pellston, Michigan",Pellston,MI,United States,,,,Railway Stations,,,,,,0,0
+PSC,46.2368394,-119.08748,"Pasco, Washington",Pasco,WA,United States,,,,Railway Stations,,,,,,0,0
+PRO,40.2260676,-111.6639933,"Provo, Utah",Provo,UT,United States,,,,Railway Stations,,,,,,0,0
+PSN,33.8976997,-116.5481169,"Palm Springs (Train), California",North Palm Springs,CA,United States,,,,Railway Stations,,,,,,0,0
 PTB,37.2432919,-77.427295,"Petersburg, Virginia",Petersburg,VA,United States,,,,Railway Stations,,,,,,0,0
-PTC,38.2423372,-122.6316256,"Petaluma, California",Petaluma,CA,United States,,,,Railway Stations,,,,,,0,0
-PTE,48.05310559999999,-119.8992609,"Pateros, Washington",Pateros,WA,United States,,,,Railway Stations,,,,,,0,0
-PUB,38.2884378,-104.6007213,"Pueblo, Colorado",Pueblo,CO,United States,,,,Railway Stations,,,,,,0,0
 PTH,42.9609763,-82.44217060000001,"Port Huron, Michigan",Port Huron,MI,United States,,,,Railway Stations,,,,,,0,0
-PUL,46.7377659,-117.1743126,"Pullman, Washington",Pullman,WA,United States,,,,Railway Stations,,,,,,0,0
 PUR,35.0187733,-97.3575295,"Purcell, Oklahoma",Purcell,OK,United States,,,,Railway Stations,,,,,,0,0
-PVD,41.8292763,-71.4132176,"Providence, Rhode Island",Providence,RI,United States,,,,Railway Stations,,,,,,0,0
+PVD,41.829243,-71.413282,"Providence, Rhode Island",Providence,RI,United States,,,,Railway Stations,,,,,,0,0
 PVL,34.741411,-97.2188546,"Pauls Valley, Oklahoma",Pauls Valley,OK,United States,,,,Railway Stations,,,,,,0,0
-PXN,33.574974,-112.1210338,"Phoenix (Metro Center Transit Station), Arizona",Phoenix,AZ,United States,,,,Railway Stations,,,,,,0,0
 QAN,38.5218364,-77.292829,"Quantico, Virginia",Quantico,VA,United States,,,,Railway Stations,,,,,,0,0
-QUC,47.2393,-119.851339,"Quincy, Washington",Quincy,WA,United States,,,,Railway Stations,,,,,,0,0
 QCY,39.957231,-91.36754979999999,"Quincy, Illinois",Quincy,IL,United States,,,,Railway Stations,,,,,,0,0
 RAT,36.9009857,-104.438423,"Raton, New Mexico",Raton,NM,United States,,,,Railway Stations,,,,,,0,0
-RBF,40.1694734,-122.2284352,"Red Bluff, California",Red Bluff,CA,United States,,,,Railway Stations,,,,,,0,0
 RDD,40.582844,-122.3933402,"Redding (Amtrak Station), California",Redding,CA,United States,,,,Railway Stations,,,,,,0,0
-RCK,42.268635,-88.966004,"Rockford, Illinois",Rockford,IL,United States,,,,Railway Stations,,,,,,0,0
-RDR,40.5834489,-122.3927831,"Redding (RABA Transit Center), California",Redding,CA,United States,,,,Railway Stations,,,,,,0,0
-RDM,44.2556766,-121.16456,"Redmond Airport, Oregon",Redmond,OR,United States,,,,Railway Stations,,,,,,0,0
-RDS,40.4844046,-124.1006365,"Rio Dell-Scotia, California",Scotia,CA,United States,,,,Railway Stations,,,,,,0,0
 RDW,44.5665249,-92.53760150000001,"Red Wing, Minnesota",Red Wing,MN,United States,,,,Railway Stations,,,,,,0,0
-RED,44.253221,-121.1827754,"Redmond, Oregon",Redmond,OR,United States,,,,Railway Stations,,,,,,0,0
-REE,43.887436,-85.5228944,"Reed City, Michigan",Reed City,MI,United States,,,,Railway Stations,,,,,,0,0
 REN,40.9418811,-87.15424469999999,"Rensselaer, Indiana",Rensselaer,IN,United States,,,,Railway Stations,,,,,,0,0
-RGH,35.7750424,-78.6458116,"Raleigh, North Carolina",Raleigh,NC,United States,,,,Railway Stations,,,,,,0,0
+LWA,47.6065415,-120.6459669,"Leavenworth, WA",Leavenworth,WA,United States,,,,Railway Stations,,,,,,0,0
 NYF,43.0728112,-76.2163686,"Syracuse, NY",Syracuse,NY,United States,,,,Railway Stations,,,,,,0,0
-LWA,47.6068046,-120.6458198,"Leavenworth, WA",Leavenworth,WA,United States,,,,Railway Stations,,,,,,0,0
-OCM,38.33355299999999,-75.103932,"Ocean City, MD",Ocean City,MD,United States,,,,Railway Stations,,,,,,0,0
-PDC,33.7259165,-116.3995293,"Palm Desert, CA",Palm Desert,CA,United States,,,,Railway Stations,,,,,,0,0
-WIT,44.82665859999999,-89.1642246,"Wittenberg, WI",Wittenberg,WI,United States,,,,Railway Stations,,,,,,0,0
-WMN,34.2510908,-77.8749149,"Wilmington, NC",Wilmington,NC,United States,,,,Railway Stations,,,,,,0,0
-BCV,38.7973913,-77.29883459999999,"Burke Centre, VA",Burke Centre,VA,United States,,,,Railway Stations,,,,,,0,0
+RGH,35.7749524,-78.6457635,"Raleigh, North Carolina",Raleigh,NC,United States,,,,Railway Stations,,,,,,0,0
 FRC,39.411879,-77.4054515,"Frederick, MD",Frederick,MD,United States,,,,Railway Stations,,,,,,0,0
-CBV,33.1609219,-117.3507984,"Carlsbad Village, CA",Carlsbad Village,CA,United States,,,,Railway Stations,,,,,,0,0
-POI,33.1093598,-117.3188936,"Carlsbad Poinsettia, CA",Carlsbad Poinsettia,CA,United States,,,,Railway Stations,,,,,,0,0
+BCV,38.7973913,-77.29883459999999,"Burke Centre, VA",Burke Centre,VA,United States,,,,Railway Stations,,,,,,0,0
 ENC,33.0459082,-117.2928135,"Encinitas, CA",Encinitas,CA,United States,,,,Railway Stations,,,,,,0,0
+CBV,33.1608732,-117.3509622,"Carlsbad Village, CA",Carlsbad Village,CA,United States,,,,Railway Stations,,,,,,0,0
+POI,33.109235,-117.3188153,"Carlsbad Poinsettia, CA",Carlsbad Poinsettia,CA,United States,,,,Railway Stations,,,,,,0,0
+LTM,37.7985118,-121.2648304,"Manteca, CA",Lathrop-Manteca,CA,United States,,,,Railway Stations,,,,,,0,0
 SRB,32.8897926,-117.209414,"Sorrento Valley, CA",Sorrento Valley,CA,United States,,,,Railway Stations,,,,,,0,0
 PLS,37.6586049,-121.8821735,"Pleasanton, CA",Pleasanton,CA,United States,,,,Railway Stations,,,,,,0,0
-LTM,37.7985118,-121.2648304,"Manteca, CA",Lathrop-Manteca,CA,United States,,,,Railway Stations,,,,,,0,0
 VAS,37.694959,-121.718398,"Livermore, CA",Livermore,CA,United States,,,,Railway Stations,,,,,,0,0
 TRC,37.6978481,-121.4345303,"Tracy, CA",Tracy,CA,United States,,,,Railway Stations,,,,,,0,0
-ABB,44.9182174,-90.31560920000001,"Abbotsford-Colby, WI",Abbotsford-Colby,WI,United States,,,,Railway Stations,,,,,,0,0
-AMC,37.471719,-105.8846162,"Alamosa, CO",Alamosa,CO,United States,,,,Railway Stations,,,,,,0,0
-TUS,32.2231181,-110.9666902,"Tucson, Arizona",Tucson,AZ,United States,,,,Railway Stations,,,,,,0,0
 TXA,33.4199734,-94.0427788,"Texarkana, Arkansas",Texarkana,AR,United States,,,,Railway Stations,,,,,,0,0
-UCA,43.1039276,-75.223901,"Utica, New York",Utica,NY,United States,,,,Railway Stations,,,,,,0,0
+TUS,32.22312,-110.9666905,"Tucson, Arizona",Tucson,AZ,United States,,,,Railway Stations,,,,,,0,0
+UCA,43.1041444,-75.2232638,"Utica, New York",Utica,NY,United States,,,,Railway Stations,,,,,,0,0
 TYR,40.67048,-78.23834769999999,"Tyrone, Pennsylvania",Tyrone,PA,United States,,,,Railway Stations,,,,,,0,0
-UKH,39.1513634,-123.1935385,"Ukiah, California",Ukiah,CA,United States,,,,Railway Stations,,,,,,0,0
-UWS,36.0890846,-80.2256648,"Winston-Salem State Univ, Winston-Salem, North Car",Winston-Salem,NC,United States,,,,Railway Stations,,,,,,0,0
-VAE,43.982254,-117.248384,"Vale, Oregon",Vale,OR,United States,,,,Railway Stations,,,,,,0,0
-VAB,36.84713929999999,-75.97608699999999,"Virginia Beach, Virginia",Virginia Beach,VA,United States,,,,Railway Stations,,,,,,0,0
-VAL,38.135883,-122.2566128,"Vallejo, California",Vallejo,CA,United States,,,,Railway Stations,,,,,,0,0
-VAI,39.6428141,-106.3737563,"Vail, Colorado",Vail,CO,United States,,,,Railway Stations,,,,,,0,0
-VAN,45.6288062,-122.6865003,"Vancouver, Washington, United States",Vancouver,WA,United States,,,,Railway Stations,,,,,,0,0
+VAN,45.628744,-122.6866337,"Vancouver, Washington, United States",Vancouver,WA,United States,,,,Railway Stations,,,,,,0,0
 VEC,34.2768902,-119.2977127,"Ventura, California",Ventura,CA,United States,,,,Railway Stations,,,,,,0,0
-VIS,36.331648,-119.288631,"Visalia, California",Visalia,CA,United States,,,,Railway Stations,,,,,,0,0
-VMW,38.1396558,-122.2312019,"Marine World (Seasonal), Vallejo, California",Vallejo,CA,United States,,,,Railway Stations,,,,,,0,0
 VNC,34.2113708,-118.4483257,"Van Nuys (Amtrak), California",Van Nuys,CA,United States,,,,Railway Stations,,,,,,0,0
-VRV,34.5373078,-117.2940987,"Victorville, California",Victorville,CA,United States,,,,Railway Stations,,,,,,0,0
-WAC,35.5942219,-119.3321049,"Wasco, California",Wasco,CA,United States,,,,Railway Stations,,,,,,0,0
 WAB,44.3346025,-72.75318109999999,"Waterbury, Vermont",Waterbury,VT,United States,,,,Railway Stations,,,,,,0,0
-WAR,38.7628112,-93.74093090000001,"Warrensburg, Missouri",Warrensburg,MO,United States,,,,Railway Stations,,,,,,0,0
+VRV,34.5373078,-117.2940987,"Victorville, California",Victorville,CA,United States,,,,Railway Stations,,,,,,0,0
 WAH,38.5614832,-91.0125537,"Washington, Missouri",Washington,MO,United States,,,,Railway Stations,,,,,,0,0
-WAU,44.356666,-89.11984799999999,"Waupaca, Wisconsin",Waupaca,WI,United States,,,,Railway Stations,,,,,,0,0
+WAC,35.5942262,-119.3321208,"Wasco, California",Wasco,CA,United States,,,,Railway Stations,,,,,,0,0
+WAR,38.7628112,-93.74093090000001,"Warrensburg, Missouri",Warrensburg,MO,United States,,,,Railway Stations,,,,,,0,0
+WBG,37.27654270000001,-76.70865599999999,"Williamsburg, Virginia",Williamsburg,VA,United States,,,,Railway Stations,,,,,,0,0
 WAS,38.8975799,-77.0061578,"Washington, District of Columbia",Washington,DC,United States,,,,Railway Stations,,,,,,0,0
-WCT,42.4239256,-122.8513246,"White City, Oregon",White City,OR,United States,,,,Railway Stations,,,,,,0,0
-WBG,37.2765485,-76.70865409999999,"Williamsburg, Virginia",Williamsburg,VA,United States,,,,Railway Stations,,,,,,0,0
-WDB,38.6591499,-77.24745999999999,"Woodbridge, Virginia",Woodbridge,VA,United States,,,,Railway Stations,,,,,,0,0
 WDL,43.625502,-89.77534399999999,"Wisconsin Dells, Wisconsin",Wisconsin Dells,WI,United States,,,,Railway Stations,,,,,,0,0
-WDO,29.790267,-82.1655145,"Waldo, Florida",Waldo,FL,United States,,,,Railway Stations,,,,,,0,0
-WDR,44.0956739,-69.38450929999999,"Waldoboro, Maine",Waldoboro,ME,United States,,,,Railway Stations,,,,,,0,0
-WEM,43.323862,-70.61205869999999,"Wells, Maine",Wells,ME,United States,,,,Railway Stations,,,,,,0,0
+WDB,38.6589297,-77.24704129999999,"Woodbridge, Virginia",Woodbridge,VA,United States,,,,Railway Stations,,,,,,0,0
+WEM,43.3240035,-70.61279760000001,"Wells, Maine",Wells,ME,United States,,,,Railway Stations,,,,,,0,0
 WEN,47.4213868,-120.3072314,"Wenatchee, Washington",Wenatchee,WA,United States,,,,Railway Stations,,,,,,0,0
-WFD,41.4573142,-72.8249721,"Wallingford, Connecticut",Wallingford,CT,United States,,,,Railway Stations,,,,,,0,0
 WFH,48.4135715,-114.3357669,"Whitefish, Montana",Whitefish,MT,United States,,,,Railway Stations,,,,,,0,0
+WFD,41.4573142,-72.8249721,"Wallingford, Connecticut",Wallingford,CT,United States,,,,Railway Stations,,,,,,0,0
 WHL,43.555451,-73.4022959,"Whitehall, New York",Whitehall,NY,United States,,,,Railway Stations,,,,,,0,0
-WGL,48.4949467,-113.9810351,"West Glacier, Montana",West Glacier,MT,United States,,,,Railway Stations,,,,,,0,0
+WGL,48.4950041,-113.9811091,"West Glacier, Montana",West Glacier,MT,United States,,,,Railway Stations,,,,,,0,0
 WIH,45.6604229,-120.9590624,"Wishram, Washington",Wishram,WA,United States,,,,Railway Stations,,,,,,0,0
-WHT,42.0465474,-104.9680666,"Wheatland, Wyoming",Wheatland,WY,United States,,,,Railway Stations,,,,,,0,0
+WIL,39.7369407,-75.55104829999999,"Wilmington, Delaware",Wilmington,DE,United States,,,,Railway Stations,,,,,,0,0
 WIN,44.0443131,-91.640154,"Winona, Minnesota",Winona,MN,United States,,,,Railway Stations,,,,,,0,0
-WIL,39.7368895,-75.5509075,"Wilmington, Delaware",Wilmington,DE,United States,,,,Railway Stations,,,,,,0,0
-WLN,35.723203,-77.90785300000002,"Wilson, North Carolina",Wilson,NC,United States,,,,Railway Stations,,,,,,0,0
-WIP,39.947646,-105.8188779,"Winter Park/Fraser, Colorado",Fraser,CO,United States,,,,Railway Stations,,,,,,0,0
 WLO,35.0216506,-110.693746,"Winslow, Arizona",Winslow,AZ,United States,,,,Railway Stations,,,,,,0,0
-WLY,41.3811604,-71.8298329,"Westerly, Rhode Island",Westerly,RI,United States,,,,Railway Stations,,,,,,0,0
-WMA,35.2522818,-112.190597,"Williams, Arizona",Williams,AZ,United States,,,,Railway Stations,,,,,,0,0
+WIP,39.947646,-105.8188779,"Winter Park/Fraser, Colorado",Fraser,CO,United States,,,,Railway Stations,,,,,,0,0
+WLN,35.723203,-77.90785300000002,"Wilson, North Carolina",Wilson,NC,United States,,,,Railway Stations,,,,,,0,0
+WLY,41.381181,-71.82982299999999,"Westerly, Rhode Island",Westerly,RI,United States,,,,Railway Stations,,,,,,0,0
 WMJ,35.2430678,-112.1354454,"Williams Junction, Arizona",Williams Junction,AZ,United States,,,,Railway Stations,,,,,,0,0
-WNK,45.26621,-84.9249751,"Walloon Lake, Michigan",Walloon Lake,MI,United States,,,,Railway Stations,,,,,,0,0
-WND,41.8519204,-72.64147070000001,"Windsor, Connecticut",Windsor,CT,United States,,,,Railway Stations,,,,,,0,0
-WNM,43.4802426,-72.3849681,"Windsor, Vermont",Windsor,VT,United States,,,,Railway Stations,,,,,,0,0
 WNL,41.9142896,-72.6264927,"Windsor Locks, Connecticut",Windsor Locks,CT,United States,,,,Railway Stations,,,,,,0,0
+WND,41.8519014,-72.6415476,"Windsor, Connecticut",Windsor,CT,United States,,,,Railway Stations,,,,,,0,0
+WNM,43.4802426,-72.3849681,"Windsor, Vermont",Windsor,VT,United States,,,,Railway Stations,,,,,,0,0
 WNN,40.969294,-117.732287,"Winnemucca, Nevada",Winnemucca,NV,United States,,,,Railway Stations,,,,,,0,0
 WNR,36.068256,-90.9560103,"Walnut Ridge, Arkansas",Walnut Ridge,AR,United States,,,,Railway Stations,,,,,,0,0
-WNT,46.160487,-123.902939,"Warrenton, Oregon",Warrenton,OR,United States,,,,Railway Stations,,,,,,0,0
-WNS,36.0994819,-80.2455186,"Winston-Salem, North Carolina",Winston-Salem,NC,United States,,,,Railway Stations,,,,,,0,0
-WOR,42.2612373,-71.79495059999999,"Worcester, Massachusetts",Worcester,MA,United States,,,,Railway Stations,,,,,,0,0
-WOB,42.51731669999999,-71.14433860000001,"Woburn, Massachusetts",Woburn,MA,United States,,,,Railway Stations,,,,,,0,0
+WOB,42.5175767,-71.144826,"Woburn, Massachusetts",Woburn,MA,United States,,,,Railway Stations,,,,,,0,0
+WOR,42.2612299,-71.79498199999999,"Worcester, Massachusetts",Worcester,MA,United States,,,,Railway Stations,,,,,,0,0
 WPB,26.7125579,-80.0619701,"West Palm Beach, Florida",West Palm Beach,FL,United States,,,,Railway Stations,,,,,,0,0
 WPK,28.5974661,-81.3518462,"Winter Park, Florida",Winter Park,FL,United States,,,,Railway Stations,,,,,,0,0
-WPT,48.0912091,-105.6415408,"Wolf Point, Montana",Wolf Point,MT,United States,,,,Railway Stations,,,,,,0,0
-WRJ,43.6782802,-72.3698471,"White River Jct., Vermont",White River Jct.,VT,United States,,,,Railway Stations,,,,,,0,0
+WRJ,43.6482704,-72.31752809999999,"White River Jct., Vermont",White River Jct.,VT,United States,,,,Railway Stations,,,,,,0,0
 MPR,44.257038,-72.6077171,"Montpelier, Vermont",Montpelier,VT,United States,,,,Railway Stations,,,,,,0,0
-MRB,39.4584962,-77.9609179,"Martinsburg, West Virginia",Martinsburg,WV,United States,,,,Railway Stations,,,,,,0,0
-MRP,37.4926992,-119.9720916,"Mariposa, California",Mariposa,CA,United States,,,,Railway Stations,,,,,,0,0
+WPT,48.0912087,-105.6415427,"Wolf Point, Montana",Wolf Point,MT,United States,,,,Railway Stations,,,,,,0,0
 MRC,33.0563195,-112.0477559,"Maricopa, Arizona",Maricopa,AZ,United States,,,,Railway Stations,,,,,,0,0
-MRY,36.5977036,-121.8940656,"Monterey (Transit Plaza), California",Monterey,CA,United States,,,,Railway Stations,,,,,,0,0
-MRV,39.1457253,-121.5913547,"Marysville, California",Marysville,CA,United States,,,,Railway Stations,,,,,,0,0
-MSN,43.07611800000001,-89.39966299999999,"Madison, Wisconsin",Madison,WI,United States,,,,Railway Stations,,,,,,0,0
-MSP,44.967043,-93.1968394,"St. Paul/Minneapolis, Minnesota",St. Paul,MN,United States,,,,Railway Stations,,,,,,0,0
-MSS,38.75013130000001,-77.4727937,"Manassas, Virginia",Manassas,VA,United States,,,,Railway Stations,,,,,,0,0
+MRB,39.4584962,-77.9609179,"Martinsburg, West Virginia",Martinsburg,WV,United States,,,,Railway Stations,,,,,,0,0
 MTP,40.9712259,-91.5506408,"Mt. Pleasant, Iowa",Mt. Pleasant,IA,United States,,,,Railway Stations,,,,,,0,0
+MSS,38.75013130000001,-77.4727937,"Manassas, Virginia",Manassas,VA,United States,,,,Railway Stations,,,,,,0,0
+MSP,44.96301589999999,-93.18462960000001,"St. Paul/Minneapolis, Minnesota",St. Paul,MN,United States,,,,Railway Stations,,,,,,0,0
 MTZ,38.0190895,-122.1388315,"Martinez, California",Martinez,CA,United States,,,,Railway Stations,,,,,,0,0
-MVN,34.3660473,-92.812688,"Malvern, Arkansas",Malvern,AR,United States,,,,Railway Stations,,,,,,0,0
 MVW,48.41840510000001,-122.3345414,"Mount Vernon, Washington",Mount Vernon,WA,United States,,,,Railway Stations,,,,,,0,0
-MYA,36.618266,-121.902339,"Monterey (Aquarium), California",Monterey,CA,United States,,,,Railway Stations,,,,,,0,0
-MYM,36.6005762,-121.8953022,"Monterey (Marriott), California",Monterey,CA,United States,,,,Railway Stations,,,,,,0,0
-MYH,36.5928142,-121.8746165,"Monterey (Hyatt Regency), California",Monterey,CA,United States,,,,Railway Stations,,,,,,0,0
-MYT,36.5957544,-121.8926256,"Monterey (Travelodge), California",Monterey,CA,United States,,,,Railway Stations,,,,,,0,0
+MVN,34.3660473,-92.812688,"Malvern, Arkansas",Malvern,AR,United States,,,,Railway Stations,,,,,,0,0
 MYS,41.3513203,-71.96319489999999,"Mystic, Connecticut",Mystic,CT,United States,,,,Railway Stations,,,,,,0,0
-NAM,43.5877837,-116.5323697,"Nampa, Idaho",Nampa,ID,United States,,,,Railway Stations,,,,,,0,0
+NBM,41.7883836,-86.73930299999999,"New Buffalo, Michigan",New Buffalo,MI,United States,,,,Railway Stations,,,,,,0,0
 NBK,40.4960222,-74.446736,"New Brunswick, New Jersey",New Brunswick,NJ,United States,,,,Railway Stations,,,,,,0,0
-NBM,41.7883863,-86.73930469999999,"New Buffalo, Michigan",New Buffalo,MI,United States,,,,Railway Stations,,,,,,0,0
 NBN,36.1127342,-89.26272569999999,"Newbern-Dyersburg, Tennessee",Newbern,TN,United States,,,,Railway Stations,,,,,,0,0
-NCG,31.6182097,-94.6395325,"Nacogdoches, Texas",Nacogdoches,TX,United States,,,,Railway Stations,,,,,,0,0
-NCM,45.9022983,-123.7598983,"Necanicum Junction, Oregon",Necanicum Junction,OR,United States,,,,Railway Stations,,,,,,0,0
-NBT,42.8191566,-70.91369089999999,"Newburyport, Massachusetts",Newburyport,MA,United States,,,,Railway Stations,,,,,,0,0
 NCR,38.9514998,-76.8671279,"New Carrollton, Maryland",New Carrollton,MD,United States,,,,Railway Stations,,,,,,0,0
-PTS,43.0596083,-70.8038001,"Portsmouth, New Hampshire",Portsmouth,NH,United States,,,,Railway Stations,,,,,,0,0
-SDC,34.870779,-111.7598269,"Sedona (Center Bus Stop), Arizona",Sedona,AZ,United States,,,,Railway Stations,,,,,,0,0
 NDL,34.83994790000001,-114.6047964,"Needles, California",Needles,CA,United States,,,,Railway Stations,,,,,,0,0
 NEW,38.0470543,-97.3447286,"Newton, Kansas",Newton,KS,United States,,,,Railway Stations,,,,,,0,0
-NFK,36.853355,-76.291046,"Norfolk, Virginia",Norfolk,VA,United States,,,,Railway Stations,,,,,,0,0
+NHL,34.379337,-118.5269201,"Santa Clarita-Newhall, California",Santa Clarita,CA,United States,,,,Railway Stations,,,,,,0,0
 NFL,43.1151026,-79.0304794,"Niagara Falls, New York, United States",Niagara Falls,NY,United States,,,,Railway Stations,,,,,,0,0
-NHN,43.6183884,-71.6347222,"New Hampton, New Hampshire",New Hampton,NH,United States,,,,Railway Stations,,,,,,0,0
-NHL,34.3793299,-118.5268993,"Santa Clarita-Newhall, California",Santa Clarita,CA,United States,,,,Railway Stations,,,,,,0,0
-NIB,30.0184388,-91.8346772,"New Iberia, Louisiana",New Iberia,LA,United States,,,,Railway Stations,,,,,,0,0
-NHV,41.2975302,-72.9266013,"New Haven, Connecticut",New Haven,CT,United States,,,,Railway Stations,,,,,,0,0
-NLS,41.83729839999999,-86.2522752,"Niles, Michigan",Niles,MI,United States,,,,Railway Stations,,,,,,0,0
 NLC,41.3542276,-72.0933182,"New London, Connecticut",New London,CT,United States,,,,Railway Stations,,,,,,0,0
-NOL,29.9461908,-90.0786334,"New Orleans, Louisiana",New Orleans,LA,United States,,,,Railway Stations,,,,,,0,0
+NIB,30.0184388,-91.8346772,"New Iberia, Louisiana",New Iberia,LA,United States,,,,Railway Stations,,,,,,0,0
+NHV,41.2975206,-72.92660029999999,"New Haven, Connecticut",New Haven,CT,United States,,,,Railway Stations,,,,,,0,0
+NLS,41.8373023,-86.2523026,"Niles, Michigan",Niles,MI,United States,,,,Railway Stations,,,,,,0,0
 NOR,35.21985610000001,-97.4428672,"Norman, Oklahoma",Norman,OK,United States,,,,Railway Stations,,,,,,0,0
-NPO,44.62716349999999,-124.0607431,"Newport, Oregon",Newport,OR,United States,,,,Railway Stations,,,,,,0,0
+NPV,41.7796382,-88.1455514,"Naperville, Illinois",Naperville,IL,United States,,,,Railway Stations,,,,,,0,0
 NPN,37.0228148,-76.4518405,"Newport News, Virginia",Newport News,VA,United States,,,,Railway Stations,,,,,,0,0
-NPV,41.7795984,-88.1455079,"Naperville, Illinois",Naperville,IL,United States,,,,Railway Stations,,,,,,0,0
-NRK,39.6711845,-75.75323039999999,"Newark, Delaware",Newark,DE,United States,,,,Railway Stations,,,,,,0,0
+NRO,40.9532616,-73.826161,"New Rochelle, New York",New Rochelle,NY,United States,,,,Railway Stations,,,,,,0,0
 NSF,35.7947309,-78.7077881,"North Carolina State Fair, North Carolina",Raleigh,NC,United States,,,,Railway Stations,,,,,,0,0
-NRO,40.9332252,-73.7596586,"New Rochelle, New York",New Rochelle,NY,United States,,,,Railway Stations,,,,,,0,0
-NWK,40.7345293,-74.1641904,"Newark (Penn Station), New Jersey",Newark,NJ,United States,,,,Railway Stations,,,,,,0,0
-NYP,40.7487475,-73.98872,"New York (Penn Station), New York",New York,NY,United States,,,,Railway Stations,,,,,,0,0
-OAC,37.75236,-122.1977925,"Coliseum/Oakland Airport, Oakland, California",Oakland,CA,United States,,,,Railway Stations,,,,,,0,0
-OCA,29.1924725,-82.1361609,"Ocala, Florida",Ocala,FL,United States,,,,Railway Stations,,,,,,0,0
-OGW,48.363336,-119.5813696,"Okanagan,  Washington",Okanogan,WA,United States,,,,Railway Stations,,,,,,0,0
-OGD,41.2231791,-111.9790923,"Ogden, Utah",Ogden,UT,United States,,,,Railway Stations,,,,,,0,0
+NRK,39.6702916,-75.7530749,"Newark, Delaware",Newark,DE,United States,,,,Railway Stations,,,,,,0,0
+NWK,40.73455149999999,-74.16408229999999,"Newark (Penn Station), New Jersey",Newark,NJ,United States,,,,Railway Stations,,,,,,0,0
+OAC,37.7524831,-122.19821,"Coliseum/Oakland Airport, Oakland, California",Oakland,CA,United States,,,,Railway Stations,,,,,,0,0
+NYP,40.7522407,-73.99569009999999,"New York (Penn Station), New York",New York,NY,United States,,,,Railway Stations,,,,,,0,0
+OKJ,37.793733,-122.271511,"Oakland, California",Oakland,CA,United States,,,,Railway Stations,,,,,,0,0
 OKE,27.252296,-80.8299998,"Okeechobee, Florida",Okeechobee,FL,United States,,,,Railway Stations,,,,,,0,0
 OKC,35.465359,-97.51277390000001,"Oklahoma City, Oklahoma",Oklahoma City,OK,United States,,,,Railway Stations,,,,,,0,0
-OKO,43.40161,-72.716386,"Okemo, Vermont",Ludlow,VT,United States,,,,Railway Stations,,,,,,0,0
-OKJ,37.7937667,-122.2714754,"Oakland, California",Oakland,CA,United States,,,,Railway Stations,,,,,,0,0
 OLW,46.9913494,-122.7939413,"Olympia/Lacey, Washington",Lacey,WA,United States,,,,Railway Stations,,,,,,0,0
 OLT,32.755617,-117.1998527,"San Diego (Old Town), California",San Diego,CA,United States,,,,Railway Stations,,,,,,0,0
-OMA,41.2497572,-95.9271419,"Omaha, Nebraska",Omaha,NE,United States,,,,Railway Stations,,,,,,0,0
-OMW,48.4158675,-119.5107489,"Omak, Washington",Omak,WA,United States,,,,Railway Stations,,,,,,0,0
-ONT,44.0256096,-116.9520813,"Ontario, Oregon",Ontario,OR,United States,,,,Railway Stations,,,,,,0,0
 ONA,34.0647609,-117.6484045,"Ontario, California",Ontario,CA,United States,,,,Railway Stations,,,,,,0,0
+OMA,41.2497572,-95.9271419,"Omaha, Nebraska",Omaha,NE,United States,,,,Railway Stations,,,,,,0,0
 ORC,45.36594729999999,-122.596051,"Oregon City, Oregon",Oregon City,OR,United States,,,,Railway Stations,,,,,,0,0
 ORB,43.5148794,-70.375745,"Old Orchard Beach, Maine (Seasonal)",Old Orchard Beach,ME,United States,,,,Railway Stations,,,,,,0,0
-ORL,28.5259099,-81.3816578,"Orlando, Florida",Orlando,FL,United States,,,,Railway Stations,,,,,,0,0
-ORO,44.903187,-68.66943909999999,"Orono (University of Maine), Maine",Orono,ME,United States,,,,Railway Stations,,,,,,0,0
-ORV,39.521961,-121.555417,"Oroville, California",Oroville,CA,United States,,,,Railway Stations,,,,,,0,0
+ORL,28.5258853,-81.3816432,"Orlando, Florida",Orlando,FL,United States,,,,Railway Stations,,,,,,0,0
+OSD,33.19293270000001,-117.3792104,"Oceanside, California",Oceanside,CA,United States,,,,Railway Stations,,,,,,0,0
 OSB,41.3002274,-72.3765844,"Old Saybrook, Connecticut",Old Saybrook,CT,United States,,,,Railway Stations,,,,,,0,0
 OSC,41.0377487,-93.7656786,"Osceola, Iowa",Osceola,IA,United States,,,,Railway Stations,,,,,,0,0
-OSD,33.1928016,-117.379367,"Oceanside, California",Oceanside,CA,United States,,,,Railway Stations,,,,,,0,0
 OTM,41.0190708,-92.4142943,"Ottumwa, Iowa",Ottumwa,IA,United States,,,,Railway Stations,,,,,,0,0
-OSH,43.99427619999999,-88.55210129999999,"Oshkosh, Wisconsin",Oshkosh,WI,United States,,,,Railway Stations,,,,,,0,0
-PAK,29.649806,-81.64014949999999,"Palatka, Florida",Palatka,FL,United States,,,,Railway Stations,,,,,,0,0
 OXN,34.1993342,-119.1762104,"Oxnard, California",Oxnard,CA,United States,,,,Railway Stations,,,,,,0,0
-PAO,40.0428175,-75.4837077,"Paoli, Pennsylvania",Paoli,PA,United States,,,,Railway Stations,,,,,,0,0
 PAR,39.9584182,-75.92118959999999,"Parkesburg, Pennsylvania",Parkesburg,PA,United States,,,,Railway Stations,,,,,,0,0
-PAS,34.1433355,-118.1407219,"Pasadena, California",Pasadena,CA,United States,,,,Railway Stations,,,,,,0,0
+PAK,29.649806,-81.64014949999999,"Palatka, Florida",Palatka,FL,United States,,,,Railway Stations,,,,,,0,0
+PAO,40.0428175,-75.4837077,"Paoli, Pennsylvania",Paoli,PA,United States,,,,Railway Stations,,,,,,0,0
 PBF,36.754239,-90.3935728,"Poplar Bluff, Missouri",Poplar Bluff,MO,United States,,,,Railway Stations,,,,,,0,0
+PDX,45.528639,-122.676284,"Portland, Oregon",Portland,OR,United States,,,,Railway Stations,,,,,,0,0
 PCT,41.3852188,-89.4654819,"Princeton, Illinois",Princeton,IL,United States,,,,Railway Stations,,,,,,0,0
-PCH,27.0166557,-82.0524929,"Port Charlotte, Florida",Port Charlotte,FL,United States,,,,Railway Stations,,,,,,0,0
-PDX,45.529154,-122.6767767,"Portland, Oregon",Portland,OR,United States,,,,Railway Stations,,,,,,0,0
-PCV,38.7332116,-120.7889241,"Placerville, California",Placerville,CA,United States,,,,Railway Stations,,,,,,0,0
-PEN,45.6715149,-118.7906983,"Pendleton, Oregon",Pendleton,OR,United States,,,,Railway Stations,,,,,,0,0
 PGH,40.444228,-79.9922328,"Pittsburgh, Pennsylvania",Pittsburgh,PA,United States,,,,Railway Stations,,,,,,0,0
-PHA,33.4354656,-112.0071714,"Phoenix (Airport), Arizona",Phoenix,AZ,United States,,,,Railway Stations,,,,,,0,0
-PHG,33.43604620000001,-112.035626,"Phoenix (Greyhound), Arizona",Phoenix,AZ,United States,,,,Railway Stations,,,,,,0,0
-PHL,39.95572,-75.1819072,"Philadelphia (30th St), Pennsylvania",Philadelphia,PA,United States,,,,Railway Stations,,,,,,0,0
+PHL,39.9552303,-75.1823196,"Philadelphia (30th St), Pennsylvania",Philadelphia,PA,United States,,,,Railway Stations,,,,,,0,0
 PHN,39.9968553,-75.1547688,"Philadelphia (North), Pennsylvania",Philadelphia,PA,United States,,,,Railway Stations,,,,,,0,0
-PIA,40.6669527,-89.6915441,"Peoria, Illinois",Peoria,IL,United States,,,,Railway Stations,,,,,,0,0
+PIT,42.4514161,-73.2539561,"Pittsfield, Massachusetts",Pittsfield,MA,United States,,,,Railway Stations,,,,,,0,0
 PIC,30.5248927,-89.68012949999999,"Picayune, Mississippi",Picayune,MS,United States,,,,Railway Stations,,,,,,0,0
-PIT,42.4514293,-73.2539725,"Pittsfield, Massachusetts",Pittsfield,MA,United States,,,,Railway Stations,,,,,,0,0
-PJC,40.31619140000001,-74.6225702,"Princeton Junction, New Jersey",Princeton Junction,NJ,United States,,,,Railway Stations,,,,,,0,0
-RIC,37.9367671,-122.3530683,"Richmond, California",Richmond,CA,United States,,,,Railway Stations,,,,,,0,0
+RIC,37.937044,-122.3530907,"Richmond, California",Richmond,CA,United States,,,,Railway Stations,,,,,,0,0
 RHI,41.921006,-73.95078099999999,"Rhinecliff, New York",Rhinecliff,NY,United States,,,,Railway Stations,,,,,,0,0
+PJC,40.31619140000001,-74.6225702,"Princeton Junction, New Jersey",Princeton Junction,NJ,United States,,,,Railway Stations,,,,,,0,0
 RIV,33.9756969,-117.369944,"Riverside, California",Riverside,CA,United States,,,,Railway Stations,,,,,,0,0
-RKF,43.1172259,-85.57534,"Rockford, Michigan",Rockford,MI,United States,,,,Railway Stations,,,,,,0,0
-RKV,39.086201,-77.148786,"Rockville, Maryland",Rockville,MD,United States,,,,Railway Stations,,,,,,0,0
-RLN,38.7912937,-121.2371932,"Rocklin, California",Rocklin,CA,United States,,,,Railway Stations,,,,,,0,0
+RKV,39.0988096,-77.1541328,"Rockville, Maryland",Rockville,MD,United States,,,,Railway Stations,,,,,,0,0
 RMT,35.9381927,-77.7974481,"Rocky Mount, North Carolina",Rocky Mount,NC,United States,,,,Railway Stations,,,,,,0,0
-RNO,39.5286644,-119.8117285,"Reno, Nevada",Reno,NV,United States,,,,Railway Stations,,,,,,0,0
-ROD,44.1067924,-69.10805119999999,"Rockland, Maine",Rockland,ME,United States,,,,Railway Stations,,,,,,0,0
-ROC,43.163492,-77.6082129,"Rochester, New York",Rochester,NY,United States,,,,Railway Stations,,,,,,0,0
+RLN,38.7912937,-121.2371932,"Rocklin, California",Rocklin,CA,United States,,,,Railway Stations,,,,,,0,0
+RNO,39.5286667,-119.811731,"Reno, Nevada",Reno,NV,United States,,,,Railway Stations,,,,,,0,0
 ROM,43.1995549,-75.4500455,"Rome, New York",Rome,NY,United States,,,,Railway Stations,,,,,,0,0
-ROY,42.4884066,-83.1475432,"Royal Oak, Michigan",Royal Oak,MI,United States,,,,Railway Stations,,,,,,0,0
-RPC,38.348439,-122.7169674,"Rohnert Park, California",Rohnert Park,CA,United States,,,,Railway Stations,,,,,,0,0
+ROC,43.1635205,-77.60823959999999,"Rochester, New York",Rochester,NY,United States,,,,Railway Stations,,,,,,0,0
+ROY,42.489273,-83.1476134,"Royal Oak, Michigan",Royal Oak,MI,United States,,,,Railway Stations,,,,,,0,0
 RPH,43.92276409999999,-72.664886,"Randolph, Vermont",Randolph,VT,United States,,,,Railway Stations,,,,,,0,0
-RPT,43.6998067,-124.1112442,"Reedsport, Oregon",Reedsport,OR,United States,,,,Railway Stations,,,,,,0,0
+RSV,38.7499586,-121.2862853,"Roseville, California",Roseville,CA,United States,,,,Railway Stations,,,,,,0,0
 RSP,44.9947124,-73.3706005,"Rouses Point, New York",Rouses Point,NY,United States,,,,Railway Stations,,,,,,0,0
-RSV,38.74997219999999,-121.2862637,"Roseville, California",Roseville,CA,United States,,,,Railway Stations,,,,,,0,0
-RTE,42.2103989,-71.1475772,"Westwood, Route 128 Station, Massachusetts",Westwood,MA,United States,,,,Railway Stations,,,,,,0,0
-RTZ,47.1195114,-118.3651898,"Ritzville, Washington",Ritzville,WA,United States,,,,Railway Stations,,,,,,0,0
 RTL,40.310597,-88.158909,"Rantoul, Illinois",Rantoul,IL,United States,,,,Railway Stations,,,,,,0,0
+RTE,42.2103989,-71.1475772,"Westwood, Route 128 Station, Massachusetts",Westwood,MA,United States,,,,Railway Stations,,,,,,0,0
 RUG,48.3691947,-99.9988137,"Rugby, North Dakota",Rugby,ND,United States,,,,Railway Stations,,,,,,0,0
-RUD,43.605751,-72.9818087,"Rutland, Vermont",Rutland,VT,United States,,,,Railway Stations,,,,,,0,0
-RVR,37.6177975,-77.4968322,"Richmond (Staples Mill Rd), Virginia",Richmond,VA,United States,,,,Railway Stations,,,,,,0,0
+RUD,43.6057581,-72.98175499999999,"Rutland, Vermont",Rutland,VT,United States,,,,Railway Stations,,,,,,0,0
 RVM,37.534264,-77.4293809,"Richmond (Main St), Virginia",Richmond,VA,United States,,,,Railway Stations,,,,,,0,0
+SAC,38.5842035,-121.5003777,"Sacramento, California",Sacramento,CA,United States,,,,Railway Stations,,,,,,0,0
+RVR,37.6177897,-77.49683499999999,"Richmond (Staples Mill Rd), Virginia",Richmond,VA,United States,,,,Railway Stations,,,,,,0,0
 SAB,44.812273,-73.08608,"St. Albans, Vermont",St Albans,VT,United States,,,,Railway Stations,,,,,,0,0
-SAC,38.5841751,-121.5006519,"Sacramento, California",Sacramento,CA,United States,,,,Railway Stations,,,,,,0,0
-SAF,35.6869752,-105.937799,"Santa Fe (Lamy Shuttle), New Mexico",Santa Fe,NM,United States,,,,Railway Stations,,,,,,0,0
 SAL,35.6676738,-80.4660403,"Salisbury, North Carolina",Salisbury,NC,United States,,,,Railway Stations,,,,,,0,0
-SAN,32.716529,-117.169518,"San Diego (Downtown), California",San Diego,CA,United States,,,,Railway Stations,,,,,,0,0
-SAO,43.4957978,-70.4480347,"Saco, Maine",Saco,ME,United States,,,,Railway Stations,,,,,,0,0
-SAP,34.348103,-119.069623,"Santa Paula, California",Santa Paula,CA,United States,,,,Railway Stations,,,,,,0,0
-SAR,43.0828542,-73.81016869999999,"Saratoga Springs, New York",Saratoga Springs,NY,United States,,,,Railway Stations,,,,,,0,0
-SAS,29.4194174,-98.4780371,"San Antonio, Texas",San Antonio,TX,United States,,,,Railway Stations,,,,,,0,0
-SAT,34.9516072,-120.4165664,"Santa Maria, California",Santa Maria,CA,United States,,,,Railway Stations,,,,,,0,0
+SAN,32.7166066,-117.1695229,"San Diego (Downtown), California",San Diego,CA,United States,,,,Railway Stations,,,,,,0,0
+SAO,43.4959856,-70.4478656,"Saco, Maine",Saco,ME,United States,,,,Railway Stations,,,,,,0,0
+SAR,43.0828586,-73.81016679999999,"Saratoga Springs, New York",Saratoga Springs,NY,United States,,,,Railway Stations,,,,,,0,0
+SAS,29.4193359,-98.47802109999999,"San Antonio, Texas",San Antonio,TX,United States,,,,Railway Stations,,,,,,0,0
 SAV,32.084594,-81.148804,"Savannah, Georgia",Savannah,GA,United States,,,,Railway Stations,,,,,,0,0
-SBA,34.4136693,-119.6927872,"Santa Barbara, California",Santa Barbara,CA,United States,,,,Railway Stations,,,,,,0,0
-SBG,27.4965548,-81.434298,"Sebring, Florida",Sebring,FL,United States,,,,Railway Stations,,,,,,0,0
+SBG,27.4965597,-81.4342724,"Sebring, Florida",Sebring,FL,United States,,,,Railway Stations,,,,,,0,0
+SBA,34.4136587,-119.6927852,"Santa Barbara, California",Santa Barbara,CA,United States,,,,Railway Stations,,,,,,0,0
 SBY,48.505297,-111.8532848,"Shelby, Montana",Shelby,MT,United States,,,,Railway Stations,,,,,,0,0
-SCC,37.3532523,-121.9365159,"Santa Clara (Caltrain/ACE), California",Santa Clara,CA,United States,,,,Railway Stations,,,,,,0,0
 SCD,45.5667246,-94.14806159999999,"St. Cloud, Minnesota",St. Cloud,MN,United States,,,,Railway Stations,,,,,,0,0
-SCH,29.7429594,-90.8101227,"Schriever, Louisiana",Schriever,LA,United States,,,,Railway Stations,,,,,,0,0
-SCS,38.576884,-121.4949271,"Sacramento (State Capitol), California",Sacramento,CA,United States,,,,Railway Stations,,,,,,0,0
-SDL,30.2784386,-89.782553,"Slidell, Louisiana",Slidell,LA,United States,,,,Railway Stations,,,,,,0,0
-SCZ,36.9708961,-122.0249069,"Santa Cruz (Metro Center), California",Santa Cruz,CA,United States,,,,Railway Stations,,,,,,0,0
-SDY,42.8145816,-73.94273079999999,"Schenectady, New York",Schenectady,NY,United States,,,,Railway Stations,,,,,,0,0
-SEA,47.59857419999999,-122.3299357,"Seattle (Amtrak), Washington",Seattle,WA,United States,,,,Railway Stations,,,,,,0,0
+SCH,29.745054,-90.8123119,"Schriever, Louisiana",Schriever,LA,United States,,,,Railway Stations,,,,,,0,0
+SDL,30.2784718,-89.782558,"Slidell, Louisiana",Slidell,LA,United States,,,,Railway Stations,,,,,,0,0
+SEA,47.5985212,-122.3298051,"Seattle (Amtrak), Washington",Seattle,WA,United States,,,,Railway Stations,,,,,,0,0
+SDY,42.814559,-73.9427449,"Schenectady, New York",Schenectady,NY,United States,,,,Railway Stations,,,,,,0,0
 SED,38.7044609,-93.2282613,"Sedalia, Missouri",Sedalia,MO,United States,,,,Railway Stations,,,,,,0,0
 SFA,28.8048751,-81.28889029999999,"Sanford (Auto Train), Florida",Sanford,FL,United States,,,,Railway Stations,,,,,,0,0
-SFC,37.7941119,-122.3921268,"San Francisco (Ferry), California",San Francisco,CA,United States,,,,Railway Stations,,,,,,0,0
-SFF,37.7944665,-122.3954936,"San Francisco (Financial), California",San Francisco,CA,United States,,,,Railway Stations,,,,,,0,0
-SFM,37.7838391,-122.4005464,"San Francisco (Conv Ctr), California",San Francisco,CA,United States,,,,Railway Stations,,,,,,0,0
-SFP,37.7766868,-122.3948672,"San Francisco (Caltrain), California",San Francisco,CA,United States,,,,Railway Stations,,,,,,0,0
-SFS,37.7835346,-122.4068556,"San Francisco (Shopping), California",San Francisco,CA,United States,,,,Railway Stations,,,,,,0,0
-SFW,37.8081324,-122.4096133,"San Francisco (Wharf), California",San Francisco,CA,United States,,,,Railway Stations,,,,,,0,0
-SHR,32.5173407,-93.7446459,"Shreveport, Louisiana",Shreveport,LA,United States,,,,Railway Stations,,,,,,0,0
 SIM,34.2706008,-118.6954854,"Simi Valley, California",Simi Valley,CA,United States,,,,Railway Stations,,,,,,0,0
 SJC,37.3296092,-121.9025467,"San Jose, California",San Jose,CA,United States,,,,Railway Stations,,,,,,0,0
-SJM,42.1090887,-86.4845629,"St. Joseph, Michigan",St. Joseph,MI,United States,,,,Railway Stations,,,,,,0,0
-SKT,37.9570446,-121.2789028,"Stockton (ACE, 701-704), California",Stockton,CA,United States,,,,Railway Stations,,,,,,0,0
 SKN,37.94529670000001,-121.2857537,"Stockton (711-718), California",Stockton,CA,United States,,,,Railway Stations,,,,,,0,0
-SKW,47.7092746,-121.3601014,"Skykomish, Washington",Skykomish,WA,United States,,,,Railway Stations,,,,,,0,0
-SKY,41.4408017,-82.71654,"Sandusky, Ohio",Sandusky,OH,United States,,,,Railway Stations,,,,,,0,0
-SLH,38.957686,-119.942148,"Stateline Transit Center, California",Stateline,CA,United States,,,,Railway Stations,,,,,,0,0
-SLC,40.7616713,-111.9084906,"Salt Lake City, Utah",Salt Lake City,UT,United States,,,,Railway Stations,,,,,,0,0
-SLM,44.9323363,-123.0282209,"Salem, Oregon",Salem,OR,United States,,,,Railway Stations,,,,,,0,0
-SLO,35.2764814,-120.6545896,"San Luis Obispo, California",San Luis Obispo,CA,United States,,,,Railway Stations,,,,,,0,0
-SLT,38.912982,-120.004988,"South Lake Tahoe, California",South Lake Tahoe,CA,United States,,,,Railway Stations,,,,,,0,0
-SLP,35.2993324,-120.6565276,"San Luis Obispo (Cal Poly), California",San Luis Obispo,CA,United States,,,,Railway Stations,,,,,,0,0
-SLV,34.5960056,-120.1404978,"Solvang, California",Solvang,CA,United States,,,,Railway Stations,,,,,,0,0
-SLY,38.369445,-75.60632319999999,"Salisbury, Maryland",Salisbury,MD,United States,,,,Railway Stations,,,,,,0,0
-SMC,29.8765025,-97.94116869999999,"San Marcos, Texas",San Marcos,TX,United States,,,,Railway Stations,,,,,,0,0
-SMD,43.0479408,-89.30807829999999,"Madison (South), Wisconsin",Madison,WI,United States,,,,Railway Stations,,,,,,0,0
-SNA,33.7515235,-117.8566061,"Santa Ana, California",Santa Ana,CA,United States,,,,Railway Stations,,,,,,0,0
+SJM,42.1090847,-86.4845672,"St. Joseph, Michigan",St. Joseph,MI,United States,,,,Railway Stations,,,,,,0,0
+SKY,41.4409739,-82.7183069,"Sandusky, Ohio",Sandusky,OH,United States,,,,Railway Stations,,,,,,0,0
+SKT,37.9570256,-121.2788915,"Stockton (ACE, 701-704), California",Stockton,CA,United States,,,,Railway Stations,,,,,,0,0
+SLM,44.93236650000001,-123.0281591,"Salem, Oregon",Salem,OR,United States,,,,Railway Stations,,,,,,0,0
+SLC,40.76169580000001,-111.9084818,"Salt Lake City, Utah",Salt Lake City,UT,United States,,,,Railway Stations,,,,,,0,0
+SLO,35.2765173,-120.6545597,"San Luis Obispo, California",San Luis Obispo,CA,United States,,,,Railway Stations,,,,,,0,0
+SMC,29.87650739999999,-97.9411695,"San Marcos, Texas",San Marcos,TX,United States,,,,Railway Stations,,,,,,0,0
+SNA,33.7514541,-117.8564182,"Santa Ana, California",Santa Ana,CA,United States,,,,Railway Stations,,,,,,0,0
 SMT,41.7917123,-87.8087657,"Summit, Illinois",Summit,IL,United States,,,,Railway Stations,,,,,,0,0
+SND,30.1424083,-102.3940324,"Sanderson, Texas",Sanderson,TX,United States,,,,Railway Stations,,,,,,0,0
 SNC,33.5010912,-117.6638006,"San Juan Capistrano, California",San Juan Capistrano,CA,United States,,,,Railway Stations,,,,,,0,0
 SNB,34.0961955,-117.3087578,"San Bernardino (Amtrak Station), California",San Bernardino,CA,United States,,,,Railway Stations,,,,,,0,0
-SND,30.1424083,-102.3940324,"Sanderson, Texas",Sanderson,TX,United States,,,,Railway Stations,,,,,,0,0
 SNP,33.4207093,-117.6194228,"San Clemente Pier, California",San Clemente,CA,United States,,,,Railway Stations,,,,,,0,0
 SNS,36.67887839999999,-121.6565914,"Salinas, California",Salinas,CA,United States,,,,Railway Stations,,,,,,0,0
 SOB,41.6782578,-86.2874585,"South Bend, Indiana",South Bend,IN,United States,,,,Railway Stations,,,,,,0,0
-SOL,32.992972,-117.2712925,"Solana Beach, California",Solana Beach,CA,United States,,,,Railway Stations,,,,,,0,0
-SOD,39.3253138,-120.3888881,"Soda Springs, California",Soda Springs,CA,United States,,,,Railway Stations,,,,,,0,0
+SOP,35.1749501,-79.3904159,"Southern Pines, North Carolina",Southern Pines,NC,United States,,,,Railway Stations,,,,,,0,0
+SOL,32.9929656,-117.2712893,"Solana Beach, California",Solana Beach,CA,United States,,,,Railway Stations,,,,,,0,0
+SPG,42.1068177,-72.5912708,"Springfield, Massachusetts",Springfield,MA,United States,,,,Railway Stations,,,,,,0,0
 SPB,34.953905,-81.937438,"Spartanburg, South Carolina",Spartanburg,SC,United States,,,,Railway Stations,,,,,,0,0
-SOP,35.1749387,-79.3904325,"Southern Pines, North Carolina",Southern Pines,NC,United States,,,,Railway Stations,,,,,,0,0
-SPG,42.1058229,-72.59321709999999,"Springfield, Massachusetts",Springfield,MA,United States,,,,Railway Stations,,,,,,0,0
-SPD,33.7360619,-118.2922461,"San Pedro (Catalina Terminal), California",San Pedro,CA,United States,,,,Railway Stations,,,,,,0,0
-SPK,47.6564055,-117.4153683,"Spokane, Washington",Spokane,WA,United States,,,,Railway Stations,,,,,,0,0
-SPI,39.8017697,-89.6517626,"Springfield, Illinois",Springfield,IL,United States,,,,Railway Stations,,,,,,0,0
 SPL,46.3577818,-94.7996548,"Staples, Minnesota",Staples,MN,United States,,,,Railway Stations,,,,,,0,0
-SPM,38.7207616,-82.9645116,"South Shore-South Portsmouth, Kentucky",South Shore,KY,United States,,,,Railway Stations,,,,,,0,0
-SPO,33.7356324,-118.2928395,"San Pedro (Downtown), California",San Pedro,CA,United States,,,,Railway Stations,,,,,,0,0
+SPK,47.6563727,-117.4153309,"Spokane, Washington",Spokane,WA,United States,,,,Railway Stations,,,,,,0,0
+SPI,39.8017697,-89.6517626,"Springfield, Illinois",Springfield,IL,United States,,,,Railway Stations,,,,,,0,0
 SPR,39.546663,-119.7574652,"Sparks, Nevada (Train Stop)",Sparks,NV,United States,,,,Railway Stations,,,,,,0,0
-SPX,39.5333759,-119.7571414,"Sparks, Nevada (Thruway Buses)",Sparks,NV,United States,,,,Railway Stations,,,,,,0,0
-SPT,48.2764357,-116.5456208,"Sandpoint, Idaho",Sandpoint,ID,United States,,,,Railway Stations,,,,,,0,0
-SRC,38.4355298,-122.7207316,"Santa Rosa, California",Santa Rosa,CA,United States,,,,Railway Stations,,,,,,0,0
-SRA,27.3372848,-82.53153569999999,"Sarasota, Florida",Sarasota,FL,United States,,,,Railway Stations,,,,,,0,0
-SSD,45.985955,-123.923412,"Seaside, Oregon",Seaside,OR,United States,,,,Railway Stations,,,,,,0,0
-SRT,44.4606652,-68.90936599999999,"Searsport, Maine",Searsport,ME,United States,,,,Railway Stations,,,,,,0,0
-SSM,35.5372176,-78.2881889,"Selma, North Carolina",Selma,NC,United States,,,,Railway Stations,,,,,,0,0
-SSW,47.7462223,-121.0859328,"Stevens Pass, Washington",Stevens Pass,WA,United States,,,,Railway Stations,,,,,,0,0
+SPM,38.7207616,-82.9645116,"South Shore-South Portsmouth, Kentucky",South Shore,KY,United States,,,,Railway Stations,,,,,,0,0
+SPT,48.2764347,-116.5456289,"Sandpoint, Idaho",Sandpoint,ID,United States,,,,Railway Stations,,,,,,0,0
 STA,38.147939,-79.07258100000001,"Staunton, Virginia",Staunton,VA,United States,,,,Railway Stations,,,,,,0,0
-STG,37.0873765,-113.584397,"St. George, Utah",St. George,UT,United States,,,,Railway Stations,,,,,,0,0
-STI,45.869954,-84.7304041,"St. Ignace, Michigan",St. Ignace,MI,United States,,,,Railway Stations,,,,,,0,0
-STL,38.6240945,-90.2055029,"St. Louis, Missouri",St. Louis,MO,United States,,,,Railway Stations,,,,,,0,0
+SSM,35.5372176,-78.2881889,"Selma, North Carolina",Selma,NC,United States,,,,Railway Stations,,,,,,0,0
+STL,38.6245601,-90.20547979999999,"St. Louis, Missouri",St. Louis,MO,United States,,,,Railway Stations,,,,,,0,0
 STN,48.3190484,-102.3906279,"Stanley, North Dakota",Stanley,ND,United States,,,,Railway Stations,,,,,,0,0
 STM,41.046817,-73.54306319999999,"Stamford, Connecticut",Stamford,CT,United States,,,,Railway Stations,,,,,,0,0
-STP,27.8732962,-82.7062222,"St Petersburg-Pinellas Park-Clearwater, Florida",Clearwater,FL,United States,,,,Railway Stations,,,,,,0,0
 SUI,38.243246,-122.0409683,"Suisun, California",Suisun,CA,United States,,,,Railway Stations,,,,,,0,0
-SUN,43.8735337,-121.444085,"Sunriver, Oregon",Sunriver,OR,United States,,,,Railway Stations,,,,,,0,0
-SUT,33.7107367,-117.1903913,"Sun City, California",Sun City,CA,United States,,,,Railway Stations,,,,,,0,0
-SVF,47.6136087,-122.3540475,"Seattle (Ferry - Pier 69), Washington",Seattle,WA,United States,,,,Railway Stations,,,,,,0,0
-SVP,44.5327147,-89.57588249999999,"Stevens Point, Wisconsin",Stevens Point,WI,United States,,,,Railway Stations,,,,,,0,0
 SVT,42.7180849,-87.9100899,"Sturtevant, Wisconsin",Sturtevant,WI,United States,,,,Railway Stations,,,,,,0,0
-SVY,37.0467543,-122.0280888,"Scotts Valley, California",Scotts Valley,CA,United States,,,,Railway Stations,,,,,,0,0
-SYR,43.0766633,-76.16917149999999,"Syracuse, New York",Syracuse,NY,United States,,,,Railway Stations,,,,,,0,0
-TAC,47.241995,-122.4205884,"Tacoma, Washington",Tacoma,WA,United States,,,,Railway Stations,,,,,,0,0
+TAC,47.2419939,-122.4205623,"Tacoma, Washington",Tacoma,WA,United States,,,,Railway Stations,,,,,,0,0
+SYR,43.0767032,-76.1691422,"Syracuse, New York",Syracuse,NY,United States,,,,Railway Stations,,,,,,0,0
 TCA,34.5800203,-83.33163479999999,"Toccoa, Georgia",Toccoa,GA,United States,,,,Railway Stations,,,,,,0,0
-TAY,30.5676642,-97.4079414,"Taylor, Texas",Taylor,TX,United States,,,,Railway Stations,,,,,,0,0
-TCL,33.1934171,-87.5601374,"Tuscaloosa, Alabama",Tuscaloosa,AL,United States,,,,Railway Stations,,,,,,0,0
-TDO,42.3654747,-97.562646,"Toledo, Oregon",Toledo,OR,United States,,,,Railway Stations,,,,,,0,0
-TFI,42.569093,-114.4598801,"Twin Falls, Idaho",Twin Falls,ID,United States,,,,Railway Stations,,,,,,0,0
-TEH,35.1321877,-118.4489739,"Tehachapi, California",Tehachapi,CA,United States,,,,Railway Stations,,,,,,0,0
-THN,37.96,-81.0699999,"Thurmond, West Virginia",Thurmond,WV,United States,,,,Railway Stations,,,,,,0,0
-THD,45.6013605,-121.1801962,"The Dalles, Oregon",The Dalles,OR,United States,,,,Railway Stations,,,,,,0,0
-TLS,36.1541118,-95.9868482,"Tulsa, Oklahoma",Tulsa,OK,United States,,,,Railway Stations,,,,,,0,0
-TLT,43.4483053,-71.5771291,"Tilton, New Hampshire",Tilton,NH,United States,,,,Railway Stations,,,,,,0,0
-TOC,33.1305444,-107.2503621,"Truth or Consequences, New Mexico",Truth or Consequences,NM,United States,,,,Railway Stations,,,,,,0,0
+TCL,33.19338860000001,-87.5601377,"Tuscaloosa, Alabama",Tuscaloosa,AL,United States,,,,Railway Stations,,,,,,0,0
+TAY,30.5676643,-97.40791879999999,"Taylor, Texas",Taylor,TX,United States,,,,Railway Stations,,,,,,0,0
+THN,37.9571153,-81.078813,"Thurmond, West Virginia",Thurmond,WV,United States,,,,Railway Stations,,,,,,0,0
 TOH,43.9853826,-90.5045367,"Tomah, Wisconsin",Tomah,WI,United States,,,,Railway Stations,,,,,,0,0
-TOL,41.6378974,-83.5412461,"Toledo, Ohio",Toledo,OH,United States,,,,Railway Stations,,,,,,0,0
-TOP,39.0514404,-95.66476779999999,"Topeka, Kansas",Topeka,KS,United States,,,,Railway Stations,,,,,,0,0
-TPA,27.9526233,-82.4506241,"Tampa, Florida",Tampa,FL,United States,,,,Railway Stations,,,,,,0,0
+TOP,39.0513764,-95.6648339,"Topeka, Kansas",Topeka,KS,United States,,,,Railway Stations,,,,,,0,0
+TOL,41.63787809999999,-83.54117889999999,"Toledo, Ohio",Toledo,OH,United States,,,,Railway Stations,,,,,,0,0
+TPA,27.9527081,-82.4505993,"Tampa, Florida",Tampa,FL,United States,,,,Railway Stations,,,,,,0,0
+TRE,40.2185723,-74.7545939,"Trenton, New Jersey",Trenton,NJ,United States,,,,Railway Stations,,,,,,0,0
 TPL,31.0957407,-97.3449127,"Temple, Texas",Temple,TX,United States,,,,Railway Stations,,,,,,0,0
-TRA,37.7614128,-121.4351612,"Tracy, California",Tracy,CA,United States,,,,Railway Stations,,,,,,0,0
-TRE,40.2185646,-74.75393729999999,"Trenton, New Jersey",Trenton,NJ,United States,,,,Railway Stations,,,,,,0,0
 TRI,37.1728965,-104.5090988,"Trinidad, Colorado",Trinidad,CO,United States,,,,Railway Stations,,,,,,0,0
 WSP,44.1882847,-73.45294439999999,"Westport, New York",Westport,NY,United States,,,,Railway Stations,,,,,,0,0
-WST,43.9928271,-69.68833769999999,"Wiscasset, Maine",Wiscasset,ME,United States,,,,Railway Stations,,,,,,0,0
-WSS,37.7868351,-80.3047241,"White Sulphur Springs, West Virginia",White Sulphur Springs,WV,United States,,,,Railway Stations,,,,,,0,0
-WSU,44.85442399999999,-89.6360057,"Wausau, Wisconsin",Mosinee,WI,United States,,,,Railway Stations,,,,,,0,0
+WSS,37.7866091,-80.30383479999999,"White Sulphur Springs, West Virginia",White Sulphur Springs,WV,United States,,,,Railway Stations,,,,,,0,0
 WTH,28.0019768,-81.7349077,"Winter Haven, Florida",Winter Haven,FL,United States,,,,Railway Stations,,,,,,0,0
 WTI,41.4317302,-85.0246868,"Waterloo, Indiana",Waterloo,IN,United States,,,,Railway Stations,,,,,,0,0
 WTN,48.1435205,-103.621294,"Williston, North Dakota",Williston,ND,United States,,,,Railway Stations,,,,,,0,0
-WTS,39.4124595,-123.3526345,"Willits, California",Willits,CA,United States,,,,Railway Stations,,,,,,0,0
-WWD,28.8659492,-82.0397188,"Wildwood, Florida",Wildwood,FL,United States,,,,Railway Stations,,,,,,0,0
 YEM,32.6868006,-80.8593714,"Yemassee, South Carolina",Yemassee,SC,United States,,,,Railway Stations,,,,,,0,0
 YAZ,32.8500353,-90.4146174,"Yazoo City, Mississippi",Yazoo City,MS,United States,,,,Railway Stations,,,,,,0,0
-YOS,37.7440107,-119.5978676,"Yosemite National Park, California",Yosemite National Park,CA,United States,,,,Railway Stations,,,,,,0,0
-YNY,40.9355919,-73.9021854,"Yonkers, New York",Yonkers,NY,United States,,,,Railway Stations,,,,,,0,0
 YUM,32.7221407,-114.6160096,"Yuma, Arizona",Yuma,AZ,United States,,,,Railway Stations,,,,,,0,0
-EMI,45.7795085,-87.0894814,"Escanaba, Michigan",Escanaba,MI,United States,,,,Railway Stations,,,,,,0,0
-MTO,44.403817,-85.3784998,"Manton, Michigan",Manton,MI,United States,,,,Railway Stations,,,,,,0,0
-HGH,47.1181176,-88.5501366,"Houghton, Michigan",Houghton,MI,United States,,,,Railway Stations,,,,,,0,0
-MQT,46.55813149999999,-87.45509799999999,"Marquette, Michigan",Marquette,MI,United States,,,,Railway Stations,,,,,,0,0
-GBY,44.51424,-88.00457589999999,"Green Bay, Wisconsin",Green Bay,WI,United States,,,,Railway Stations,,,,,,0,0
-MWI,45.0794629,-87.6647349,"Marinette, Wisconsin",Marinette,WI,United States,,,,Railway Stations,,,,,,0,0
-MTC,44.0785011,-87.6987096,"Manitowoc, Wisconsin",Manitowoc,WI,United States,,,,Railway Stations,,,,,,0,0
-JNL,37.78275,-119.0731811,"June Lake, California",June Lake,CA,United States,,,,Railway Stations,,,,,,0,0
-OCO,44.8794514,-87.88721850000002,"Oconto, Wisconsin",Oconto,WI,United States,,,,Railway Stations,,,,,,0,0
+YNY,40.9355919,-73.9021854,"Yonkers, New York",Yonkers,NY,United States,,,,Railway Stations,,,,,,0,0
 MHC,37.1291785,-121.6503142,"Morgan Hill, California",Morgan Hill,CA,United States,,,,Railway Stations,,,,,,0,0
-SFV,37.7800963,-122.4126862,"San Francisco (Civic Center), California",San Francisco,CA,United States,,,,Railway Stations,,,,,,0,0
-YOW,37.6415479,-119.6267347,"Yosemite National Park (White Wolf), California",Yosemite National Park,CA,United States,,,,Railway Stations,,,,,,0,0
-SES,36.6189509,-121.843437,"Seaside, California",Seaside,CA,United States,,,,Railway Stations,,,,,,0,0
-MMK,37.6517026,-119.0388387,"Mammoth Lake, California",Mammoth Lakes,CA,United States,,,,Railway Stations,,,,,,0,0
-LVN,37.9575666,-119.120195,"Lee Vining, California",Lee Vining,CA,United States,,,,Railway Stations,,,,,,0,0
-YOC,37.7365503,-119.5719805,"Yosemite National Park (Curry Village), California",Yosemite National Park,CA,United States,,,,Railway Stations,,,,,,0,0
-YOT,37.6415479,-119.6267347,"Yosemite National Park (Tuolumne), California",Yosemite National Park,CA,United States,,,,Railway Stations,,,,,,0,0
-YOA,37.7428395,-119.5976044,"Yosemite National Park (Ahweehnee Htl.), Californi",Yosemite National Park,CA,United States,,,,Railway Stations,,,,,,0,0
-YOV,37.6415479,-119.6267347,"Yosemite National Park (Visitor Center), Californi",Yosemite National Park,CA,United States,,,,Railway Stations,,,,,,0,0
-PDL,36.7838037,-121.6904497,"Prunedale, California",Prunedale,CA,United States,,,,Railway Stations,,,,,,0,0
-YOF,37.6415479,-119.6267347,"Yosemite National Park (Crane Flat), California",Yosemite National Park,CA,United States,,,,Railway Stations,,,,,,0,0
-SHB,43.7497978,-87.7135328,"Sheboygan, Wisconsin",Sheboygan,WI,United States,,,,Railway Stations,,,,,,0,0
-CDE,38.561601,-76.04661399999999,"Cambridge, Maryland",Cmbridge,MD,United States,,,,Railway Stations,,,,,,0,0
-SLS,38.3618299,-75.6068143,"Salisbury (BayRunner Shuttle), Maryland",Salisbury,MD,United States,,,,Railway Stations,,,,,,0,0
-ESN,38.8114304,-76.06473989999999,"Easton Airport, Maryland",Easton,MD,United States,,,,Railway Stations,,,,,,0,0
-BBS,34.8913561,-116.9990138,"Barstow (Bus), California",Barstow,CA,United States,,,,Railway Stations,,,,,,0,0
-BDR,44.0581728,-121.3153096,"Bend, OR",Bend,OR,United States,,,,Railway Stations,,,,,,0,0
-CBZ,33.9216392,-116.8009457,"Cabazon, CA",Cabazon,CA,United States,,,,Railway Stations,,,,,,0,0
 CNV,43.6134569,-73.17130399999999,"Castleton, VT",Castleton,VT,United States,,,,Railway Stations,,,,,,0,0
-GTP,42.4334188,-123.2982132,"Grants Pass, OR",Grants Pass,OR,United States,,,,Railway Stations,,,,,,0,0
-ESG,33.90516059999999,-118.3831041,"El Segundo, CA",El Segundo,CA,United States,,,,Railway Stations,,,,,,0,0
-HOP,33.6688938,-93.5922073,"Hope, AR",Hope,AR,United States,,,,Railway Stations,,,,,,0,0
-JNC,34.7490048,-77.4197428,"Jacksonville, NC",Jacksonville,NC,United States,,,,Railway Stations,,,,,,0,0
-KNC,35.2439368,-77.58429869999999,"Kinston, NC",Kinston,NC,United States,,,,Railway Stations,,,,,,0,0
-ALA,45.4400517,-84.7902606,"Alanson, MI",Alanson,MI,United States,,,,Railway Stations,,,,,,0,0
-AGM,44.35603039999999,-69.7994143,"Augusta, ME",Augusta,ME,United States,,,,Railway Stations,,,,,,0,0
-ALM,45.06192619999999,-83.4924379,"Alpena, MI",Alpena,MI,United States,,,,Railway Stations,,,,,,0,0
-BVD,43.45593,-88.817746,"Beaver Dam, WI",Beaver Dam,WI,United States,,,,Railway Stations,,,,,,0,0
-BCY,43.6015397,-83.8872568,"Bay City, MI",Bay City,MI,United States,,,,Railway Stations,,,,,,0,0
-BND,44.058313,-121.3013129,"Bend, OR",Bend,OR,United States,,,,Railway Stations,,,,,,0,0
-BLG,45.7838556,-108.5021564,"Billings, MT",Billings,MT,United States,,,,Railway Stations,,,,,,0,0
-BLK,37.2220827,-80.4218679,"Blacksburg, VA",Blacksburg,VA,United States,,,,Railway Stations,,,,,,0,0
-BIG,30.398219,-88.89002479999999,"Biloxi, MS",Biloxi,MS,United States,,,,Railway Stations,,,,,,0,0
-BRR,32.8962961,-87.2103401,"Brent, AL",Brent,AL,United States,,,,Railway Stations,,,,,,0,0
-BOZ,45.76516700000001,-111.1860995,"Bozeman, MT",Bozeman,MT,United States,,,,Railway Stations,,,,,,0,0
-BKO,42.0507675,-124.281146,"Brookings, OR",Brookings,OR,United States,,,,Railway Stations,,,,,,0,0
-BRY,30.6729958,-96.37118819999999,"Bryan, TX",Bryan,TX,United States,,,,Railway Stations,,,,,,0,0
-BUT,46.0019577,-112.5206859,"Butte, MT",Butte,MT,United States,,,,Railway Stations,,,,,,0,0
-BUV,38.81513700000001,-106.105895,"Buena Vista, CO",Buena Vista,CO,United States,,,,Railway Stations,,,,,,0,0
-CVJ,42.1628912,-123.6481235,"Cave Junction, OR",Cave Junction,OR,United States,,,,Railway Stations,,,,,,0,0
-CMD,31.99408559999999,-87.27952979999999,"Camden, AL",Camden,AL,United States,,,,Railway Stations,,,,,,0,0
-PNK,39.978103,-75.061115,"Pennsauken, NJ",Pennsauken,NJ,United States,,,,Railway Stations,,,,,,0,0
-PAD,37.05684650000001,-88.5758693,"Paducah, KY",Paducah,KY,United States,,,,Railway Stations,,,,,,0,0
-PJT,39.4668299,-105.397364,"Pine Junction, CO",Pine Junction,CO,United States,,,,Railway Stations,,,,,,0,0
-PSS,33.8247502,-116.545555,"Palm Springs Downtown, CA",Palm Springs Downtown,CA,United States,,,,Railway Stations,,,,,,0,0
-PDG,45.5273554,-122.6761557,"Portland, OR",Portland,OR,United States,,,,Railway Stations,,,,,,0,0
-PSG,38.512087,-106.076174,"Poncha Springs, CO",Poncha Springs,CO,United States,,,,Railway Stations,,,,,,0,0
-PVW,30.073044,-95.99239899999999,"Prairie View, TX",Prairie View,TX,United States,,,,Railway Stations,,,,,,0,0
-RVT,38.1557319,-121.6909911,"Rio Vista, CA",Rio Vista,CA,United States,,,,Railway Stations,,,,,,0,0
-RNK,37.2799152,-79.93624439999999,"Roanoke, VA",Roanoke,VA,United States,,,,Railway Stations,,,,,,0,0
-RKI,41.5075596,-90.55237740000001,"Rock Island, IL",Rock Island,IL,United States,,,,Railway Stations,,,,,,0,0
-SGW,43.435145,-83.93437399999999,"Saginaw, MI",Saginaw,MI,United States,,,,Railway Stations,,,,,,0,0
-SLD,38.525148,-105.9943399,"Salida, CO",Salida,CO,United States,,,,Railway Stations,,,,,,0,0
-SMI,46.46712530000001,-84.3682686,"Sault Sainte Marie, MI",Sault Sainte Marie,MI,United States,,,,Railway Stations,,,,,,0,0
-SLB,40.7634252,-111.9085488,"Salt Lake City, UT",Salt Lake City,UT,United States,,,,Railway Stations,,,,,,0,0
-SLA,32.4121828,-87.0221688,"Selma, AL",Selma,AL,United States,,,,Railway Stations,,,,,,0,0
-SRN,41.4102982,-75.670014,"Scranton, PA",Scranton,PA,United States,,,,Railway Stations,,,,,,0,0
-SHW,44.7531135,-88.61533709999999,"Shawano, WI",Shawano,WI,United States,,,,Railway Stations,,,,,,0,0
-CHL,45.3184228,-85.258682,"Charlevoix, MI",Charlevoix,MI,United States,,,,Railway Stations,,,,,,0,0
-CHB,45.64481000000001,-84.470117,"Cheboygan, MI",Cheboygan,MI,United States,,,,Railway Stations,,,,,,0,0
-CWL,48.2797221,-117.7161045,"Chewelah, WA",Chewelah,WA,United States,,,,Railway Stations,,,,,,0,0
-CIG,39.10792199999999,-84.504125,"Cincinnati, OH",Cincinnati,OH,United States,,,,Railway Stations,,,,,,0,0
-CHP,44.8832573,-91.4279222,"Chippewa Falls, WI",Chippewa Falls,WI,United States,,,,Railway Stations,,,,,,0,0
-CRK,36.5308636,-87.3637463,"Clarksville, TN",Clarksville,TN,United States,,,,Railway Stations,,,,,,0,0
-COL,39.9585587,-82.9963302,"Columbus, OH",Columbus,OH,United States,,,,Railway Stations,,,,,,0,0
-CVL,48.5363632,-117.9058976,"Colville, WA",Colville,WA,United States,,,,Railway Stations,,,,,,0,0
-CRC,41.75157069999999,-124.1939626,"Crescent City, CA",Crescent City,CA,United States,,,,Railway Stations,,,,,,0,0
-CUA,39.6527084,-78.7296458,"Cumberland, MD",Cumberland,MD,United States,,,,Railway Stations,,,,,,0,0
-DAG,32.778364,-96.8044194,"Dallas, TX",Dallas,TX,United States,,,,Railway Stations,,,,,,0,0
-EUC,44.7964849,-91.50635009999999,"Eau Claire, WI",Eau Claire,WI,United States,,,,Railway Stations,,,,,,0,0
-DPK,47.9451665,-117.4769052,"Deer Park, WA",Deer Park,WA,United States,,,,Railway Stations,,,,,,0,0
-EPR,47.3066059,-119.5607552,"Ephrata, WA",Ephrata,WA,United States,,,,Railway Stations,,,,,,0,0
-EUM,44.8426181,-91.5954082,"Eau Claire, WI",Eau Claire,WI,United States,,,,Railway Stations,,,,,,0,0
-EUB,44.04900629999999,-123.0892806,"Eugene, OR",Eugene,OR,United States,,,,Railway Stations,,,,,,0,0
-EUO,44.0425846,-123.073447,"Eugene, OR",Eugene,OR,United States,,,,Railway Stations,,,,,,0,0
-FRP,39.2252949,-105.991069,"Fairplay, CO",Fairplay,CO,United States,,,,Railway Stations,,,,,,0,0
-EVN,37.9741016,-87.56961539999999,"Evansville, IN",Evansville,IN,United States,,,,Railway Stations,,,,,,0,0
-FSB,39.648311,-78.932755,"Frostburg, MD",Frostburg,MD,United States,,,,Railway Stations,,,,,,0,0
-FRR,39.4162834,-77.3816253,"Frederick Airport, MD",Frederick Airport,MD,United States,,,,Railway Stations,,,,,,0,0
-GLD,47.1072756,-104.7320323,"Glendive, MT",Glendive,MT,United States,,,,Railway Stations,,,,,,0,0
-GRY,41.6042864,-87.3388646,"Gary, IN",Gary,IN,United States,,,,Railway Stations,,,,,,0,0
-GHL,42.4314242,-123.0551077,"Gold Hill, OR",Gold Hill,OR,United States,,,,Railway Stations,,,,,,0,0
-GBO,35.3830232,-77.9708958,"Goldsboro, NC",Goldsboro,NC,United States,,,,Railway Stations,,,,,,0,0
-GRN,35.6138633,-77.3700605,"Greenville, NC",Greenville,NC,United States,,,,Railway Stations,,,,,,0,0
-GTV,39.692295,-79.1002804,"Grantsville, MD",Grantsville,MD,United States,,,,Railway Stations,,,,,,0,0
-GUG,30.4279191,-89.0932067,"Gulfport, MS",Gulfport,MS,United States,,,,Railway Stations,,,,,,0,0
-GVH,31.6874975,-87.7801789,"Grove Hill, AL",Grove Hill,AL,United States,,,,Railway Stations,,,,,,0,0
-GUN,38.5539887,-106.9271812,"Gunnison-Downtown, CO",Gunnison-Downtown,CO,United States,,,,Railway Stations,,,,,,0,0
-GNW,38.54783,-106.9224909,"Gunnison-Western State Univ, CO",Gunnison-Western State Un*,CO,United States,,,,Railway Stations,,,,,,0,0
-HAG,39.6447367,-77.7222932,"Hagerstown, MD",Hagerstown,MD,United States,,,,Railway Stations,,,,,,0,0
-HNK,39.69564099999999,-78.15376300000001,"Hancock, MD",Hancock,MD,United States,,,,Railway Stations,,,,,,0,0
-HBI,31.3880445,-89.3750639,"Hattiesburg, MS",Hattiesburg,MS,United States,,,,Railway Stations,,,,,,0,0
-HKM,47.1269964,-88.57994579999999,"Hancock, MI",Hancock,MI,United States,,,,Railway Stations,,,,,,0,0
-HVL,34.89079419999999,-76.9268867,"Havelock, NC",Havelock,NC,United States,,,,Railway Stations,,,,,,0,0
-HOG,29.748147,-95.371301,"Houston, TX",Houston,TX,United States,,,,Railway Stations,,,,,,0,0
+HOP,33.668891,-93.59221889999999,"Hope, AR",Hope,AR,United States,,,,Railway Stations,,,,,,0,0
 FRE,43.8558297,-70.1020273,"Freeport, ME",Freeport,ME,United States,,,,Railway Stations,,,,,,0,0
-JAA,31.5576219,-87.8764582,"Jackson, AL",Jackson,AL,United States,,,,Railway Stations,,,,,,0,0
-GFD,42.5858622,-72.6007356,"Greenfield, MA",Greenfield,MA,United States,,,,Railway Stations,,,,,,0,0
-KNT,38.9663269,-76.24087449999999,"Kent Island, MD",Kent Island,MD,United States,,,,Railway Stations,,,,,,0,0
-LQT,33.7112182,-116.2898474,"La Quinta, CA",La Quinta,CA,United States,,,,Railway Stations,,,,,,0,0
-KTF,48.6103744,-118.0627957,"Kettle Falls, WA",Kettle Falls,WA,United States,,,,Railway Stations,,,,,,0,0
-LVT,36.0685688,-115.1648734,"Las Vegas, NV",Las Vegas,NV,United States,,,,Railway Stations,,,,,,0,0
-LAN,46.7586313,-88.4533361,"L'Anse, MI",L'Anse,MI,United States,,,,Railway Stations,,,,,,0,0
-LLK,48.0627045,-117.6367594,"Loon Lake, WA",Loon Lake,WA,United States,,,,Railway Stations,,,,,,0,0
-LVG,45.670416,-110.5463023,"Livingston, MT",Livingston,MT,United States,,,,Railway Stations,,,,,,0,0
-MDV,37.3826331,-87.4888818,"Madisonville, KY",Madisonville,KY,United States,,,,Railway Stations,,,,,,0,0
-MAA,32.6812336,-87.4042546,"Marion, AL",Marion,AL,United States,,,,Railway Stations,,,,,,0,0
-MRM,37.48561249999999,-119.9660284,"Mariposa, CA",Mariposa,CA,United States,,,,Railway Stations,,,,,,0,0
-MAI,37.7310487,-88.9506574,"Marion, IL",Marion,IL,United States,,,,Railway Stations,,,,,,0,0
-MNM,44.8730284,-91.9262727,"Menomonie, WI",Menomonie,WI,United States,,,,Railway Stations,,,,,,0,0
-MSQ,32.7935908,-96.6169932,"Mesquite, TX",Mesquite,TX,United States,,,,Railway Stations,,,,,,0,0
-MTB,48.21467939999999,-101.2960205,"Minot, ND",Minot,ND,United States,,,,Railway Stations,,,,,,0,0
-MLS,46.408122,-105.84511,"Miles City, MT",Miles City,MT,United States,,,,Railway Stations,,,,,,0,0
-MLA,46.879557,-114.0203221,"Missoula, MT",Missoula,MT,United States,,,,Railway Stations,,,,,,0,0
-MEE,47.8627489,-121.8867603,"Monroe (Eastbound), WA",Monroe (Eastbound),WA,United States,,,,Railway Stations,,,,,,0,0
-MHD,34.7213164,-76.7157526,"Morehead City, NC",Morehead City,NC,United States,,,,Railway Stations,,,,,,0,0
-MGM,32.3270725,-86.3274295,"Montgomery, AL",Montgomery,AL,United States,,,,Railway Stations,,,,,,0,0
-MVI,38.3140607,-88.95618160000001,"Mt. Vernon, IL",Mt. Vernon,IL,United States,,,,Railway Stations,,,,,,0,0
-MTV,31.0864681,-88.0180629,"Mt. Vernon, AL",Mt. Vernon,AL,United States,,,,Railway Stations,,,,,,0,0
-NVL,36.1526139,-86.773316,"Nashville, TN",Nashville,TN,United States,,,,Railway Stations,,,,,,0,0
-NSH,42.78884499999999,-71.5018999,"Nashua, NH",Nashua,NH,United States,,,,Railway Stations,,,,,,0,0
-NBR,35.1035144,-77.03727359999999,"New Bern, NC",New Bern,NC,United States,,,,Railway Stations,,,,,,0,0
-NCW,44.0544262,-71.12981289999999,"North Conway, NH",North Conway,NH,United States,,,,Railway Stations,,,,,,0,0
-OSU,44.0222214,-88.5489705,"Oshkosh, WI",Oshkosh,WI,United States,,,,Railway Stations,,,,,,0,0
-OCP,38.3762553,-75.1644743,"Ocean Pines, MD",Ocean Pines,MD,United States,,,,Railway Stations,,,,,,0,0
-OWO,42.9967393,-84.1702657,"Owosso, MI",Owosso,MI,United States,,,,Railway Stations,,,,,,0,0
-SHG,32.5152021,-93.7508325,"Shreveport, LA",Shreveport,LA,United States,,,,Railway Stations,,,,,,0,0
-STO,44.2915372,-121.5471264,"Sisters, OR",Sisters,OR,United States,,,,Railway Stations,,,,,,0,0
-SIY,47.71806790000001,-104.1718499,"Sidney, MT",Sidney,MT,United States,,,,Railway Stations,,,,,,0,0
-SKE,47.70994700000001,-121.3608416,"Skykomish (Eastbound), WA",Skykomish (Eastbound),WA,United States,,,,Railway Stations,,,,,,0,0
-SMR,41.9579666,-124.2040167,"Smith River, CA",Smith River,CA,United States,,,,Railway Stations,,,,,,0,0
-SLN,38.9694096,-119.9350193,"Stateline, NV",Stateline,NV,United States,,,,Railway Stations,,,,,,0,0
-SNY,44.94971109999999,-90.9383869,"Stanley, WI",Stanley,WI,United States,,,,Railway Stations,,,,,,0,0
-TWC,44.2565876,-83.531022,"Tawas City, MI",Tawas City,MI,United States,,,,Railway Stations,,,,,,0,0
-SVU,44.5294812,-89.571564,"Stevens Point, WI",Stevens Point,WI,United States,,,,Railway Stations,,,,,,0,0
-TVF,28.93736849999999,-81.9408969,"The Villages-Lady Lake, FL",Lady Lake,FL,United States,,,,Railway Stations,,,,,,0,0
-THM,31.9167613,-87.74057859999999,"Thomasville, AL",Thomasville,AL,United States,,,,Railway Stations,,,,,,0,0
-TOA,33.8446088,-118.2862723,"Torrance, CA",Torrance,CA,United States,,,,Railway Stations,,,,,,0,0
-TYL,30.5035834,-94.44071339999999,"Tyler, TX",Tyler,TX,United States,,,,Railway Stations,,,,,,0,0
-VKS,32.3163376,-90.8757619,"Vicksburg, MS",Vicksburg,MS,United States,,,,Railway Stations,,,,,,0,0
-VRB,34.5373901,-117.2937068,"Victorville, CA",Victorville,CA,United States,,,,Railway Stations,,,,,,0,0
-VNA,37.4153355,-88.8970354,"Vienna, IL",Vienna,IL,United States,,,,Railway Stations,,,,,,0,0
-WCX,31.5521615,-97.1325608,"Waco, TX",Waco,TX,United States,,,,Railway Stations,,,,,,0,0
-WPN,43.6336011,-88.71799329999999,"Waupun, WI",Waupun,WI,United States,,,,Railway Stations,,,,,,0,0
-WWA,46.0661102,-118.3420257,"Walla Walla, WA",Walla Walla,WA,United States,,,,Railway Stations,,,,,,0,0
-WSJ,44.959515,-89.6236354,"Wausau, WI",Wausau,WI,United States,,,,Railway Stations,,,,,,0,0
-WCH,33.9777605,-118.3925411,"Westchester, CA",Westchester,CA,United States,,,,Railway Stations,,,,,,0,0
-WES,34.0650447,-118.4483339,"Westwood-UCLA, CA",Westwood-UCLA,CA,United States,,,,Railway Stations,,,,,,0,0
-WSF,43.8898191,-89.4856399,"Westfield, WI",Westfield,WI,United States,,,,Railway Stations,,,,,,0,0
-WKB,41.2440308,-75.8823582,"Wilkes-Barre, PA",Wilkes-Barre,PA,United States,,,,Railway Stations,,,,,,0,0
-WHV,41.06064,-75.77408199999999,"White Haven, PA",White Haven,PA,United States,,,,Railway Stations,,,,,,0,0
-WIR,44.3968215,-89.8565007,"Wisconsin Rapids, WI",Wisconsin Rapids,WI,United States,,,,Railway Stations,,,,,,0,0
-WBN,45.15164799999999,-122.876703,"Woodburn, OR",Woodburn,OR,United States,,,,Railway Stations,,,,,,0,0
-CLK,42.9798285,-122.0832421,"Crater Lake, OR",Crater Lake,OR,United States,,,,Railway Stations,,,,,,0,0
-RNY,42.2770945,-121.8849965,"Klamath Falls, OR",Klamath Falls,OR,United States,,,,Railway Stations,,,,,,0,0
-STW,48.241767,-122.3495485,"Stanwood, WA",Stanwood,WA,United States,,,,Railway Stations,,,,,,0,0
-SRK,43.0739705,-73.7679799,"Saratoga Springs, NY",Saratoga Springs,NY,United States,,,,Railway Stations,,,,,,0,0
+GFD,42.5858622,-72.60072860000001,"Greenfield, MA",Greenfield,MA,United States,,,,Railway Stations,,,,,,0,0
 TRM,42.5430303,-83.1884202,"Troy, MI",Troy,MI,United States,,,,Railway Stations,,,,,,0,0
-NBU,41.79649320000001,-86.74554409999999,"New Buffalo, MI",New Buffalo,MI,United States,,,,Railway Stations,,,,,,0,0
-NHT,42.3179566,-72.62752069999999,"Northampton, MA",Northampton,MA,United States,,,,Railway Stations,,,,,,0,0
+STW,48.241767,-122.3495485,"Stanwood, WA",Stanwood,WA,United States,,,,Railway Stations,,,,,,0,0
 GUT,35.8780069,-97.4289613,"Guthrie, OK",Guthrie,OK,United States,,,,Railway Stations,,,,,,0,0
+NHT,42.3179565,-72.6275209,"Northampton, MA",Northampton,MA,United States,,,,Railway Stations,,,,,,0,0

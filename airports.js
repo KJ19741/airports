@@ -149,36 +149,42 @@ function regenerateCsv(callback) {
 
     // Using the limit to throttle request rate so as not to exceed our query limit to google
     async.eachLimit (railData, config.geocoder.limit, function(railRow, cb) {
-      var fullAddress = railRow['ADDRESS1'] + ' ' + railRow['CITY'] + ', ' + railRow['STATE'] + ' ' + railRow['ZIP'];
-      var fullUrl = config.geocoder.baseUrl + encodeURIComponent(fullAddress) + config.geocoder.keyUrl;
-      request(fullUrl, function(error, response, bodyString) {
-        body = JSON.parse(bodyString);
-        if (body.results != null) {
-          newRail = [ railRow['STNCODE'],
-            body.results[0].geometry.location.lat,
-            body.results[0].geometry.location.lng,
-            railRow['STNNAME'],
-            railRow['CITY'],
-            railRow['STATE'],
-            'United States',
-            '',
-            '',
-            '',
-            config.rail.type,
-            '',
-            '',
-            '',
-            '',
-            '',
-            0,
-            0
-          ];
+      if (railRow['STNTYPE'] != 'RAIL') {
+        setTimeout(cb, config.geocoder.delay);
+      }
+      else {
+        var fullAddress = railRow['ADDRESS1'] + ' ' + railRow['CITY'] + ', ' + railRow['STATE'] + ' ' + railRow['ZIP'];
+        var fullUrl = config.geocoder.baseUrl + encodeURIComponent(fullAddress) + config.geocoder.keyUrl;
+        request(fullUrl, function(error, response, bodyString) {
+          body = JSON.parse(bodyString);
+          if (body.results[0] != undefined) {
+            newRail = [ railRow['STNCODE'],
+              body.results[0].geometry.location.lat,
+              body.results[0].geometry.location.lng,
+              railRow['STNNAME'],
+              railRow['CITY'],
+              railRow['STATE'],
+              'United States',
+              '',
+              '',
+              '',
+              config.rail.type,
+              '',
+              '',
+              '',
+              '',
+              '',
+              0,
+              0
+            ];
 
-          allRailRows.push(newRail);
-        }
-      });
-      setTimeout(cb, config.geocoder.delay);
-    }, function () {
+            allRailRows.push(newRail);
+          }
+        });
+        setTimeout(cb, config.geocoder.delay);
+      }
+    },
+    function (err) {
       csv.stringify(allRailRows, function(err, data) {
         fs.writeFileSync(config.rail.csvOutPath, data);
       });
@@ -218,17 +224,17 @@ function generateMultiAirportCityCodes(callback) {
 if(require.main == module) {
   if (process.argv.length >= 3) {
     if (process.argv[2] === 'rail' && process.argv.length == 3) {
-      regenerateCsv(loadAirports(function(){
+      regenerateCsv(function(){
         process.exit();
-      }));
+      });
     }
-    if (process.argv[2] === 'mac' && process.argv.length == 3) {
+    else if (process.argv[2] === 'mac' && process.argv.length == 3) {
       generateMultiAirportCityCodes(function(){
         process.exit();
       });
     }
     else { // Fixme - fix this msg to be accurate
-      console.log('Error: invalid argument \"' + process.argv[2] + '\" - only valid arguments are \'rail\' (to re-generate the rail geocoding before running), \'mac\' (to re-generate multi-airport city code mappings) or nothing (to run as normal)');
+      console.log('Error: invalid argument \"' + process.argv[2] + '\" - only valid arguments are \'rail\' (to re-generate the rail geocoding), \'mac\' (to re-generate multi-airport city code mappings) or nothing (to run as normal)');
       process.exit();
     }
   }
