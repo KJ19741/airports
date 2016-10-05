@@ -91,6 +91,11 @@ function loadAirports(callback) {
               // if( row[ 'name' ].trim() == '' ){
               //   continue;
               // }
+              // If our airport doesn't have enough carriers/flights, skip it
+              if ((row['type'] === 'Airports' || row['type'] === 'Other Airport') && row['direct_flights'] < 5 && row['carriers'] < 2) {
+                continue;
+              }
+
               /** Setup our location field */
               row['location'] = {
                 type: 'Point',
