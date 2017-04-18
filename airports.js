@@ -46,6 +46,8 @@ const config = {
   },
   multiAirportCity: {
     macCodeMapFile: './sources/mac_codes.json',
+    macCodeCsv: './sources/mac_codes.csv',
+    headerRow: [ 'code','lat','lon','name','city','state','country','woeid','tz','phone','type','email','url','runway_length','elev','icao','direct_flights','carriers' ],
     macCodesToIgnore: [
       'QDF',
       'QHO',
@@ -54,7 +56,8 @@ const config = {
   },
   inputFiles: [
     './sources/airports.csv',
-    './sources/rail.csv'
+    './sources/rail.csv',
+    './sources/mac_codes.csv'
   ],
   stationsFile: './stations.json',
   sabreCredentials: {
@@ -205,10 +208,6 @@ function regenJson(cb) {
   });
 };
 
-
-
-// }
-
 function regenerateCsv(callback) {
   // File from http://www.rita.dot.gov/bts/sites/rita.dot.gov.bts/files/AdditionalAttachmentFiles/amtrak_sta.zip
   // Converted from txt -> dbf (via rename) -> csv (via http://dbfconv.com/ then pipe it thru the unix 'strings' function to clean it up)
@@ -263,6 +262,71 @@ function regenerateCsv(callback) {
     });
   });
 }
+
+/**
+ * This function reads the mac codes json, and uses it to generate a file
+ * in the format the importer expects
+ */
+function generateMultiAirportCityCodesCsv(callback){
+  /** Get our multi-airport city map to dynamically extend data */
+  console.log('Pulling in our airports...');
+  const macAirports = require(config.multiAirportCity.macCodeMapFile).airports;
+  const macAirportsRows = [];
+  macAirportsRows.push(config.multiAirportCity.headerRow);
+  /** Go through all of our mac codes */
+  const totalRows = macAirports.length;
+  let count = 0;
+  async.eachLimit(macAirports, config.geocoder.limit, function (row, cb) {
+    count++;
+    console.log(`Working ${count}/${totalRows} rows...`);
+    // Setup the mac row
+    let macRow = {};
+    for(var header of config.multiAirportCity.headerRow){
+      macRow[header] = '';
+    }
+    // Add some defaults
+    macRow.code = row.code;
+    macRow.name = row.name;
+    macRow.city = row.name;
+    macRow.country = row.countryName;
+    macRow.type = 'Mac Airports';
+    // Gelocate
+    var fullAddress = row['name'] + ', ' + row['countryCode'];
+    var fullUrl = config.geocoder.baseUrl + encodeURIComponent(fullAddress) + config.geocoder.keyUrl;
+    request(fullUrl, function (err, response, bodyString) {
+      assert.equal(null, err);
+      body = JSON.parse(bodyString);
+      switch (body.status) {
+        case 'OK':
+          break;
+        case 'ZERO_RESULTS':
+          console.warn('Zero results for a mac...');
+          console.warn(row);
+          return cb();
+          break;
+        default:
+          err = 'There was an error geocoding...';
+          console.error(err);
+          console.error(row);
+          console.error(body);
+          return cb(err);
+      }
+      macRow.lat = body.results[0].geometry.location.lat;
+      macRow.lon = body.results[0].geometry.location.lng;
+      macAirportsRows.push(_.values(macRow));
+      setTimeout(cb, config.geocoder.delay);
+    });
+  }, function(err){
+    if (err) {
+      return callback(`Error building multi-airport city map: ${err}`);
+    }
+    csv.stringify(macAirportsRows, function(err, data) {
+      fs.writeFileSync(config.multiAirportCity.macCodeCsv, data);
+      console.log('Generated multi-airport city map to csv file...');
+      callback();
+    });
+  });
+};
 
 function generateMultiAirportCityCodes(callback) {
   var provider = new sds(config.sabreCredentials);
@@ -324,6 +388,13 @@ if(require.main == module) {
         }
         process.exit();
       });
+    } else if (process.argv[2] === 'macCsv'){
+      generateMultiAirportCityCodesCsv(function(err){
+        if(err){
+          console.error(err);
+        }
+        process.exit();
+      });
     } else if (process.argv[2] === 'mac'){
       generateMultiAirportCityCodes(function(err){
         if(err){
@@ -336,6 +407,7 @@ if(require.main == module) {
       err += 'The only valid arguments are:\n';
       err += ' * rail: to re-generate the rail geocoding\n';
       err += ' * mac: to re-generate multi-airport city code mappings\n';
+      err += ' * macCsv: to re-generate multi-airport city code csv\n';
       err += ' * regen: to re-generate the stations JSON file\n';
       err += ' * -none-: to load the stations into the db';
       console.error(err);
