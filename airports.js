@@ -45,7 +45,12 @@ const config = {
     headerRow: [ 'code','lat','lon','name','city','state','country','woeid','tz','phone','type','email','url','runway_length','elev','icao','direct_flights','carriers' ]
   },
   multiAirportCity: {
-    macCodeMapFile: './sources/macCodeMap.json'
+    macCodeMapFile: './sources/mac_codes.json',
+    macCodesToIgnore: [
+      'QDF',
+      'QHO',
+      'QPH'
+    ]
   },
   inputFiles: [
     './sources/airports.csv',
@@ -56,6 +61,10 @@ const config = {
     client_id: 'V1:7971:V0ZH:AA',
     client_secret: 'WS042614',
     uri: 'https://api.sabre.com'
+  },
+  sabreLimits: {
+    limit: 20,
+    delay: 5000
   }
 };
 /** Modify some configs based on the env */
@@ -101,7 +110,7 @@ function loadToDb(cb) {
 function regenJson(cb) {
   console.log('Loading our CSVs...');
   /** Get our multi-airport city map to dynamically extend data */
-  var macCodesMap = require(config.multiAirportCity.macCodeMapFile);
+  var macCodesMap = require(config.multiAirportCity.macCodeMapFile).map;
   /** Setup our data */
   const newData = [];
   /** Read our CSV file */
@@ -257,28 +266,43 @@ function regenerateCsv(callback) {
 
 function generateMultiAirportCityCodes(callback) {
   var provider = new sds(config.sabreCredentials);
-  var data = {};
-  console.log("Building multi-airport city map from scratch")
+  var data = {
+    airports: [],
+    map: {}
+  };
+  console.log("Building multi-airport city map from scratch...")
   // Get list of all multi-airport cities
-  provider.get('/v1/lists/supported/cities', {}, (err, result) => {
+  provider.get('/v1/lists/supported/cities', {}, function (err, result){
     var multiAirportCities = JSON.parse(result).Cities;
-    async.each(multiAirportCities, (mac, callback) => {
+    let totalRows = multiAirportCities.length;
+    let count = 0;
+    async.eachLimit(multiAirportCities, config.sabreLimits.limit, function(mac, callback){
+      count++;
+      console.log(`Working ${count}/${totalRows} rows...`);
+      // If we have to skip an airport do it now
+      if(config.multiAirportCity.macCodesToIgnore.indexOf(mac.code) !== -1){
+        console.log(`Skipping code for ${mac.code}...`);
+        return callback();
+      }
+      // Add it to our data
+      delete mac.Links;
+      data.airports.push(mac);
       // For each multi-airport city, get list of all airports
-      provider.get('/v1/lists/supported/cities/' + mac.code + '/airports', {}, (err, cityResult) => {
+      provider.get('/v1/lists/supported/cities/' + mac.code + '/airports', {}, function(err, cityResult){
         var macAirports = JSON.parse(cityResult).Airports;
         for (var i in macAirports) {
           // Build object mapping IATA airport codes to multi-airport city codes
-          data[macAirports[i].code] = mac.code;
+          data.map[macAirports[i].code] = mac.code;
         }
-        callback();
+        setTimeout(callback, config.sabreLimits.delay);
       });
-    }, (err) => {
+    }, function(err){
       if (err) {
         console.log("Error building multi-airport city map: " + err);
       }
       else {
         fs.writeFileSync(config.multiAirportCity.macCodeMapFile, jsonStringify(data));
-        console.log("Generated multi-airport city map to macCodes.json");
+        console.log("Generated multi-airport city map to json file...");
       }
     });
   });
