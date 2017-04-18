@@ -1,0 +1,2470 @@
+[
+  {
+    "code": "CRT",
+    "name": "Croton Harmon, New York",
+    "city": "Croton-on-Hudson",
+    "state": "NY",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "NY",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -73.8831264,
+        41.1929118
+      ]
+    }
+  },
+  {
+    "code": "ABC",
+    "name": "Los Llanos",
+    "city": "Albacete",
+    "state": "Castilla-la Mancha",
+    "country": "Spain",
+    "tz": "Europe/Madrid",
+    "type": "Airports",
+    "stateCode": "CM",
+    "countryCode": "ES",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -1.85,
+        38.9833
+      ]
+    }
+  },
+  {
+    "code": "AAY",
+    "name": "Al Gaidah Airport",
+    "city": "Al Ghaydah",
+    "state": "Hadramawt",
+    "country": "Yemen",
+    "tz": "Asia/Aden",
+    "type": "Airports",
+    "stateCode": "Hadhramaut Governorate",
+    "countryCode": "YE",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        52.1694,
+        16.1947
+      ]
+    }
+  },
+  {
+    "code": "AAN",
+    "name": "Al Ain Airport",
+    "city": "Ayn al Faydah",
+    "state": "Abu Dhabi",
+    "country": "United Arab Emirates",
+    "tz": "Asia/Dubai",
+    "type": "Airports",
+    "stateCode": "Abu Dhabi",
+    "countryCode": "AE",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        55.75,
+        24.25
+      ]
+    }
+  },
+  {
+    "code": "ABY",
+    "name": "Southwest Georgia Regional Airport",
+    "city": "Albany",
+    "state": "Georgia",
+    "country": "United States",
+    "tz": "America/New_York",
+    "type": "Airports",
+    "stateCode": "GA",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -84.1867,
+        31.5328
+      ]
+    }
+  },
+  {
+    "code": "ACE",
+    "name": "Arrecife Airport",
+    "city": "San Bartolomé",
+    "state": "Canary Islands",
+    "country": "Spain",
+    "tz": "Atlantic/Canary",
+    "type": "Airports",
+    "stateCode": "CN",
+    "countryCode": "ES",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -13.6085,
+        28.9521
+      ]
+    }
+  },
+  {
+    "code": "ACA",
+    "name": "General Juan N Alvarez International Airport",
+    "city": "Acapulco",
+    "state": "Guerrero",
+    "country": "Mexico",
+    "tz": "America/Mexico_City",
+    "type": "Airports",
+    "stateCode": "Gro.",
+    "countryCode": "MX",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -99.7536,
+        16.7561
+      ]
+    }
+  },
+  {
+    "code": "AAQ",
+    "name": "Olkhovka Airport",
+    "city": "Novorossiysk",
+    "state": "Krasnodarskiy Kray",
+    "country": "Russia",
+    "tz": "Europe/Moscow",
+    "type": "Airports",
+    "stateCode": "Krasnodar Krai",
+    "countryCode": "RU",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        37.3167,
+        44.9
+      ]
+    }
+  },
+  {
+    "code": "AAE",
+    "name": "El Mellah Airport",
+    "city": "El Tarf",
+    "state": "Annaba",
+    "country": "Algeria",
+    "tz": "Africa/Algiers",
+    "type": "Airports",
+    "stateCode": "",
+    "countryCode": "DZ",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        7.8103,
+        36.8236
+      ]
+    }
+  },
+  {
+    "code": "ACV",
+    "name": "Arcata Airport",
+    "city": "Mckinleyville",
+    "state": "California",
+    "country": "United States",
+    "tz": "America/Los_Angeles",
+    "type": "Airports",
+    "stateCode": "CA",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -124.108,
+        40.9698
+      ]
+    }
+  },
+  {
+    "code": "ABL",
+    "name": "Ambler Airport",
+    "city": "Kiana",
+    "state": "Alaska",
+    "country": "United States",
+    "tz": "America/Anchorage",
+    "type": "Airports",
+    "stateCode": "AK",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -157.854,
+        67.1058
+      ]
+    }
+  },
+  {
+    "code": "ACT",
+    "name": "Waco Regional Airport",
+    "city": "Waco",
+    "state": "Texas",
+    "country": "United States",
+    "tz": "America/Chicago",
+    "type": "Airports",
+    "stateCode": "TX",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -97.2234,
+        31.609
+      ]
+    }
+  },
+  {
+    "code": "ABZ",
+    "name": "Aberdeen Dyce International Airport",
+    "city": "Aberdeen",
+    "state": "Scotland",
+    "country": "United Kingdom",
+    "tz": "Europe/London",
+    "type": "Airports",
+    "stateCode": "Scotland",
+    "countryCode": "GB",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -2.20373,
+        57.2004
+      ]
+    }
+  },
+  {
+    "code": "AAR",
+    "name": "Tirstrup Airport",
+    "city": "Kolind",
+    "state": "Midtjylland",
+    "country": "Denmark",
+    "tz": "Europe/Copenhagen",
+    "type": "Airports",
+    "stateCode": "",
+    "countryCode": "DK",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        10.6154,
+        56.3088
+      ]
+    }
+  },
+  {
+    "code": "ABA",
+    "name": "Abakan",
+    "city": "Abakan",
+    "state": "Khakasiya",
+    "country": "Russian Federation",
+    "tz": "Asia/Krasnoyarsk",
+    "type": "Airports",
+    "stateCode": "Republic of Khakassia",
+    "countryCode": "RU",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        91.4333,
+        53.7167
+      ]
+    }
+  },
+  {
+    "code": "ADE",
+    "name": "Aden International Airport",
+    "city": "Ash Shaykh Uthman",
+    "state": "`Adan",
+    "country": "Yemen",
+    "tz": "Asia/Aden",
+    "type": "Airports",
+    "stateCode": "",
+    "countryCode": "",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        45.0306,
+        12.8278
+      ]
+    }
+  },
+  {
+    "code": "ADD",
+    "name": "Bole International Airport",
+    "city": "Addis Ababa",
+    "state": "Debub Shewa",
+    "country": "Ethiopia",
+    "tz": "Africa/Addis_Ababa",
+    "type": "Airports",
+    "stateCode": "",
+    "countryCode": "",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.8011,
+        8.9783
+      ]
+    }
+  },
+  {
+    "code": "ADU",
+    "name": "Ardabil Airport",
+    "city": "Ardabil",
+    "state": "Ardabil",
+    "country": "Iran",
+    "tz": "Asia/Tehran",
+    "type": "Airports",
+    "stateCode": "Ardabil Province",
+    "countryCode": "IR",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        48.2951,
+        38.2465
+      ]
+    }
+  },
+  {
+    "code": "ACK",
+    "name": "Nantucket Memorial Airport",
+    "city": "Nantucket",
+    "state": "Massachusetts",
+    "country": "United States",
+    "tz": "America/New_York",
+    "type": "Airports",
+    "stateCode": "MA",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -70.0649,
+        41.2568
+      ]
+    }
+  },
+  {
+    "code": "ADL",
+    "name": "Adelaide International Airport",
+    "city": "Adelaide",
+    "state": "South Australia",
+    "country": "Australia",
+    "tz": "Australia/Adelaide",
+    "type": "Airports",
+    "stateCode": "SA",
+    "countryCode": "AU",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        138.529,
+        -34.9464
+      ]
+    }
+  },
+  {
+    "code": "ADA",
+    "name": "Sakirpasa Airport",
+    "city": "Adana",
+    "state": "Adana",
+    "country": "Turkey",
+    "tz": "Europe/Istanbul",
+    "type": "Airports",
+    "stateCode": "Adana",
+    "countryCode": "TR",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        35.2803,
+        36.9811
+      ]
+    }
+  },
+  {
+    "code": "ADJ",
+    "name": "Al Matar Airport",
+    "city": "Amman",
+    "state": "'Amman",
+    "country": "Jordan",
+    "tz": "Asia/Amman",
+    "type": "Airports",
+    "stateCode": "Amman Governorate",
+    "countryCode": "JO",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        35.9822,
+        31.973
+      ]
+    }
+  },
+  {
+    "code": "ADQ",
+    "name": "Kodiak Airport",
+    "city": "Kodiak",
+    "state": "Alaska",
+    "country": "United States",
+    "tz": "America/Anchorage",
+    "type": "Airports",
+    "stateCode": "AK",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -152.512,
+        57.7545
+      ]
+    }
+  },
+  {
+    "code": "ADZ",
+    "name": "Sesquicentenario Airport",
+    "city": "San Andrés",
+    "state": "San Andres y Providencia",
+    "country": "Colombia",
+    "tz": "America/Bogota",
+    "type": "Airports",
+    "stateCode": "San Andrés and Providencia",
+    "countryCode": "CO",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -81.7092,
+        12.5811
+      ]
+    }
+  },
+  {
+    "code": "ACC",
+    "name": "Kotoka International Airport",
+    "city": "Accra",
+    "state": "Greater Accra",
+    "country": "Ghana",
+    "tz": "Africa/Accra",
+    "type": "Airports",
+    "stateCode": "Greater Accra Region",
+    "countryCode": "GH",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -0.17,
+        5.5964
+      ]
+    }
+  },
+  {
+    "code": "ABD",
+    "name": "",
+    "city": "Abadan",
+    "state": "Khuzestan",
+    "country": "Iran",
+    "tz": "Asia/Tehran",
+    "type": "Airports",
+    "stateCode": "Khuzestan Province",
+    "countryCode": "IR",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        48.3032,
+        30.3374
+      ]
+    }
+  },
+  {
+    "code": "ABV",
+    "name": "Abuja International Airport",
+    "city": "Gwagwa",
+    "state": "Abuja Capital Territory",
+    "country": "Nigeria",
+    "tz": "Africa/Lagos",
+    "type": "Airports",
+    "stateCode": "FCT",
+    "countryCode": "NG",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        7.2661,
+        9.0056
+      ]
+    }
+  },
+  {
+    "code": "ABX",
+    "name": "Albury Airport",
+    "city": "Albury",
+    "state": "New South Wales",
+    "country": "Australia",
+    "tz": "Australia/Sydney",
+    "type": "Airports",
+    "stateCode": "NSW",
+    "countryCode": "AU",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        146.956,
+        -36.0678
+      ]
+    }
+  },
+  {
+    "code": "ABJ",
+    "name": "Abidjan Port Bouet Airport",
+    "city": "Abidjan",
+    "state": "Abidjan",
+    "country": "Ivory Coast",
+    "tz": "Africa/Abidjan",
+    "type": "Airports",
+    "stateCode": "Lagunes Region",
+    "countryCode": "CI",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -3.9292,
+        5.2556
+      ]
+    }
+  },
+  {
+    "code": "ABQ",
+    "name": "Albuquerque International Airport",
+    "city": "Albuquerque",
+    "state": "New Mexico",
+    "country": "United States",
+    "tz": "America/Denver",
+    "type": "Airports",
+    "stateCode": "NM",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -106.625,
+        35.0494
+      ]
+    }
+  },
+  {
+    "code": "ABR",
+    "name": "Aberdeen Regional Airport",
+    "city": "Aberdeen",
+    "state": "South Dakota",
+    "country": "United States",
+    "tz": "America/Chicago",
+    "type": "Airports",
+    "stateCode": "SD",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -98.4189,
+        45.4536
+      ]
+    }
+  },
+  {
+    "code": "AGA",
+    "name": "Almassira Airport",
+    "city": "Agadir",
+    "state": "Agadir",
+    "country": "Morocco",
+    "tz": "Africa/Casablanca",
+    "type": "Airports",
+    "stateCode": "Souss-Massa-Draa",
+    "countryCode": "MA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -9.55,
+        30.3833
+      ]
+    }
+  },
+  {
+    "code": "ABE",
+    "name": "Lehigh Valley International Airport",
+    "city": "Allentown",
+    "state": "Pennsylvania",
+    "country": "United States",
+    "tz": "America/New_York",
+    "type": "Airports",
+    "stateCode": "PA",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -75.4342,
+        40.6514
+      ]
+    }
+  },
+  {
+    "code": "AFL",
+    "name": "Alta Floresta Airport",
+    "city": "Alta Floresta",
+    "state": "Mato Grosso",
+    "country": "Brazil",
+    "tz": "America/Campo_Grande",
+    "type": "Airports",
+    "stateCode": "MT",
+    "countryCode": "BR",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -56.1044,
+        -9.8661
+      ]
+    }
+  },
+  {
+    "code": "AEX",
+    "name": "Alexandria International Airport",
+    "city": "Alexandria",
+    "state": "Louisiana",
+    "country": "United States",
+    "tz": "America/Chicago",
+    "type": "Airports",
+    "stateCode": "LA",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -92.5417,
+        31.323
+      ]
+    }
+  },
+  {
+    "code": "AES",
+    "name": "Vigra Airport",
+    "city": "Vigra",
+    "state": "More og Romsdal",
+    "country": "Norway",
+    "tz": "Europe/Oslo",
+    "type": "Airports",
+    "stateCode": "Møre og Romsdal",
+    "countryCode": "NO",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        6.11129,
+        62.5607
+      ]
+    }
+  },
+  {
+    "code": "AET",
+    "name": "Allakaket Airport",
+    "city": "Allakaket",
+    "state": "Alaska",
+    "country": "United States",
+    "tz": "America/Anchorage",
+    "type": "Airports",
+    "stateCode": "AK",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -152.65,
+        66.55
+      ]
+    }
+  },
+  {
+    "code": "ADB",
+    "name": "Gaziemir Airport",
+    "city": "Azmir",
+    "state": "İzmir",
+    "country": "Turkey",
+    "tz": "Europe/Istanbul",
+    "type": "Airports",
+    "stateCode": "İzmir",
+    "countryCode": "TR",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        27.1603,
+        38.32
+      ]
+    },
+    "macCode": "IZM"
+  },
+  {
+    "code": "ACY",
+    "name": "Atlantic City International Airport",
+    "city": "Egg Harbor City",
+    "state": "New Jersey",
+    "country": "United States",
+    "tz": "America/New_York",
+    "type": "Airports",
+    "stateCode": "NJ",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -74.5716,
+        39.4512
+      ]
+    },
+    "macCode": "AIY"
+  },
+  {
+    "code": "AEP",
+    "name": "Aeroparque Jorge Newbery",
+    "city": "Buenos Aires",
+    "state": "Ciudad de Buenos Aires",
+    "country": "Argentina",
+    "tz": "America/Buenos_Aires",
+    "type": "Airports",
+    "stateCode": "CABA",
+    "countryCode": "AR",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -58.4113,
+        -34.5617
+      ]
+    }
+  },
+  {
+    "code": "ABI",
+    "name": "Abilene Regional Airport",
+    "city": "Abilene",
+    "state": "Texas",
+    "country": "United States",
+    "tz": "America/Chicago",
+    "type": "Airports",
+    "stateCode": "TX",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -99.6803,
+        32.4164
+      ]
+    }
+  },
+  {
+    "code": "AGP",
+    "name": "Malaga Airport",
+    "city": "Malaga",
+    "state": "Andalucia",
+    "country": "Spain",
+    "tz": "Europe/Madrid",
+    "type": "Airports",
+    "stateCode": "AL",
+    "countryCode": "ES",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -4.49298,
+        36.6749
+      ]
+    }
+  },
+  {
+    "code": "AER",
+    "name": "Adler Airport",
+    "city": "Sochi",
+    "state": "Krasnodarskiy Kray",
+    "country": "Russia",
+    "tz": "Europe/Moscow",
+    "type": "Airports",
+    "stateCode": "Krasnodar Krai",
+    "countryCode": "RU",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        39.9552,
+        43.447
+      ]
+    }
+  },
+  {
+    "code": "AGH",
+    "name": "Angelholm Airport",
+    "city": "Angelholm",
+    "state": "Skane",
+    "country": "Sweden",
+    "tz": "Europe/Stockholm",
+    "type": "Airports",
+    "stateCode": "Skåne County",
+    "countryCode": "SE",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        12.8675,
+        56.2873
+      ]
+    }
+  },
+  {
+    "code": "AGT",
+    "name": "Alejo Garcia Airport",
+    "city": "Presidente Franco",
+    "state": "Alto Paraná",
+    "country": "Paraguay",
+    "tz": "America/Asuncion",
+    "type": "Airports",
+    "stateCode": "Alto Paraná Department",
+    "countryCode": "PY",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -54.6226,
+        -25.5266
+      ]
+    }
+  },
+  {
+    "code": "AGU",
+    "name": "Aguascalientes Airport",
+    "city": "Aguascalientes",
+    "state": "Aguascalientes",
+    "country": "Mexico",
+    "tz": "America/Mexico_City",
+    "type": "Airports",
+    "stateCode": "Ags.",
+    "countryCode": "MX",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -102.317,
+        21.7047
+      ]
+    }
+  },
+  {
+    "code": "AHB",
+    "name": "Abha Airport",
+    "city": "Hajlah",
+    "state": "Asir",
+    "country": "Saudi Arabia",
+    "tz": "Asia/Riyadh",
+    "type": "Airports",
+    "stateCode": "",
+    "countryCode": "",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        42.6556,
+        18.24
+      ]
+    }
+  },
+  {
+    "code": "AGS",
+    "name": "Bush Field Airport",
+    "city": "Augusta",
+    "state": "Georgia",
+    "country": "United States",
+    "tz": "America/New_York",
+    "type": "Airports",
+    "stateCode": "GA",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -81.9732,
+        33.3735
+      ]
+    }
+  },
+  {
+    "code": "AHC",
+    "name": "Amedee Army Air Field",
+    "city": "Herlong",
+    "state": "California",
+    "country": "United States",
+    "tz": "America/Los_Angeles",
+    "type": "Military Airport",
+    "stateCode": "CA",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -120.151,
+        40.2664
+      ]
+    }
+  },
+  {
+    "code": "ACX",
+    "name": "Xingyi",
+    "city": "Xingyi",
+    "state": "Guizhou",
+    "country": "China",
+    "tz": "Asia/Chongqing",
+    "type": "Airports",
+    "stateCode": "Guizhou",
+    "countryCode": "CN",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        104.89,
+        25.0887
+      ]
+    }
+  },
+  {
+    "code": "JEF",
+    "name": "Jefferson City, Missouri",
+    "city": "Jefferson City",
+    "state": "MO",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "MO",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -92.17254899999999,
+        38.576312
+      ]
+    }
+  },
+  {
+    "code": "IDP",
+    "name": "Independence, Missouri",
+    "city": "Independence",
+    "state": "MO",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "MO",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -94.4289749,
+        39.0874466
+      ]
+    }
+  },
+  {
+    "code": "JAN",
+    "name": "Jackson, Mississippi",
+    "city": "Jackson",
+    "state": "MS",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "MS",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -90.1910166,
+        32.300885
+      ]
+    }
+  },
+  {
+    "code": "HUT",
+    "name": "Hutchinson, Kansas",
+    "city": "Hutchinson",
+    "state": "KS",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "KS",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -97.93021069999999,
+        38.0559773
+      ]
+    }
+  },
+  {
+    "code": "HUN",
+    "name": "Huntington, West Virginia",
+    "city": "Huntington",
+    "state": "WV",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "WV",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -82.439712,
+        38.415935
+      ]
+    }
+  },
+  {
+    "code": "KAL",
+    "name": "Kalamazoo, Michigan",
+    "city": "Kalamazoo",
+    "state": "MI",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "MI",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -85.58335369999999,
+        42.2950535
+      ]
+    }
+  },
+  {
+    "code": "JAX",
+    "name": "Jacksonville, Florida",
+    "city": "Jacksonville",
+    "state": "FL",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "FL",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -81.72384780000002,
+        30.3656829
+      ]
+    }
+  },
+  {
+    "code": "IND",
+    "name": "Indianapolis, Indiana",
+    "city": "Indianapolis",
+    "state": "IN",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "IN",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -86.1603324,
+        39.7624177
+      ]
+    }
+  },
+  {
+    "code": "JOL",
+    "name": "Joliet, Illinois",
+    "city": "Joliet",
+    "state": "IL",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "IL",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -88.07963459999999,
+        41.5244668
+      ]
+    }
+  },
+  {
+    "code": "IRV",
+    "name": "Irvine, California",
+    "city": "Irvine",
+    "state": "CA",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "CA",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -117.7342281,
+        33.6563752
+      ]
+    }
+  },
+  {
+    "code": "JST",
+    "name": "Johnstown, Pennsylvania",
+    "city": "Johnstown",
+    "state": "PA",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "PA",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -78.9220429,
+        40.3296876
+      ]
+    }
+  },
+  {
+    "code": "COC",
+    "name": "Corcoran, California",
+    "city": "Corcoran",
+    "state": "CA",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "CA",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -119.5572861,
+        36.0980473
+      ]
+    }
+  },
+  {
+    "code": "COV",
+    "name": "Connellsville, Pennsylvania",
+    "city": "Connellsville",
+    "state": "PA",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "PA",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -79.5924192,
+        40.0195363
+      ]
+    }
+  },
+  {
+    "code": "KAN",
+    "name": "Kannapolis, North Carolina",
+    "city": "Kannapolis",
+    "state": "NC",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "NC",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -80.6247593,
+        35.4960414
+      ]
+    }
+  },
+  {
+    "code": "JXN",
+    "name": "Jackson, Michigan",
+    "city": "Jackson",
+    "state": "MI",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "MI",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -84.39975070000001,
+        42.2479591
+      ]
+    }
+  },
+  {
+    "code": "DDG",
+    "name": "Dodge City, Kansas",
+    "city": "Dodge City",
+    "state": "KS",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "KS",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -100.0169778,
+        37.75269840000001
+      ]
+    }
+  },
+  {
+    "code": "CRV",
+    "name": "Carlinville, Illinois",
+    "city": "Carlinville",
+    "state": "IL",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "IL",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -89.8891923,
+        39.2793073
+      ]
+    }
+  },
+  {
+    "code": "COT",
+    "name": "Coatesville, Pennsylvania",
+    "city": "Coatesville",
+    "state": "PA",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "PA",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -75.820617,
+        39.9856799
+      ]
+    }
+  },
+  {
+    "code": "AAL",
+    "name": "Aalborg Airport",
+    "city": "Norresundby",
+    "state": "Nordjylland",
+    "country": "Denmark",
+    "tz": "Europe/Copenhagen",
+    "type": "Airports",
+    "stateCode": "",
+    "countryCode": "DK",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        9.85606,
+        57.0952
+      ]
+    }
+  },
+  {
+    "code": "CRF",
+    "name": "Crawfordsville (Amtrak), Indiana",
+    "city": "Crawfordsville",
+    "state": "IN",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "IN",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -86.899833,
+        40.0440772
+      ]
+    }
+  },
+  {
+    "code": "CWH",
+    "name": "Cornwells Heights, Pennsylvania",
+    "city": "Cornwells Heights",
+    "state": "PA",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "PA",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -74.95102969999999,
+        40.0703514
+      ]
+    }
+  },
+  {
+    "code": "COX",
+    "name": "Colfax, California",
+    "city": "Colfax",
+    "state": "CA",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "CA",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -120.953155,
+        39.0984766
+      ]
+    }
+  },
+  {
+    "code": "DAN",
+    "name": "Danville, Virginia",
+    "city": "Danville",
+    "state": "VA",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "VA",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -79.3846682,
+        36.5841172
+      ]
+    }
+  },
+  {
+    "code": "CYN",
+    "name": "Cary, North Carolina",
+    "city": "Cary",
+    "state": "NC",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "NC",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -78.7822338,
+        35.78842849999999
+      ]
+    }
+  },
+  {
+    "code": "DAV",
+    "name": "Davis, California",
+    "city": "Davis",
+    "state": "CA",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "CA",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -121.7383972,
+        38.5437102
+      ]
+    }
+  },
+  {
+    "code": "DAL",
+    "name": "Dallas, Texas",
+    "city": "Dallas",
+    "state": "TX",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "TX",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -96.8075136,
+        32.7761888
+      ]
+    }
+  },
+  {
+    "code": "CPN",
+    "name": "Carpinteria, California",
+    "city": "Carpinteria",
+    "state": "CA",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "CA",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -119.523087,
+        34.3966997
+      ]
+    }
+  },
+  {
+    "code": "CWT",
+    "name": "Chatsworth, California",
+    "city": "Chatsworth",
+    "state": "CA",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "CA",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -118.5987594,
+        34.2519101
+      ]
+    }
+  },
+  {
+    "code": "JSP",
+    "name": "Jesup, Georgia",
+    "city": "Jesup",
+    "state": "GA",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "GA",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -81.8767541,
+        31.6105046
+      ]
+    }
+  },
+  {
+    "code": "CVS",
+    "name": "Charlottesville, Virginia",
+    "city": "Charlottesville",
+    "state": "VA",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "VA",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -78.49181469999999,
+        38.0314341
+      ]
+    }
+  },
+  {
+    "code": "CUT",
+    "name": "Cut Bank, Montana",
+    "city": "Cut Bank",
+    "state": "MT",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "MT",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -112.3315116,
+        48.638524
+      ]
+    }
+  },
+  {
+    "code": "CSN",
+    "name": "Clemson, South Carolina",
+    "city": "Clemson",
+    "state": "SC",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "SC",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -82.8338156,
+        34.6910067
+      ]
+    }
+  },
+  {
+    "code": "KIN",
+    "name": "West Kingston, Rhode Island",
+    "city": "West Kingston",
+    "state": "RI",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "RI",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -71.5605825,
+        41.4838754
+      ]
+    }
+  },
+  {
+    "code": "KFS",
+    "name": "Klamath Falls, Oregon",
+    "city": "Klamath Falls",
+    "state": "OR",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "OR",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -121.7718305,
+        42.2255196
+      ]
+    }
+  },
+  {
+    "code": "COI",
+    "name": "Connersville, Indiana",
+    "city": "Connersville",
+    "state": "IN",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "IN",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -85.1312056,
+        39.6444689
+      ]
+    }
+  },
+  {
+    "code": "KEE",
+    "name": "Kewanee, Illinois",
+    "city": "Kewanee",
+    "state": "IL",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "IL",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -89.9263589,
+        41.2463241
+      ]
+    }
+  },
+  {
+    "code": "CUM",
+    "name": "Cumberland, Maryland",
+    "city": "Cumberland",
+    "state": "MD",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "MD",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -78.7579255,
+        39.6507253
+      ]
+    }
+  },
+  {
+    "code": "CTL",
+    "name": "Centralia, Washington",
+    "city": "Centralia",
+    "state": "WA",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "WA",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -122.9528291,
+        46.7177596
+      ]
+    }
+  },
+  {
+    "code": "CRN",
+    "name": "Creston, Iowa",
+    "city": "Creston",
+    "state": "IA",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "IA",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -94.36144829999999,
+        41.0573616
+      ]
+    }
+  },
+  {
+    "code": "KNG",
+    "name": "Kingman, Arizona",
+    "city": "Kingman",
+    "state": "AZ",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "AZ",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -114.0531661,
+        35.1877464
+      ]
+    }
+  },
+  {
+    "code": "KKI",
+    "name": "Kankakee, Illinois",
+    "city": "Kankakee",
+    "state": "IL",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "IL",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -87.865782,
+        41.119011
+      ]
+    }
+  },
+  {
+    "code": "KEL",
+    "name": "Kelso-Longview, Washington",
+    "city": "Kelso",
+    "state": "WA",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "WA",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -122.9132562,
+        46.1421959
+      ]
+    }
+  },
+  {
+    "code": "KIS",
+    "name": "Kissimmee, Florida",
+    "city": "Kissimmee",
+    "state": "FL",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "FL",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -81.40427,
+        28.293873
+      ]
+    }
+  },
+  {
+    "code": "DET",
+    "name": "Detroit, Michigan",
+    "city": "Detroit",
+    "state": "MI",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "MI",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -83.0722789,
+        42.3680409
+      ]
+    }
+  },
+  {
+    "code": "DEM",
+    "name": "Deming, New Mexico",
+    "city": "Deming",
+    "state": "NM",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "NM",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -107.7553988,
+        32.270743
+      ]
+    }
+  },
+  {
+    "code": "DIL",
+    "name": "Dillon, South Carolina",
+    "city": "Dillon",
+    "state": "SC",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "SC",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -79.37217179999999,
+        34.4175758
+      ]
+    }
+  },
+  {
+    "code": "DLB",
+    "name": "Delray Beach, Florida",
+    "city": "Delray Beach",
+    "state": "FL",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "FL",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -80.0926607,
+        26.4551282
+      ]
+    }
+  },
+  {
+    "code": "DER",
+    "name": "Dearborn, Michigan",
+    "city": "Dearborn",
+    "state": "MI",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "MI",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -83.1985698,
+        42.3125186
+      ]
+    }
+  },
+  {
+    "code": "DHM",
+    "name": "Durham, New Hampshire",
+    "city": "Durham",
+    "state": "NH",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "NH",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -70.9361321,
+        43.1393624
+      ]
+    }
+  },
+  {
+    "code": "DLD",
+    "name": "Deland, Florida",
+    "city": "Deland",
+    "state": "FL",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "FL",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -81.3533952,
+        29.0167306
+      ]
+    }
+  },
+  {
+    "code": "DNC",
+    "name": "Durham, North Carolina",
+    "city": "Durham",
+    "state": "NC",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "NC",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -78.90745,
+        35.997154
+      ]
+    }
+  },
+  {
+    "code": "DNK",
+    "name": "Denmark, South Carolina",
+    "city": "Denmark",
+    "state": "SC",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "SC",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -81.1486529,
+        33.3267817
+      ]
+    }
+  },
+  {
+    "code": "DLK",
+    "name": "Detroit Lakes, Minnesota",
+    "city": "Detroit Lakes",
+    "state": "MN",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "MN",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -95.84602880000001,
+        46.81980540000001
+      ]
+    }
+  },
+  {
+    "code": "DOA",
+    "name": "Dowagiac, Michigan",
+    "city": "Dowagiac",
+    "state": "MI",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "MI",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -86.1080765,
+        41.9820102
+      ]
+    }
+  },
+  {
+    "code": "DRT",
+    "name": "Del Rio, Texas",
+    "city": "Del Rio",
+    "state": "TX",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "TX",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -100.9016846,
+        29.3632337
+      ]
+    }
+  },
+  {
+    "code": "DOV",
+    "name": "Dover, New Hampshire",
+    "city": "Dover",
+    "state": "NH",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "NH",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -70.87639279999999,
+        43.1943694
+      ]
+    }
+  },
+  {
+    "code": "EDM",
+    "name": "Edmonds, Washington",
+    "city": "Edmonds",
+    "state": "WA",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "WA",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -122.3841639,
+        47.8111305
+      ]
+    }
+  },
+  {
+    "code": "DVL",
+    "name": "Devils Lake, North Dakota",
+    "city": "Devils Lake",
+    "state": "ND",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "ND",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -98.86158479999999,
+        48.1106932
+      ]
+    }
+  },
+  {
+    "code": "DUN",
+    "name": "Dunsmuir (Amtrak Station), California",
+    "city": "Dunsmuir",
+    "state": "CA",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "CA",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -122.2705861,
+        41.2112326
+      ]
+    }
+  },
+  {
+    "code": "DQN",
+    "name": "Du Quoin, Illinois",
+    "city": "Du Quoin",
+    "state": "IL",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "IL",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -89.24014389999999,
+        38.0122437
+      ]
+    }
+  },
+  {
+    "code": "ELY",
+    "name": "Elyria, Ohio",
+    "city": "Elyria",
+    "state": "OH",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "OH",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -82.0969507,
+        41.3694622
+      ]
+    }
+  },
+  {
+    "code": "DYE",
+    "name": "Dyer, Indiana",
+    "city": "Dyer",
+    "state": "IN",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "IN",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -87.5187497,
+        41.5150078
+      ]
+    }
+  },
+  {
+    "code": "EKH",
+    "name": "Elkhart, Indiana",
+    "city": "Elkhart",
+    "state": "IN",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "IN",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -85.972208,
+        41.680614
+      ]
+    }
+  },
+  {
+    "code": "DOW",
+    "name": "Downingtown, Pennsylvania",
+    "city": "Downingtown",
+    "state": "PA",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "PA",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -75.7104016,
+        40.002553
+      ]
+    }
+  },
+  {
+    "code": "EFG",
+    "name": "Effingham, Illinois",
+    "city": "Effingham",
+    "state": "IL",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "IL",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -88.5471977,
+        39.1170402
+      ]
+    }
+  },
+  {
+    "code": "DWT",
+    "name": "Dwight, Illinois",
+    "city": "Dwight",
+    "state": "IL",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "IL",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -88.4268067,
+        41.0938744
+      ]
+    }
+  },
+  {
+    "code": "ELK",
+    "name": "Elko, Nevada",
+    "city": "Elko",
+    "state": "NV",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "NV",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -115.7546836,
+        40.8367006
+      ]
+    }
+  },
+  {
+    "code": "ELP",
+    "name": "El Paso, Texas",
+    "city": "El Paso",
+    "state": "TX",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "TX",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -106.4958622,
+        31.757389
+      ]
+    }
+  },
+  {
+    "code": "EMY",
+    "name": "Emeryville, California",
+    "city": "Emeryville",
+    "state": "CA",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "CA",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -122.2917696,
+        37.8406179
+      ]
+    }
+  },
+  {
+    "code": "DFB",
+    "name": "Deerfield Beach, Florida",
+    "city": "Deerfield Beach",
+    "state": "FL",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "FL",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -80.12224300000001,
+        26.316971
+      ]
+    }
+  },
+  {
+    "code": "DRD",
+    "name": "Durand, Michigan",
+    "city": "Durand",
+    "state": "MI",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "MI",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -83.9821857,
+        42.9104531
+      ]
+    }
+  },
+  {
+    "code": "EPH",
+    "name": "Ephrata, Washington",
+    "city": "Ephrata",
+    "state": "WA",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "WA",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -119.5499912,
+        47.3203743
+      ]
+    }
+  },
+  {
+    "code": "DEN",
+    "name": "Denver, Colorado",
+    "city": "Denver",
+    "state": "CO",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "CO",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -105.0001446,
+        39.7531224
+      ]
+    }
+  },
+  {
+    "code": "KCY",
+    "name": "Kansas City, Missouri",
+    "city": "Kansas City",
+    "state": "MO",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "MO",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -94.5861078,
+        39.08537490000001
+      ]
+    }
+  },
+  {
+    "code": "ERI",
+    "name": "Erie, Pennsylvania",
+    "city": "Erie",
+    "state": "PA",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "PA",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -80.0823217,
+        42.1207438
+      ]
+    }
+  },
+  {
+    "code": "ESM",
+    "name": "Essex, Montana",
+    "city": "Essex",
+    "state": "MT",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "MT",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -113.6106277,
+        48.2782924
+      ]
+    }
+  },
+  {
+    "code": "ESX",
+    "name": "Essex Junction, Vermont",
+    "city": "Essex Jct.",
+    "state": "VT",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "VT",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -73.1101769,
+        44.492575
+      ]
+    }
+  },
+  {
+    "code": "EUG",
+    "name": "Eugene, Oregon",
+    "city": "Eugene",
+    "state": "OR",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "OR",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -123.0923357,
+        44.0551543
+      ]
+    }
+  },
+  {
+    "code": "EXR",
+    "name": "Exeter, New Hampshire",
+    "city": "Exeter",
+    "state": "NH",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "NH",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -70.957758,
+        42.9813098
+      ]
+    }
+  },
+  {
+    "code": "EWR",
+    "name": "Newark Liberty International Airport, New Jersey",
+    "city": "Newark",
+    "state": "NJ",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "NJ",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -74.1744624,
+        40.6895314
+      ]
+    }
+  },
+  {
+    "code": "EVR",
+    "name": "Everett, Washington",
+    "city": "Everett",
+    "state": "WA",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "WA",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -122.197854,
+        47.97551199999999
+      ]
+    }
+  },
+  {
+    "code": "FBG",
+    "name": "Fredericksburg, Virginia",
+    "city": "Fredericksburg",
+    "state": "VA",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "VA",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -77.457009,
+        38.2984265
+      ]
+    }
+  },
+  {
+    "code": "EXT",
+    "name": "Exton, Pennsylvania",
+    "city": "Exton",
+    "state": "PA",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "PA",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -75.62148959999999,
+        40.019918
+      ]
+    }
+  },
+  {
+    "code": "FED",
+    "name": "Fort Edward-Glens Falls, New York",
+    "city": "Fort Edward",
+    "state": "NY",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "NY",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -73.5809645,
+        43.2693196
+      ]
+    }
+  },
+  {
+    "code": "ELT",
+    "name": "Elizabethtown, Pennsylvania",
+    "city": "Elizabethtown",
+    "state": "PA",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "PA",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -76.613671,
+        40.1476261
+      ]
+    }
+  },
+  {
+    "code": "FAR",
+    "name": "Fargo, North Dakota",
+    "city": "Fargo",
+    "state": "ND",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "ND",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -96.7851901,
+        46.88098799999999
+      ]
+    }
+  },
+  {
+    "code": "FAY",
+    "name": "Fayetteville, North Carolina",
+    "city": "Fayetteville",
+    "state": "NC",
+    "country": "United States",
+    "tz": "",
+    "type": "Railway Stations",
+    "stateCode": "NC",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -78.88472940000001,
+        35.0551133
+      ]
+    }
+  }
+]
