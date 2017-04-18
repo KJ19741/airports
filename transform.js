@@ -5,8 +5,6 @@ const files = [
 ];
 
 for(var file of files){
-  console.log(file);
   var data = require(file);
-  console.log('data');
   fs.writeFileSync(file, jsonStringify(data));
 }
