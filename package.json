@@ -1,13 +1,15 @@
 {
-  "name": "airports",
-  "version": "1.0.0",
+  "name": "@travelbank/airports",
+  "version": "1.1.0",
   "description": "Imports the CSV from Sabre into our MongoDB collection so we can query by airport code.",
   "main": "airports.js",
   "dependencies": {
-    "async": "^0.9.0",
+    "async": "^2.3.0",
+    "bluebird": "^3.5.0",
     "csv": "^0.4.1",
+    "json-pretty": "0.0.1",
     "lodash": "^3.3.1",
-    "mongodb": "~2.0",
+    "mongodb": "^2.2.25",
     "request": "^2.69.0",
     "sabre-dev-studio": "travelbank/sabre-dev-studio-node#v1.0.2"
   }
