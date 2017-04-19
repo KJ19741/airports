@@ -1,4 +1,4 @@
-code,lat,lon,name,city,state,country,woeid,tz,phone,type,email,url,runway_length,elev,icao,direct_flights,carriers,State Code,Country Code
+code,lat,lon,name,city,state,country,woeid,tz,phone,type,email,url,runway_length,elev,icao,direct_flights,carriers,stateCode,countryCode
 FRA,50.0483,8.57041,Frankfurt International Airport,Frankfurt,Hesse,Germany,22981759,Europe/Berlin,+49 69 690 0,Airports,,http://www.airportcity-frankfurt.de,13123,364,EDDF,337,131,,DE
 CDG,49.0175,2.5564,Charles de Gaulle International Airport,Le Mesnil-Amelot,Ile-de-France,France,22140453,Europe/Paris,,Airports,,,11811,387,LFPG,310,131,,FR
 AMS,52.3122,4.77511,Schiphol Airport,Schiphol Zuid,North Holland,Netherlands,22386730,Europe/Amsterdam,-207940769,Airports,,http://www.schiphol.com/,12467,-11,EHAM,284,118,,NL

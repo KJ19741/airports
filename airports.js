@@ -25,8 +25,6 @@ const config = {
     'runway_length',
     'elev',
     'icao',
-    'direct_flights',
-    'carriers',
     'woeid',
     'url',
     'email',
@@ -47,15 +45,19 @@ const config = {
   multiAirportCity: {
     macCodeMapFile: './sources/mac_codes.json',
     macCodeCsv: './sources/mac_codes.csv',
-    headerRow: [ 'code','lat','lon','name','city','state','country','woeid','tz','phone','type','email','url','runway_length','elev','icao','direct_flights','carriers' ],
+    headerRow: [ 'code','lat','lon','name','city','state','country','woeid','tz','phone','type','email','url','runway_length','elev','icao','direct_flights','carriers','stateCode','countryCode' ],
     macCodesToIgnore: [
       'QDF',
       'QHO',
       'QPH'
-    ]
+    ],
+    macCodeOverrides: {
+      WAS: 'Washington, DC',
+      SLU: 'St. Lucia'
+    }
   },
   inputFiles: [
-    './sources/airports.csv',
+    './sources/airports_with_codes.csv',
     './sources/rail.csv',
     './sources/mac_codes.csv'
   ],
@@ -117,16 +119,20 @@ function regenJson(cb) {
   /** Setup our data */
   const newData = [];
   /** Read our CSV file */
+  console.log(config.inputFiles);
   async.eachSeries(config.inputFiles, function(inputFile, cb) {
-    console.log('Read CSV file, converting to objects...');
-    rawData = fs.readFileSync(__dirname + '/' + inputFile, 'utf8');
+    console.log('Reading CSV file, converting to objects:');
+    console.log(inputFile);
+    rawData = fs.readFileSync(__dirname + '/' + inputFile);
     csv.parse(rawData, {columns: true}, function (err, data) {
       let totalRows = data.length;
       let count = 0;
       assert.equal(null, err);
-      async.eachLimit(data, config.geocoder.limit, function (row, cb) {
+      for(var row of data){
         count++;
-        console.log(`Working ${count}/${totalRows} rows...`);
+        if(count % 25 === 0){
+          console.log(`Working ${count}/${totalRows} rows...`);
+        }
         /** If our row has no name */
         // if( row[ 'name' ].trim() == '' ){
         //   continue;
@@ -135,68 +141,25 @@ function regenJson(cb) {
         if ((row['type'] === 'Airports' || row['type'] === 'Other Airport') && row['direct_flights'] < 5 && row['carriers'] < 2) {
           return cb(null);
         }
-        // Gelocate
-        var fullAddress = row['city'] + ', ' + row['state'] + ', ' + row['country'];
-        var fullUrl = config.geocoder.baseUrl + encodeURIComponent(fullAddress) + config.geocoder.keyUrl;
-        request(fullUrl, function (err, response, bodyString) {
-          assert.equal(null, err);
-          body = JSON.parse(bodyString);
-          switch (body.status) {
-            case 'OK':
-            case 'ZERO_RESULTS':
-              break;
-            default:
-              console.log('------------------------------')
-              console.log(body);
-              console.log('------------------------------')
-              return cb('There was an error geocoding...');
-          }
-          row['stateCode'] = '';
-          row['countryCode'] = '';
-          if (body.results[0] != undefined) {
-            for (var component of body.results[0].address_components) {
-              // country -> country
-              // administrative_area_level_1 -> state
-              if (component.types.indexOf('country') !== -1) {
-                if (component.short_name != undefined) {
-                  row['countryCode'] = component.short_name;
-                } else {
-                  row['countryCode'] = component.long_name;
-                }
-              }
-              if (component.types.indexOf('administrative_area_level_1') !== -1) {
-                if (component.short_name != undefined) {
-                  row['stateCode'] = component.short_name;
-                } else {
-                  row['stateCode'] = component.long_name;
-                }
-              }
-            }
-          }
-          /** Setup our location field */
-          row['location'] = {
-            type: 'Point',
-            coordinates: [
-              parseFloat(row['lon']),
-              parseFloat(row['lat'])
-            ]
-          };
-          /** Unset our skipped fields */
-          for (var xx in config.skipFields) {
-            delete row[config.skipFields[xx]];
-          }
-          /** Add in multi-airport code if applicable */
-          if ((row['type'] === 'Airports' || row['type'] === 'Other Airport') && macCodesMap[row['code']] != null) {
-            row['macCode'] = macCodesMap[row['code']];
-          }
-          newData.push(row);
-          setTimeout(cb, config.geocoder.delay);
-        });
-      }, function (err) {
-        assert.equal(null, err);
-        console.log('Done with the file, going to the next one...');
-        cb();
-      });
+        /** Setup our location field */
+        row['location'] = {
+          type: 'Point',
+          coordinates: [
+            parseFloat(row['lon']),
+            parseFloat(row['lat'])
+          ]
+        };
+        /** Unset our skipped fields */
+        for (var xx in config.skipFields) {
+          delete row[config.skipFields[xx]];
+        }
+        /** Add in multi-airport code if applicable */
+        if ((row['type'] === 'Airports' || row['type'] === 'Other Airport') && macCodesMap[row['code']] != null) {
+          row['macCode'] = macCodesMap[row['code']];
+        }
+        newData.push(row);
+      }
+      cb();
     });
   }, function(err){
     assert.equal(null, err);
@@ -211,7 +174,7 @@ function regenJson(cb) {
 function regenerateCsv(callback) {
   // File from http://www.rita.dot.gov/bts/sites/rita.dot.gov.bts/files/AdditionalAttachmentFiles/amtrak_sta.zip
   // Converted from txt -> dbf (via rename) -> csv (via http://dbfconv.com/ then pipe it thru the unix 'strings' function to clean it up)
-  rawRail = fs.readFileSync(config.rail.csvInPath, 'utf8');
+  rawRail = fs.readFileSync(config.rail.csvInPath);
   allRailRows = [];
   allRailRows.push(config.rail.headerRow);
   console.log('Re-geocoding rail stations...');
@@ -286,12 +249,15 @@ function generateMultiAirportCityCodesCsv(callback){
     }
     // Add some defaults
     macRow.code = row.code;
-    macRow.name = row.name;
     macRow.city = row.name;
     macRow.country = row.countryName;
     macRow.type = 'Mac Airports';
+    // Apply any overrides
+    if(config.multiAirportCity.macCodeOverrides[row.code]){
+      macRow.name = config.multiAirportCity.macCodeOverrides[row.code];
+    }
     // Gelocate
-    var fullAddress = row['name'] + ', ' + row['countryCode'];
+    var fullAddress = (row['name'] ? row['name'] : row['city']) + ', ' + row['countryName'];
     var fullUrl = config.geocoder.baseUrl + encodeURIComponent(fullAddress) + config.geocoder.keyUrl;
     request(fullUrl, function (err, response, bodyString) {
       assert.equal(null, err);
@@ -313,6 +279,23 @@ function generateMultiAirportCityCodesCsv(callback){
       }
       macRow.lat = body.results[0].geometry.location.lat;
       macRow.lon = body.results[0].geometry.location.lng;
+      for (var component of body.results[0].address_components) {
+        // country -> country
+        // administrative_area_level_1 -> state
+        if (component.types.indexOf('country') !== -1) {
+          if (component.short_name != undefined) {
+            macRow['countryCode'] = component.short_name;
+          }
+        }
+        if (component.types.indexOf('administrative_area_level_1') !== -1) {
+          if (component.short_name != undefined && component.short_name !== component.long_name) {
+            macRow['stateCode'] = component.short_name;
+          }
+          if (component.long_name != undefined) {
+            macRow['state'] = component.long_name;
+          }
+        }
+      }
       macAirportsRows.push(_.values(macRow));
       setTimeout(cb, config.geocoder.delay);
     });
