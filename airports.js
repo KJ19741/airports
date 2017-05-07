@@ -40,12 +40,12 @@ const config = {
     type: 'Railway Stations',
     csvInPath: './sources/amtrak_stations.csv',
     csvOutPath: './sources/rail.csv',
-    headerRow: [ 'code','lat','lon','name','city','state','country','woeid','tz','phone','type','email','url','runway_length','elev','icao','direct_flights','carriers' ]
+    headerRow: ['code', 'lat', 'lon', 'name', 'city', 'state', 'country', 'woeid', 'tz', 'phone', 'type', 'email', 'url', 'runway_length', 'elev', 'icao', 'direct_flights', 'carriers']
   },
   multiAirportCity: {
     macCodeMapFile: './sources/mac_codes.json',
     macCodeCsv: './sources/mac_codes.csv',
-    headerRow: [ 'code','lat','lon','name','city','state','country','woeid','tz','phone','type','email','url','runway_length','elev','icao','direct_flights','carriers','stateCode','countryCode' ],
+    headerRow: ['code', 'lat', 'lon', 'name', 'city', 'state', 'country', 'woeid', 'tz', 'phone', 'type', 'email', 'url', 'runway_length', 'elev', 'icao', 'direct_flights', 'carriers', 'stateCode', 'countryCode'],
     macCodesToIgnore: [
       'QDF',
       'QHO',
@@ -73,13 +73,13 @@ const config = {
   }
 };
 /** Modify some configs based on the env */
-for(var key of Object.keys(config.mongodb)){
-  if (process.env[`MONGODB_${key}`]){
+for (var key of Object.keys(config.mongodb)) {
+  if (process.env[`MONGODB_${key}`]) {
     config.mongodb[key] = process.env[`MONGODB_${key}`];
   }
 }
 /** Setup the connection to mongo */
-if(!config.mongodb.uri){
+if (!config.mongodb.uri) {
   config.mongodb.uri = `mongodb://${config.mongodb.host}:${config.mongodb.port}/${config.mongodb.database}`;
 }
 
@@ -87,18 +87,20 @@ if(!config.mongodb.uri){
  * This function loads the JSON into the database, and gets run by default
  */
 function loadToDb(cb) {
-  return new Promise.resolve().then(function(db) {
+  return new Promise.resolve().then(function (db) {
     /** Connect to mongo */
-    return mongodb.MongoClient.connect(config.mongodb.uri).then(function(db){
+    return mongodb.MongoClient.connect(config.mongodb.uri).then(function (db) {
       console.log('Connected to mongodb...');
       console.log('Setting up our collection...');
       /** Create our collection, then drop it */
       const collection = db.collection(config.collection);
       /** Clear it */
       console.log('Clearing our collection...');
-      return collection.deleteMany({}).then(function(){
+      return collection.deleteMany({}).then(function () {
         console.log('Ensuring indexes...');
-        return collection.createIndex({location: '2dsphere'}).then(function(){
+        return collection.createIndex({
+          location: '2dsphere'
+        }).then(function () {
           console.log('Putting data back in...');
           /** Load the json file into the DB now */
           const stationsData = require(__dirname + '/' + config.stationsFile);
@@ -120,17 +122,21 @@ function regenJson(cb) {
   const newData = [];
   /** Read our CSV file */
   console.log(config.inputFiles);
-  async.eachSeries(config.inputFiles, function(inputFile, cb) {
+  async.eachSeries(config.inputFiles, function (inputFile, cb) {
     console.log('Reading CSV file, converting to objects:');
     console.log(inputFile);
     rawData = fs.readFileSync(__dirname + '/' + inputFile);
-    csv.parse(rawData, {columns: true}, function (err, data) {
+    csv.parse(rawData, {
+      columns: true
+    }, function (err, data) {
+      var iataCities = require('./iatacodes/cities.json');
+      var iataAirports = require('./iatacodes/airports.json');
       let totalRows = data.length;
       let count = 0;
       assert.equal(null, err);
-      for(var row of data){
+      for (var row of data) {
         count++;
-        if(count % 25 === 0){
+        if (count % 25 === 0) {
           console.log(`Working ${count}/${totalRows} rows...`);
         }
         /** If our row has no name */
@@ -153,15 +159,28 @@ function regenJson(cb) {
         for (var xx in config.skipFields) {
           delete row[config.skipFields[xx]];
         }
+        const iataAirport = iataAirports.response.find((airport) => {
+          return airport.code === row.code;
+        });
+        if (iataAirport) {
+          const iataCity = iataCities.response.find((city) => {
+            return city.code === iataAirport.city_code;
+          });
+          if (iataCity) {
+            row.city = iataCity.name;
+          }
+        }
+
         /** Add in multi-airport code if applicable */
         if ((row['type'] === 'Airports' || row['type'] === 'Other Airport') && macCodesMap[row['code']] != null) {
           row['macCode'] = macCodesMap[row['code']];
         }
+
         newData.push(row);
       }
       cb();
     });
-  }, function(err){
+  }, function (err) {
     assert.equal(null, err);
     /** Write the file */
     console.log('Writing the JSON file...');
@@ -178,51 +197,52 @@ function regenerateCsv(callback) {
   allRailRows = [];
   allRailRows.push(config.rail.headerRow);
   console.log('Re-geocoding rail stations...');
-  csv.parse(rawRail, {columns: true}, function (err, railData) {
+  csv.parse(rawRail, {
+    columns: true
+  }, function (err, railData) {
     assert.equal(null, err);
 
     // Using the limit to throttle request rate so as not to exceed our query limit to google
-    async.eachLimit (railData, config.geocoder.limit, function(railRow, cb) {
-      if (railRow['STNTYPE'] != 'RAIL') {
-        setTimeout(cb, config.geocoder.delay);
-      }
-      else {
-        var fullAddress = railRow['ADDRESS1'] + ' ' + railRow['CITY'] + ', ' + railRow['STATE'] + ' ' + railRow['ZIP'];
-        var fullUrl = config.geocoder.baseUrl + encodeURIComponent(fullAddress) + config.geocoder.keyUrl;
-        request(fullUrl, function(error, response, bodyString) {
-          body = JSON.parse(bodyString);
-          if (body.results[0] != undefined) {
-            newRail = [ railRow['STNCODE'],
-              body.results[0].geometry.location.lat,
-              body.results[0].geometry.location.lng,
-              railRow['STNNAME'],
-              railRow['CITY'],
-              railRow['STATE'],
-              'United States',
-              '',
-              '',
-              '',
-              config.rail.type,
-              '',
-              '',
-              '',
-              '',
-              '',
-              0,
-              0
-            ];
+    async.eachLimit(railData, config.geocoder.limit, function (railRow, cb) {
+        if (railRow['STNTYPE'] != 'RAIL') {
+          setTimeout(cb, config.geocoder.delay);
+        } else {
+          var fullAddress = railRow['ADDRESS1'] + ' ' + railRow['CITY'] + ', ' + railRow['STATE'] + ' ' + railRow['ZIP'];
+          var fullUrl = config.geocoder.baseUrl + encodeURIComponent(fullAddress) + config.geocoder.keyUrl;
+          request(fullUrl, function (error, response, bodyString) {
+            body = JSON.parse(bodyString);
+            if (body.results[0] != undefined) {
+              newRail = [railRow['STNCODE'],
+                body.results[0].geometry.location.lat,
+                body.results[0].geometry.location.lng,
+                railRow['STNNAME'],
+                railRow['CITY'],
+                railRow['STATE'],
+                'United States',
+                '',
+                '',
+                '',
+                config.rail.type,
+                '',
+                '',
+                '',
+                '',
+                '',
+                0,
+                0
+              ];
 
-            allRailRows.push(newRail);
-          }
+              allRailRows.push(newRail);
+            }
+          });
+          setTimeout(cb, config.geocoder.delay);
+        }
+      },
+      function (err) {
+        csv.stringify(allRailRows, function (err, data) {
+          fs.writeFileSync(config.rail.csvOutPath, data);
         });
-        setTimeout(cb, config.geocoder.delay);
-      }
-    },
-    function (err) {
-      csv.stringify(allRailRows, function(err, data) {
-        fs.writeFileSync(config.rail.csvOutPath, data);
       });
-    });
   });
 }
 
@@ -230,7 +250,7 @@ function regenerateCsv(callback) {
  * This function reads the mac codes json, and uses it to generate a file
  * in the format the importer expects
  */
-function generateMultiAirportCityCodesCsv(callback){
+function generateMultiAirportCityCodesCsv(callback) {
   /** Get our multi-airport city map to dynamically extend data */
   console.log('Pulling in our airports...');
   const macAirports = require(config.multiAirportCity.macCodeMapFile).airports;
@@ -244,7 +264,7 @@ function generateMultiAirportCityCodesCsv(callback){
     console.log(`Working ${count}/${totalRows} rows...`);
     // Setup the mac row
     let macRow = {};
-    for(var header of config.multiAirportCity.headerRow){
+    for (var header of config.multiAirportCity.headerRow) {
       macRow[header] = '';
     }
     // Add some defaults
@@ -253,7 +273,7 @@ function generateMultiAirportCityCodesCsv(callback){
     macRow.country = row.countryName;
     macRow.type = 'Mac Airports';
     // Apply any overrides
-    if(config.multiAirportCity.macCodeOverrides[row.code]){
+    if (config.multiAirportCity.macCodeOverrides[row.code]) {
       macRow.name = config.multiAirportCity.macCodeOverrides[row.code];
     }
     // Gelocate
@@ -299,11 +319,11 @@ function generateMultiAirportCityCodesCsv(callback){
       macAirportsRows.push(_.values(macRow));
       setTimeout(cb, config.geocoder.delay);
     });
-  }, function(err){
+  }, function (err) {
     if (err) {
       return callback(`Error building multi-airport city map: ${err}`);
     }
-    csv.stringify(macAirportsRows, function(err, data) {
+    csv.stringify(macAirportsRows, function (err, data) {
       fs.writeFileSync(config.multiAirportCity.macCodeCsv, data);
       console.log('Generated multi-airport city map to csv file...');
       callback();
@@ -319,15 +339,15 @@ function generateMultiAirportCityCodes(callback) {
   };
   console.log("Building multi-airport city map from scratch...")
   // Get list of all multi-airport cities
-  provider.get('/v1/lists/supported/cities', {}, function (err, result){
+  provider.get('/v1/lists/supported/cities', {}, function (err, result) {
     var multiAirportCities = JSON.parse(result).Cities;
     let totalRows = multiAirportCities.length;
     let count = 0;
-    async.eachLimit(multiAirportCities, config.sabreLimits.limit, function(mac, callback){
+    async.eachLimit(multiAirportCities, config.sabreLimits.limit, function (mac, callback) {
       count++;
       console.log(`Working ${count}/${totalRows} rows...`);
       // If we have to skip an airport do it now
-      if(config.multiAirportCity.macCodesToIgnore.indexOf(mac.code) !== -1){
+      if (config.multiAirportCity.macCodesToIgnore.indexOf(mac.code) !== -1) {
         console.log(`Skipping code for ${mac.code}...`);
         return callback();
       }
@@ -335,7 +355,7 @@ function generateMultiAirportCityCodes(callback) {
       delete mac.Links;
       data.airports.push(mac);
       // For each multi-airport city, get list of all airports
-      provider.get('/v1/lists/supported/cities/' + mac.code + '/airports', {}, function(err, cityResult){
+      provider.get('/v1/lists/supported/cities/' + mac.code + '/airports', {}, function (err, cityResult) {
         var macAirports = JSON.parse(cityResult).Airports;
         for (var i in macAirports) {
           // Build object mapping IATA airport codes to multi-airport city codes
@@ -343,11 +363,10 @@ function generateMultiAirportCityCodes(callback) {
         }
         setTimeout(callback, config.sabreLimits.delay);
       });
-    }, function(err){
+    }, function (err) {
       if (err) {
         console.log("Error building multi-airport city map: " + err);
-      }
-      else {
+      } else {
         fs.writeFileSync(config.multiAirportCity.macCodeMapFile, jsonStringify(data));
         console.log("Generated multi-airport city map to json file...");
       }
@@ -355,32 +374,32 @@ function generateMultiAirportCityCodes(callback) {
   });
 }
 
-if(require.main == module) {
+if (require.main == module) {
   if (process.argv.length == 3) {
     if (process.argv[2] === 'rail') {
-      regenerateCsv(function(err){
-        if(err){
+      regenerateCsv(function (err) {
+        if (err) {
           console.error(err);
         }
         process.exit();
       });
-    } else if (process.argv[2] === 'regen'){
-      regenJson(function(err){
-        if(err){
+    } else if (process.argv[2] === 'regen') {
+      regenJson(function (err) {
+        if (err) {
           console.error(err);
         }
         process.exit();
       });
-    } else if (process.argv[2] === 'macCsv'){
-      generateMultiAirportCityCodesCsv(function(err){
-        if(err){
+    } else if (process.argv[2] === 'macCsv') {
+      generateMultiAirportCityCodesCsv(function (err) {
+        if (err) {
           console.error(err);
         }
         process.exit();
       });
-    } else if (process.argv[2] === 'mac'){
-      generateMultiAirportCityCodes(function(err){
-        if(err){
+    } else if (process.argv[2] === 'mac') {
+      generateMultiAirportCityCodes(function (err) {
+        if (err) {
           console.error(err);
         }
         process.exit();
@@ -397,8 +416,8 @@ if(require.main == module) {
       process.exit();
     }
   } else {
-    loadToDb(function(err){
-      if(err){
+    loadToDb(function (err) {
+      if (err) {
         console.error(err);
       }
       process.exit();
