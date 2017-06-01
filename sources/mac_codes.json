@@ -29,13 +29,6 @@
       "regionName": "Europe"
     },
     {
-      "code": "AIY",
-      "name": "Atlantic City",
-      "countryCode": "US",
-      "countryName": "United States",
-      "regionName": "North America"
-    },
-    {
       "code": "BAK",
       "name": "Baku",
       "countryCode": "AZ",
@@ -625,9 +618,7 @@
     }
   ],
   "map": {
-    "ACY": "AIY",
     "ADB": "IZM",
-    "AIY": "AIY",
     "ALY": "ALY",
     "ARB": "DTT",
     "ARN": "STO",
