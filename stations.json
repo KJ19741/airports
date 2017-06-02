@@ -20259,8 +20259,7 @@
         -74.5716,
         39.4512
       ]
-    },
-    "macCode": "AIY"
+    }
   },
   {
     "code": "AES",
@@ -35382,26 +35381,6 @@
       "coordinates": [
         -99.3340442,
         34.637765
-      ]
-    }
-  },
-  {
-    "code": "AIY",
-    "name": "",
-    "city": "Atlantic City",
-    "state": "New Jersey",
-    "country": "United States",
-    "tz": "",
-    "type": "Mac Airports",
-    "direct_flights": "",
-    "carriers": "",
-    "stateCode": "NJ",
-    "countryCode": "US",
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -74.4229266,
-        39.3642834
       ]
     }
   },
