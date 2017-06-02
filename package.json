@@ -1,6 +1,6 @@
 {
   "name": "@travelbank/airports",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Imports the CSV from Sabre into our MongoDB collection so we can query by airport code.",
   "main": "airports.js",
   "dependencies": {
