@@ -104,6 +104,20 @@ function loadToDb(cb) {
           console.log('Putting data back in...');
           /** Load the json file into the DB now */
           const stationsData = require(__dirname + '/' + config.stationsFile);
+          for (var x of stationsData) {
+            x.created = new Date(x.created);
+            x.updated = new Date(x.updated);
+            if (_.isNaN(parseInt(x.direct_flights))) {
+              x.direct_flights = 0;
+            } else {
+              x.direct_flights = parseInt(x.direct_flights);
+            }
+            if (_.isNaN(parseInt(x.carriers))) {
+              x.carriers = 0;
+            } else {
+              x.carriers = parseInt(x.carriers);
+            }
+          }
           return collection.insertMany(stationsData);
         });
       });
@@ -155,6 +169,8 @@ function regenJson(cb) {
             parseFloat(row['lat'])
           ]
         };
+        row['created'] = new Date();
+        row['updated'] = new Date();
         /** Unset our skipped fields */
         for (var xx in config.skipFields) {
           delete row[config.skipFields[xx]];
