@@ -158,7 +158,7 @@ function regenJson(cb) {
         //   continue;
         // }
         // If our airport doesn't have enough carriers/flights, skip it
-        if ((row['type'] === 'Airports' || row['type'] === 'Other Airport') && row['direct_flights'] < 5 && row['carriers'] < 2) {
+        if ((row['type'] === 'Airports' || row['type'] === 'Other Airport') && row['direct_flights'] < 3 && row['carriers'] < 2) {
           return cb(null);
         }
         /** Setup our location field */
