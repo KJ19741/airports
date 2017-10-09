@@ -16,7 +16,7 @@ const config = {
     host: '127.0.0.1',
     port: 27017,
     database: 'travelbank',
-    uri: process.env.MONGOLAB_URI
+    uri: process.env.MONGOLAB_URI || process.env.MONGODB_URI
   },
   collection: process.env.AIRPORTS_collection || 'Stations',
   skipFields: [
