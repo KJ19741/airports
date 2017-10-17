@@ -538,7 +538,7 @@ CHA,35.0373,-85.1966,Chattanooga Metropolitan Airport,Chattanooga,Tennessee,Unit
 CHC,-43.4859,172.534,Christchurch International Airport,Christchurch,Canterbury,New Zealand,12515152,Pacific/Auckland,+64 3 358 5029,Airports,,http://www.christchurch-airport.co.nz,10785,123,NZCH,24,19
 CHO,38.14,-78.4487,Charlottesville Albemarle Airport,Earlysville,Virginia,United States,12519149,America/New_York,,Airports,,,6001,640,KCHO,7,9
 CHQ,35.5319,24.1489,Souda Airport,Canea,Kriti,Greece,12513324,Europe/Athens,+30 28 21083800,Airports,,,11811,492,LGSA,24,12
-CHS,32.8838,-80.0356,Charleston International Airport,North Charleston,South Carolina,United States,12519142,America/New_York,,Military Airport,,,9001,46,KCHS,22,25
+CHS,32.8838,-80.0356,Charleston International Airport,North Charleston,South Carolina,United States,12519142,America/New_York,,Airports,,,9001,46,KCHS,22,25
 CHT,-37.9723,174.566,Karewa,Chatham Island,Canterbury,New Zealand,28645780,Pacific/Chatham,,Airports,,,4462,43,KCHT,3,1
 CHU,61.5769,-159.244,Chuathbaluk,Chuathbaluk,Alaska,United States,2380180,America/Nome,,Airports,,,,,KCHU,1,3
 CHY,-6.7,156.45,Choiseul Bay,Choiseul Bay,Western,Solomon Islands,1020483,Pacific/Noumea,,Airports,,,2395,5,,1,1
@@ -2060,7 +2060,7 @@ MYG,22.3706,-72.9481,Miltary & Civil Airport,Abraham Bay,Mayaguana,Bahamas,12510
 MYI,-9.91682,144.051,Murray Island,Murray Island,Queensland,Australia,28645248,Australia/Brisbane,,Airports,,,,,,2,1
 MYJ,33.8276,132.7,Matsuyama Airport,Matsuyama-shi,Ehime Prefecture,Japan,12513985,Asia/Tokyo,,Airports,,,6560,21,KMYJ,10,8
 MYL,44.8968,-116.096,Mccall Airport,Mccall,Idaho,United States,12520848,America/Boise,,Other Airport,,,5002,5023,KMYL,2,1
-MYR,33.6821,-78.9228,Myrtle Beach International Airport,Myrtle Beach,South Carolina,United States,12521074,America/New_York,,Military Airport,,,9502,26,KMYR,13,12
+MYR,33.6821,-78.9228,Myrtle Beach International Airport,Myrtle Beach,South Carolina,United States,12521074,America/New_York,,Airports,,,9502,26,KMYR,13,12
 MYT,25.3844,97.3553,Myitkyina Airport,Myitkyina,Kachin State,Myanmar,12510927,Asia/Rangoon,,Airports,,,8595,470,,2,1
 MYU,60.3906,-166.191,Mekoryuk,Mekoryuk,Alaska,United States,2449074,America/Anchorage,,Airports,,,3271,48,PAMY,2,3
 MYW,-10.3342,40.1808,Mtwara Airport,Ziwani,Mtwara,Tanzania,12518018,Africa/Dar_es_Salaam,,Airports,,,7400,371,,1,2
