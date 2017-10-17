@@ -24,7 +24,6 @@ const config = {
     'lon',
     'runway_length',
     'elev',
-    'icao',
     'woeid',
     'url',
     'email',
