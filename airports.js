@@ -259,7 +259,7 @@ function regenerateCsvRail(callback) {
 }
 
 function regenerateCsvAirports(callback) {
-  rawAirports = fs.readFileSync(config.airports.csvInPath, { aencoding: 'utf8' });
+  rawAirports = fs.readFileSync(config.airports.csvInPath);
   allAirportRows = [];
   allAirportRows.push(config.airports.headerRow);
   console.log('Re-geocoding airport stations...');
