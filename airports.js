@@ -24,7 +24,6 @@ const config = {
     'lon',
     'runway_length',
     'elev',
-    'icao',
     'woeid',
     'url',
     'email',
@@ -35,6 +34,11 @@ const config = {
     keyUrl: '&key=AIzaSyCTFKDtVcvBiBK_KM6Y8uT2vNwBlIuvPSs',
     limit: 45,
     delay: 1000
+  },
+  airports: {
+    csvInPath: './sources/airports.csv',
+    csvOutPath: './sources/airports_with_codes.csv',
+    headerRow: ['code', 'lat', 'lon', 'name', 'city', 'state', 'country', 'woeid', 'tz', 'phone', 'type', 'email', 'url', 'runway_length', 'elev', 'icao', 'direct_flights', 'carriers', 'stateCode', 'countryCode']
   },
   rail: {
     type: 'Railway Stations',
@@ -153,14 +157,6 @@ function regenJson(cb) {
         if (count % 25 === 0) {
           console.log(`Working ${count}/${totalRows} rows...`);
         }
-        /** If our row has no name */
-        // if( row[ 'name' ].trim() == '' ){
-        //   continue;
-        // }
-        // If our airport doesn't have enough carriers/flights, skip it
-        if ((row['type'] === 'Airports' || row['type'] === 'Other Airport') && row['direct_flights'] < 3 && row['carriers'] < 2) {
-          return cb(null);
-        }
         /** Setup our location field */
         row['location'] = {
           type: 'Point',
@@ -206,7 +202,7 @@ function regenJson(cb) {
   });
 };
 
-function regenerateCsv(callback) {
+function regenerateCsvRail(callback) {
   // File from http://www.rita.dot.gov/bts/sites/rita.dot.gov.bts/files/AdditionalAttachmentFiles/amtrak_sta.zip
   // Converted from txt -> dbf (via rename) -> csv (via http://dbfconv.com/ then pipe it thru the unix 'strings' function to clean it up)
   rawRail = fs.readFileSync(config.rail.csvInPath);
@@ -257,6 +253,58 @@ function regenerateCsv(callback) {
       function (err) {
         csv.stringify(allRailRows, function (err, data) {
           fs.writeFileSync(config.rail.csvOutPath, data);
+        });
+      });
+  });
+}
+
+function regenerateCsvAirports(callback) {
+  rawAirports = fs.readFileSync(config.airports.csvInPath);
+  allAirportRows = [];
+  allAirportRows.push(config.airports.headerRow);
+  console.log('Re-geocoding airport stations...');
+  csv.parse(rawAirports, {
+    columns: true
+  }, function (err, airportData) {
+    assert.equal(null, err);
+    // Using the limit to throttle request rate so as not to exceed our query limit to google
+    async.eachLimit(airportData, config.geocoder.limit, function (airportRow, cb) {
+        if (airportRow['country'] == 'United States') {
+          var fullAddress = airportRow['city'] + ', ' + airportRow['state'] + ' ' + airportRow['country'];
+        } else {
+          var fullAddress = airportRow['city'] + ', ' + airportRow['country'];
+        }
+        var fullUrl = config.geocoder.baseUrl + encodeURIComponent(fullAddress) + config.geocoder.keyUrl;
+        request(fullUrl, function (error, response, bodyString) {
+          body = JSON.parse(bodyString);
+          var newStateCode = '';
+          var newCountryCode = '';
+          if (body.results[0] != undefined) {
+            for (var component of body.results[0].address_components) {
+              // country -> country
+              // administrative_area_level_1 -> state
+              if (component.types.indexOf('country') !== -1) {
+                if (component.short_name != undefined) {
+                  newCountryCode = component.short_name;
+                }
+              }
+              if (component.types.indexOf('administrative_area_level_1') !== -1) {
+                if (component.short_name != undefined && component.short_name !== component.long_name) {
+                  newStateCode = component.short_name;
+                }
+              }
+            }
+          }
+          airportRow.stateCode = newStateCode;
+          airportRow.countryCode = newCountryCode;
+          allAirportRows.push(_.values(airportRow));
+          setTimeout(cb, config.geocoder.delay);
+        });
+      },
+      function (err) {
+        allAirportRows = _.orderBy(allAirportRows, ['code'], ['asc']);
+        csv.stringify(allAirportRows, function (err, data) {
+          fs.writeFileSync(config.airports.csvOutPath, data, { encoding: 'utf8' });
         });
       });
   });
@@ -392,14 +440,21 @@ function generateMultiAirportCityCodes(callback) {
 
 if (require.main == module) {
   if (process.argv.length == 3) {
-    if (process.argv[2] === 'rail') {
-      regenerateCsv(function (err) {
+    if (process.argv[2] === 'regenRail') {
+      regenerateCsvRail(function (err) {
         if (err) {
           console.error(err);
         }
         process.exit();
       });
-    } else if (process.argv[2] === 'regen') {
+    } else if (process.argv[2] === 'regenAirports') {
+      regenerateCsvAirports(function (err) {
+        if (err) {
+          console.error(err);
+        }
+        process.exit();
+      });
+    } else if (process.argv[2] === 'regenJson') {
       regenJson(function (err) {
         if (err) {
           console.error(err);
@@ -423,10 +478,11 @@ if (require.main == module) {
     } else {
       let err = `Error: invalid argument '${process.argv[2]}'...\n`;
       err += 'The only valid arguments are:\n';
-      err += ' * rail: to re-generate the rail geocoding\n';
+      err += ' * regenRail: to re-generate the rail geocoding\n';
+      err += ' * regenAirports: to re-generate the airport geocoding\n';
       err += ' * mac: to re-generate multi-airport city code mappings\n';
       err += ' * macCsv: to re-generate multi-airport city code csv\n';
-      err += ' * regen: to re-generate the stations JSON file\n';
+      err += ' * regenJson: to re-generate the stations JSON file\n';
       err += ' * -none-: to load the stations into the db';
       console.error(err);
       process.exit();
