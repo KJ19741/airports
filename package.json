@@ -8,7 +8,7 @@
     "bluebird": "^3.5.0",
     "csv": "^0.4.1",
     "json-pretty": "0.0.1",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.5",
     "mongodb": "^2.2.25",
     "request": "^2.69.0",
     "sabre-dev-studio": "travelbank/sabre-dev-studio-node#v1.0.2"
