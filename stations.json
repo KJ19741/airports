@@ -16775,6 +16775,24 @@
     "updated": "2018-02-15T21:17:47.684Z"
   },
   {
+    "code": "DSS",
+    "name": "Blaise Diagne International Airport",
+    "city": "Ndiass",
+    "state": "Dakar",
+    "country": "Senegal",
+    "tz": "Africa/Dakar",
+    "type": "Airports",
+    "icao": "GOBD",
+    "countryCode": "SN",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -17.066944,
+        14.671111
+      ]
+    }
+  },
+  {
     "code": "DIS",
     "name": "Loubomo",
     "city": "Loubomo",
