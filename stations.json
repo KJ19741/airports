@@ -18592,6 +18592,27 @@
     "updated": "2018-02-15T21:17:47.694Z"
   },
   {
+    "code": "ECP",
+    "name": "Northwest Florida Beaches International Airport",
+    "city": "Panama City",
+    "state": "FLorida",
+    "country": "United States",
+    "tz": "America/New_York",
+    "type": "Airports",
+    "icao": "KECP",
+    "stateCode": "FL",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -85.7991,
+        30.3553
+      ]
+    },
+    "created": "2019-07-17T21:59:47.694Z",
+    "updated": "2019-07-17T21:59:47.694Z"
+  },
+  {
     "code": "EDL",
     "name": "Eldoret Airport",
     "city": "Eldoret",
@@ -52892,6 +52913,27 @@
     },
     "created": "2018-02-15T21:17:48.365Z",
     "updated": "2018-02-15T21:17:48.365Z"
+  },
+  {
+    "code": "PAE",
+    "name": "Snohomish County Airport",
+    "city": "Everett",
+    "state": "Washington",
+    "country": "United States",
+    "tz": "America/Los_Angeles",
+    "type": "Airports",
+    "icao": "KPAE",
+    "stateCode": "WA",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -122.2809,
+        47.9076
+      ]
+    },
+    "created": "2019-07-17T21:59:47.694Z",
+    "updated": "2019-07-17T21:59:47.694Z"
   },
   {
     "code": "PBI",
