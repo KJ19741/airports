@@ -1,8 +1,11 @@
 {
   "name": "@travelbank/airports",
-  "version": "1.5.4",
+  "version": "1.5.5",
   "description": "Imports the CSV from Sabre into our MongoDB collection so we can query by airport code.",
   "main": "airports.js",
+  "scripts": {
+    "prepare-release": "curl -sL https://raw.githubusercontent.com/travelbank/misc/master/scripts/prepare_release.sh | bash -s"
+  },
   "dependencies": {
     "async": "^2.3.0",
     "bluebird": "^3.5.0",
