@@ -837,9 +837,7 @@ OBJECTID,STNCODE,STNNAME,ADDRESS1,ADDRESS2,CITY,STATE,ZIP,STNTYPE,STFIPS
 "892","BRY","Bryan, TX","301 East 26th Street","Greyhound Station, Roy Kelly Parking Garage","Bryan","TX","77803","BUS","48"
 "893","BUV","Buena Vista, CO","27318 County Road 314","Veterans of Foreign Wars","Buena Vista","CO","81211","BUS","08"
 "894","BUT","Butte, MT","1324 Harrison Avenue","Bus Station","Butte","MT","59701","BUS","30"
-"895","CMD","Camden, AL","8 Claiborne Street
-8 Claiborne Street
-","Shell Gas Station","Camden","AL","36726","BUS","01"
+"895","CMD","Camden, AL","8 Claiborne Street","Shell Gas Station","Camden","AL","36726","BUS","01"
 "896","CVJ","Cave Junction, OR","406 Redwood Coast Highway","Junction Inn","Cave Junction","OR","97523","BUS","41"
 "965","PAD","Paducah, KY","2719 Irvin Cobb Avenue","Greyhound Bus Station","Paducah","KY","42001","BUS","21"
 "966","PNK","Pennsauken, NJ","215 Derousse Avenue","Transit Center","Pennsauken","NJ","08110","BUS","34"
@@ -847,8 +845,7 @@ OBJECTID,STNCODE,STNNAME,ADDRESS1,ADDRESS2,CITY,STATE,ZIP,STNTYPE,STFIPS
 "968","PJT","Pine Junction, CO","76 Mount Evans Boulevard","Denver RTA Park-n-Ride Lot","Pine Junction","CO","80470","BUS","08"
 "969","PSG","Poncha Springs, CO","6250 US Highway 285","High Valley Center Pub & Grub","Poncha Springs","CO","81242","BUS","08"
 "970","PDG","Portland, OR","550 NW 6th Avenue","Greyhound Station","Portland","OR","97209","BUS","41"
-"971","PVW","Prairie View, TX","44814 US Highway 290 Business
-","Unco Food Store and Gas Station","Prairie View","TX","77446","BUS","48"
+"971","PVW","Prairie View, TX","44814 US Highway 290 Business","Unco Food Store and Gas Station","Prairie View","TX","77446","BUS","48"
 "972","RVT","Rio Vista, CA","28 South Front Street","Delta Breeze Transit Bus Stop","Rio Vista","CA","94571","BUS","06"
 "973","RNK","Roanoke, VA","710 Williamson Road NE","Civic Center Parking Lot C","Roanoke","VA","24016","BUS","51"
 "974","RKI","Rock Island, IL","3500 5th Avenue","Augustana College Carver P.E. Center","Rock Island","IL","61201","BUS","17"
@@ -864,8 +861,7 @@ OBJECTID,STNCODE,STNNAME,ADDRESS1,ADDRESS2,CITY,STATE,ZIP,STNTYPE,STFIPS
 "899","CWL","Chewelah, WA","10 West Colville Avenue","Bus Stop Next to Safeway","Chewelah","WA","99109","BUS","53"
 "900","CHP","Chippewa Falls, WI","2750 120th Street","Holiday Gas Station Store","Chippewa Falls","WI","54729","BUS","55"
 "901","CIG","Cincinnati, OH","1005 Gilbert Avenue","Greyhound Terminal","Cincinnati","OH","45202","BUS","39"
-"902","CRK","Clarksville, TN","11 Jefferson Street
-","Greyhound Bus Station","Clarksville","TN","37040","BUS","47"
+"902","CRK","Clarksville, TN","11 Jefferson Street","Greyhound Bus Station","Clarksville","TN","37040","BUS","47"
 "903","COL","Columbus, OH","111 East Town Street","Greyhound Bus station","Columbus","OH","43215","BUS","39"
 "904","CVL","Colville, WA","956 South Main Street","Rural Rescources Community Action","Colville","WA","99114","BUS","53"
 "905","CRC","Crescent City, CA","1001 Front Street","Cultural Center RCT Bus Stop","Crescent City","CA","95531","BUS","06"
@@ -890,8 +886,7 @@ OBJECTID,STNCODE,STNNAME,ADDRESS1,ADDRESS2,CITY,STATE,ZIP,STNTYPE,STFIPS
 "924","GVH","Grove Hill, AL","430 South Jackson Street","Dunn's Exxon Gas Station","Grove Hill","AL","36451","BUS","01"
 "925","GUG","Gulfport, MS","10015 US Highway 49","Clark Convenience Store","Gulfport","MS","39501","BUS","28"
 "926","GUN","Gunnison-Downtown, CO","905 North Main Street","Powerstop Gas Station","Gunnison-Downtown","CO","81230","BUS","08"
-"927","GNW","Gunnison-Western State Univ, CO","400 North Colorado Street
-","Gunnison Valley RTA Transit Bus Stop","Gunnison-Western State Un*","CO","81230","BUS","08"
+"927","GNW","Gunnison-Western State Univ, CO","400 North Colorado Street","Gunnison Valley RTA Transit Bus Stop","Gunnison-Western State Un*","CO","81230","BUS","08"
 "928","HAG","Hagerstown, MD","123 West Franklin Street","Washington County Transit Transfer Center","Hagerstown","MD","21740","BUS","24"
 "929","HNK","Hancock, MD","434 East Main Street","Hancock Truck Plaza","Hancock","MD","21750","BUS","24"
 "930","HKM","Hancock, MI","125 Quincy Street","Shottle Bop Liquor Store","Hancock","MI","49930","BUS","26"
@@ -906,17 +901,14 @@ OBJECTID,STNCODE,STNNAME,ADDRESS1,ADDRESS2,CITY,STATE,ZIP,STNTYPE,STFIPS
 "939","LQT","La Quinta, CA","78822 Highway 111","SunLine Transit Stop next to Eisenhower Occupatio*","La Quinta","CA","92253","BUS","06"
 "940","LAN","L'Anse, MI","102 North Main Street","In The Mind's Eye Store","L'Anse","MI","49946","BUS","26"
 "941","LVT","Las Vegas, NV","6675 Gilespie Street","South Strip Transfer Terminal","Las Vegas","NV","89119","BUS","32"
-"942","LVG","Livingston, MT","1404 East Park Street
-","Fair Winds Coffee","Livingston","MT","59047","BUS","30"
+"942","LVG","Livingston, MT","1404 East Park Street","Fair Winds Coffee","Livingston","MT","59047","BUS","30"
 "943","LLK","Loon Lake, WA","State Highway 292 & Colville Road","Dinner Bell Restaurant","Loon Lake","WA","99148","BUS","53"
 "944","MDV","Madisonville, KY","4765 Hanson Road","Red Cardinal Inn","Madisonville","KY","42431","BUS","21"
 "945","MAA","Marion, AL","26400 Alabama Highway 14","Perry's Trading Post","Marion","AL","36756","BUS","01"
 "946","MAI","Marion, IL","2100 West Main Street","Motel Marion","Marion","IL","62959","BUS","17"
 "947","MRM","Mariposa, CA","Highway 140 and 7th Street","Midtown YARTS Bus Stop","Mariposa","CA","95338","BUS","06"
 "948","MNM","Menomonie, WI","302 10th Avenue East","UW-Stout Memorial Union","Menomonie","WI","54751","BUS","55"
-"949","MSQ","Mesquite, TX","1331 Highway 80 East
-1331 Highway 80 East
-","Greyhound Station","Mesquite","TX","75150","BUS","48"
+"949","MSQ","Mesquite, TX","1331 Highway 80 East","Greyhound Station","Mesquite","TX","75150","BUS","48"
 "950","MLS","Miles City, MT","1019 Main Street","M & H Gas Station","Miles City","MT","59301","BUS","30"
 "951","MTB","Minot, ND","300 18th Avenue SW","Jefferson Lines Bus Depot","Minot","ND","58701","BUS","38"
 "952","MLA","Missoula, MT","1660 West Broadway Street","Greyhound Lines Terminal","Missoula","MT","59808","BUS","30"
