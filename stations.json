@@ -6355,6 +6355,27 @@
     "updated": "2018-02-15T21:17:47.642Z"
   },
   {
+    "code": "BFI",
+    "name": "King County International Airport",
+    "city": "Tukwila",
+    "state": "Washington",
+    "country": "United States",
+    "tz": "America/Los_Angeles",
+    "type": "Airports",
+    "icao": "KBFI",
+    "stateCode": "WA",
+    "countryCode": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        47.53,
+        -122.301944
+      ]
+    },
+    "created": "2019-10-08T00:00:47.642Z",
+    "updated": "2019-10-08T00:01:47.642Z"
+  },
+  {
     "code": "BHV",
     "name": "Bahawalpur Airport",
     "city": "Bahawalpur",
@@ -7949,7 +7970,7 @@
   },
   {
     "code": "BLR",
-    "name": "HAL Bangalore International Airport",
+    "name": "Kempegowda International Airport",
     "city": "Bangalore",
     "state": "Karnataka",
     "country": "India",
@@ -18595,7 +18616,7 @@
     "code": "ECP",
     "name": "Northwest Florida Beaches International Airport",
     "city": "Panama City",
-    "state": "FLorida",
+    "state": "Florida",
     "country": "United States",
     "tz": "America/New_York",
     "type": "Airports",
