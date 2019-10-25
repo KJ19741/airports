@@ -1,6 +1,9 @@
 # Uhh
 The [iatacodes/README.md] file states that we don't use iatacodes, but the scrips which converts .csv to json definitely does use IATA codes.
 
+# The API actually only uses stations.json
+Technically, you only need to modify stations.json for the API to read and load into the database. If you want to make sure we can keep regenerating data from .csvs, there are more steps:
+
 # To add a new entry and ensure consistency:
 ## Airports:
 1. Edit [sources/airports.csv](sources/airports.csv)
